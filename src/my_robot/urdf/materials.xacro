@@ -2,7 +2,10 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
   <xacro:macro name="BlueMaterial" params="">
     <material name="Blue">
-      <color rgba="0 0 1 1"/>
+      <ambient>0 0 1 1</ambient>
+      <diffuse>0 0 1 1</diffuse>
+      <specular>0.1 0.1 0.1 1</specular>
+      <emissive>0 0 0 1</emissive>
     </material>
   </xacro:macro>
 </robot>
