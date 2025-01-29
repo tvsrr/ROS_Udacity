@@ -108,6 +108,7 @@
     <axis xyz="0 1 0" rpy="0 0 0"/>
     <limit effort="10000" velocity="1000"/>
     <dynamics damping="1.0" friction="1.0"/>
+   <commandTopic>cmd_vel</commandTopic>
   </joint>
 
 <link name='right_wheel'>
@@ -147,6 +148,7 @@
     <axis xyz="0 1 0" rpy="0 0 0"/>
     <limit effort="10000" velocity="1000"/>
     <dynamics damping="1.0" friction="1.0"/>
+    <commandTopic>cmd_vel</commandTopic>
   </joint>
 
 <!-- Camera link and joint added -->
@@ -185,6 +187,7 @@
     <origin xyz="0.2 0 0" rpy="0 0 0"/>
     <child link="camera"/>
     <parent link="chassis"/>
+    <imageTopicName>rgb/image_raw</imageTopicName>
   </joint>
 
 <!-- Lidar Link and joint -->
@@ -221,6 +224,7 @@
     <child link="hokuyo"/>
     <parent link="chassis"/>
     <axis xyz="0 1 0"/>
+    <topicName>/scan</topicName>
 </joint>
 
 

@@ -246,6 +246,12 @@ _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//Value Computed by CMake
+ball_chaser_BINARY_DIR:STATIC=/home/robond/catkin_ws/build/ball_chaser
+
+//Value Computed by CMake
+ball_chaser_SOURCE_DIR:STATIC=/home/robond/catkin_ws/src/ball_chaser
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 
@@ -311,7 +317,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 hardware_interface_DIR:PATH=/opt/ros/kinetic/share/hardware_interface/cmake
 
 //Path to a library.
-lib:FILEPATH=/opt/ros/kinetic/lib/librealtime_tools.so
+lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
 
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
