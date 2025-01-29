@@ -97,6 +97,10 @@
   </visual>
 </link>
 
+<gazebo reference="left_wheel">
+   <material>Gazebo/Black</material>
+</gazebo>
+
 <joint type="continuous" name="left_wheel_hinge">
     <origin xyz="0 0.15 0" rpy="0 0 0"/>
     <child link="left_wheel"/>
@@ -131,6 +135,10 @@
     </geometry>
   </visual>
 </link>
+
+<gazebo reference="right_wheel">
+   <material>Gazebo/Black</material>
+</gazebo>
 
 <joint type="continuous" name="right_wheel_hinge">
     <origin xyz="0 -0.15 0" rpy="0 0 0"/>
