@@ -4,7 +4,11 @@
   <!-- send urdf to param server -->
   <param name="robot_description" command="$(find xacro)/xacro --inorder '$(find my_robot)/urdf/my_robot.xacro'" />
 
+<<<<<<< HEAD
   <!-- Send fake joint values-->
+=======
+ <!-- Send fake joint values-->
+>>>>>>> 05d2a529ec638d7593e3cce57bff4c7d6797eece
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
     <param name="use_gui" value="false"/>
   </node>
