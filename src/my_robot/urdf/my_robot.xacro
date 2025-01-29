@@ -35,10 +35,11 @@
     <geometry>
       <box size=".4 .2 .1"/>
     </geometry>
-    <material name="BlueMaterial">
-      <xacro:BlueMaterial/>
-    </material>
   </visual>
+
+<gazebo reference="chassis">
+  <material>Gazebo/Blue</material>
+</gazebo>
 
   <collision name='back_caster_collision'>
     <origin xyz="-0.15 0 -0.05" rpy="0 0 0"/>
@@ -164,12 +165,13 @@
     <geometry>
       <box size="0.05 0.05 0.05"/>
     </geometry>
-    <gazebo reference="camera">
-    <material>Gazebo/Green</material>
-    </gazebo>
   </visual>
 
 </link>
+
+<gazebo reference="camera">
+   <material>Gazebo/Green</material>
+</gazebo>
 
 <joint type="fixed" name="camera_joint">
     <origin xyz="0.2 0 0" rpy="0 0 0"/>

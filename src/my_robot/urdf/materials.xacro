@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+   
   <xacro:macro name="BlueMaterial" params="">
     <material name="Blue">
       <ambient>0 0 1 1</ambient>
@@ -8,5 +9,10 @@
       <emissive>0 0 0 1</emissive>
     </material>
   </xacro:macro>
+
+<gazebo reference="chassis">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+
 </robot>
 
