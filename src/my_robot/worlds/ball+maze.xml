@@ -4278,10 +4278,10 @@
       <pose frame=''>-10.9845 7.95359 0 0 -0 0</pose>
     </model>
     <state world_name='default'>
-      <sim_time>1051 370000000</sim_time>
-      <real_time>38 980512623</real_time>
-      <wall_time>1738304227 427803746</wall_time>
-      <iterations>35351</iterations>
+      <sim_time>1016 19000000</sim_time>
+      <real_time>137 132596116</real_time>
+      <wall_time>1738304038 87774664</wall_time>
+      <iterations>124944</iterations>
       <model name='Building_Design'>
         <pose frame=''>0.072259 0.45547 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -4601,25 +4601,25 @@
         </link>
       </model>
       <model name='my_robot'>
-        <pose frame=''>0.014064 0.002442 0.100002 -1e-06 0.000606 0.05292</pose>
+        <pose frame=''>0.014206 0.002525 0.1 -1.4e-05 0.000644 0.051856</pose>
         <scale>1 1 1</scale>
         <link name='left_wheel'>
-          <pose frame=''>0.006129 0.152231 0.100002 -2e-06 0.03816 0.05292</pose>
-          <velocity>0.001799 -0.001384 0.004963 0.013864 0.017991 9e-06</velocity>
-          <acceleration>0.218749 -2.94519 9.92525 1.2728 1.05353 3.12172</acceleration>
-          <wrench>1.09374 -14.726 49.6263 0 -0 0</wrench>
+          <pose frame=''>0.006431 0.152323 0.099998 -1.5e-05 0.03828 0.051855</pose>
+          <velocity>0.00161 0.00139 -0.004409 -0.013972 0.016201 2.9e-05</velocity>
+          <acceleration>-0.131828 2.72271 -9.18676 -2.19128 -1.21643 0.0208</acceleration>
+          <wrench>-0.659138 13.6136 -45.9338 0 -0 0</wrench>
         </link>
         <link name='right_wheel'>
-          <pose frame=''>0.021998 -0.147348 0.100002 2e-06 -0.005105 0.05292</pose>
-          <velocity>0.0018 -0.001388 0.00038 0.013878 0.018001 8e-06</velocity>
-          <acceleration>0.210379 -2.9547 0.75958 1.30065 1.04185 3.11955</acceleration>
-          <wrench>1.0519 -14.7735 3.7979 0 -0 0</wrench>
+          <pose frame=''>0.021981 -0.147273 0.100002 -1.1e-05 -0.005487 0.051856</pose>
+          <velocity>0.00162 0.001395 -0.000338 -0.013986 0.0162 3e-05</velocity>
+          <acceleration>-0.12321 2.73233 -0.703159 -2.21837 -1.22779 0.022971</acceleration>
+          <wrench>-0.61605 13.6617 -3.51579 0 -0 0</wrench>
         </link>
         <link name='robot_footprint'>
-          <pose frame=''>0.014064 0.002442 0.100002 -1e-06 0.000606 0.05292</pose>
-          <velocity>0.001795 -0.001318 0.002679 0.014164 0.018013 8e-06</velocity>
-          <acceleration>0.20598 -2.8176 5.35693 1.8604 0.955136 3.11944</acceleration>
-          <wrench>3.1103 -42.5457 80.8896 0 -0 0</wrench>
+          <pose frame=''>0.014206 0.002525 0.1 -1.4e-05 0.000644 0.051856</pose>
+          <velocity>0.001619 0.001327 -0.002381 -0.01426 0.016186 3e-05</velocity>
+          <acceleration>-0.119179 2.59607 -4.96044 -2.77298 -1.30803 0.023034</acceleration>
+          <wrench>-1.7996 39.2007 -74.9027 0 -0 0</wrench>
         </link>
       </model>
       <model name='oak_tree'>
@@ -4638,7 +4638,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>-2.40257 -7.54685 17.9733 -0 1.1938 1.37014</pose>
+        <pose frame=''>-2.84098 -10.782 28.5395 0 1.0618 1.16614</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
