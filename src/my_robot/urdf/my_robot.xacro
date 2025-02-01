@@ -38,7 +38,7 @@
   </visual>
 
 <gazebo reference="chassis">
-  <material>Gazebo/Blue</material>
+  <material>Gazebo/Red</material>
 </gazebo>
 
   <collision name='back_caster_collision'>
