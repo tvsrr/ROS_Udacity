@@ -11,7 +11,7 @@
   </xacro:macro>
 
 <gazebo reference="chassis">
-    <material>Gazebo/Blue</material>
+    <material>Gazebo/Red</material>
   </gazebo>
 
 </robot>
