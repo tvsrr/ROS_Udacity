@@ -47,8 +47,14 @@ void process_image_callback(const sensor_msgs::Image img)
         ang_z = 0.0;
         }
         else {
-        lin_x = 0.1; 
-        ang_z = 0.2;
+            if (pixel_location > mid_right){
+                lin_x = 0.1;
+                ang_z = 0.2;
+            }
+            else {
+                lin_x = 0.0;
+                ang_z = 0.0;
+            }
         }
     }
     // TODO: Loop through each pixel in the image and check if there's a bright white one
