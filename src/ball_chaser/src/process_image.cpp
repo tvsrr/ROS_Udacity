@@ -41,7 +41,7 @@ void process_image_callback(const sensor_msgs::Image img)
     if (ball_found){
     if (pixel_location < mid_left){
         lin_x = 0.1; 
-        ang_z = -0.2;
+        ang_z = 0.2;
     }
     else{ 
         if (pixel_location >mid_left && pixel_location < mid_right){
@@ -51,7 +51,7 @@ void process_image_callback(const sensor_msgs::Image img)
         else {
             
           lin_x = 0.1;
-          ang_z = 0.2;
+          ang_z = -0.2;
             
         }
     }}
