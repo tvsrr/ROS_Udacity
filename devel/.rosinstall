@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/robond/catkin_ws/devel/setup.sh
+    local-name: /home/robond/ROS_Udacity/devel/setup.sh

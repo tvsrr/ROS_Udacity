@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/robond/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/robond/ROS_Udacity/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robond/catkin_ws/build
+CMAKE_BINARY_DIR = /home/robond/ROS_Udacity/build
 
 # Utility rule file for geometry_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ ball_chaser/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build: geometry_m
 .PHONY : ball_chaser/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 
 ball_chaser/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
-	cd /home/robond/catkin_ws/build/ball_chaser && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/robond/ROS_Udacity/build/ball_chaser && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : ball_chaser/CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 ball_chaser/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend:
-	cd /home/robond/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robond/catkin_ws/src /home/robond/catkin_ws/src/ball_chaser /home/robond/catkin_ws/build /home/robond/catkin_ws/build/ball_chaser /home/robond/catkin_ws/build/ball_chaser/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/robond/ROS_Udacity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robond/ROS_Udacity/src /home/robond/ROS_Udacity/src/ball_chaser /home/robond/ROS_Udacity/build /home/robond/ROS_Udacity/build/ball_chaser /home/robond/ROS_Udacity/build/ball_chaser/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ball_chaser/CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 

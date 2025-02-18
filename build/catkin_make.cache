@@ -1,2 +1,2 @@
-ball_chaser:my_robot:pgm_map_creator:turtlebot_simulator/turtlebot_gazebo:turtlebot_simulator/turtlebot_simulator:turtlebot_simulator/turtlebot_stage:turtlebot_simulator/turtlebot_stdr
--DCATKIN_DEVEL_PREFIX=/home/robond/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/robond/catkin_ws/install -G Unix Makefiles
+ball_chaser:my_robot:pgm_map_creator
+-DCATKIN_DEVEL_PREFIX=/home/robond/ROS_Udacity/devel -DCMAKE_INSTALL_PREFIX=/home/robond/ROS_Udacity/install -G Unix Makefiles

@@ -1,8 +1,8 @@
-# Install script for directory: /home/robond/catkin_ws/src/pgm_map_creator/msgs
+# Install script for directory: /home/robond/ROS_Udacity/src/pgm_map_creator/msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/robond/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/robond/ROS_Udacity/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

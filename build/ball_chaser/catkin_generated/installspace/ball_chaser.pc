@@ -1,8 +1,8 @@
-prefix=/home/robond/catkin_ws/install
+prefix=/home/robond/ROS_Udacity/install
 
 Name: ball_chaser
 Description: Description of ball_chaser
 Version: 0.0.0
-Cflags: -I/home/robond/catkin_ws/install/include
-Libs: -L/home/robond/catkin_ws/install/lib 
+Cflags: -I/home/robond/ROS_Udacity/install/include
+Libs: -L/home/robond/ROS_Udacity/install/lib 
 Requires: message_generation roscpp std_msgs geometry_msgs
