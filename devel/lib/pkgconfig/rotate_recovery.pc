@@ -1,0 +1,8 @@
+prefix=/home/robond/ROS_Udacity/devel
+
+Name: rotate_recovery
+Description: Description of rotate_recovery
+Version: 1.14.9
+Cflags: -I/home/robond/ROS_Udacity/src/navigation/rotate_recovery/include
+Libs: -L/home/robond/ROS_Udacity/devel/lib -lrotate_recovery
+Requires: roscpp pluginlib

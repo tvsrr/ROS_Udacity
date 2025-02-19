@@ -1,0 +1,8 @@
+prefix=/home/robond/ROS_Udacity/install
+
+Name: robot_pose_ekf
+Description: Description of robot_pose_ekf
+Version: 1.14.9
+Cflags: -I/home/robond/ROS_Udacity/install/include
+Libs: -L/home/robond/ROS_Udacity/install/lib 
+Requires: geometry_msgs message_runtime nav_msgs roscpp sensor_msgs std_msgs
