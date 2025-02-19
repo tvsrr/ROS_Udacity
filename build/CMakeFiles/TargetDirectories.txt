@@ -34,6 +34,13 @@
 /home/robond/ROS_Udacity/build/navigation/navigation/CMakeFiles/install/local.dir
 /home/robond/ROS_Udacity/build/navigation/navigation/CMakeFiles/test.dir
 /home/robond/ROS_Udacity/build/navigation/navigation/CMakeFiles/edit_cache.dir
+/home/robond/ROS_Udacity/build/teleop_twist_keyboard/CMakeFiles/list_install_components.dir
+/home/robond/ROS_Udacity/build/teleop_twist_keyboard/CMakeFiles/install.dir
+/home/robond/ROS_Udacity/build/teleop_twist_keyboard/CMakeFiles/rebuild_cache.dir
+/home/robond/ROS_Udacity/build/teleop_twist_keyboard/CMakeFiles/install/strip.dir
+/home/robond/ROS_Udacity/build/teleop_twist_keyboard/CMakeFiles/install/local.dir
+/home/robond/ROS_Udacity/build/teleop_twist_keyboard/CMakeFiles/test.dir
+/home/robond/ROS_Udacity/build/teleop_twist_keyboard/CMakeFiles/edit_cache.dir
 /home/robond/ROS_Udacity/build/ball_chaser/CMakeFiles/rebuild_cache.dir
 /home/robond/ROS_Udacity/build/ball_chaser/CMakeFiles/edit_cache.dir
 /home/robond/ROS_Udacity/build/ball_chaser/CMakeFiles/test.dir
