@@ -226,10 +226,6 @@ base_local_planner_utest_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /home/robond/ROS_Udacity/devel/lib/liblayers.so
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libvtkRenderingExternal-6.2.so.6.2.0
-/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/kinetic/lib/liblaser_geometry.so
-/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/kinetic/lib/libpcl_ros_filters.so
-/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/kinetic/lib/libpcl_ros_io.so
-/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/kinetic/lib/libpcl_ros_tf.so
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /home/robond/ROS_Udacity/devel/lib/libvoxel_grid.so
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libvtkFiltersReebGraph-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libvtkIOParallelNetCDF-6.2.so.6.2.0
@@ -240,6 +236,11 @@ base_local_planner_utest_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libvtkIOParallel-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libvtkIONetCDF-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libvtkGUISupportQtSQL-6.2.so.6.2.0
+/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/libOpenNI2.so
+/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/kinetic/lib/liblaser_geometry.so
+/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/kinetic/lib/libpcl_ros_filters.so
+/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/kinetic/lib/libpcl_ros_io.so
+/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/kinetic/lib/libpcl_ros_tf.so
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libpcl_octree.so
@@ -321,6 +322,11 @@ base_local_planner_utest_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libvtkViewsCore-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libvtkTestingGenericBridge-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/libgl2ps.so
+/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/libOpenNI2.so
+/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/kinetic/lib/liblaser_geometry.so
+/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/kinetic/lib/libpcl_ros_filters.so
+/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/kinetic/lib/libpcl_ros_io.so
+/home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /opt/ros/kinetic/lib/libpcl_ros_tf.so
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
 /home/robond/ROS_Udacity/devel/lib/base_local_planner/base_local_planner_utest: /usr/lib/x86_64-linux-gnu/libpcl_octree.so

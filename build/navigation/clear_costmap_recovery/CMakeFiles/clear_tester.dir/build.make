@@ -241,6 +241,7 @@ clear_tester_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.2.so.6.2.0
+/home/robond/ROS_Udacity/devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/x86_64-linux-gnu/libproj.so
 /home/robond/ROS_Udacity/devel/lib/clear_costmap_recovery/clear_tester: /usr/lib/x86_64-linux-gnu/libvtkRenderingExternal-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/clear_costmap_recovery/clear_tester: /opt/ros/kinetic/lib/liblaser_geometry.so

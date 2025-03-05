@@ -267,6 +267,7 @@ path_calc_test_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.2.so.6.2.0
+/home/robond/ROS_Udacity/devel/lib/navfn/path_calc_test: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libproj.so
 /home/robond/ROS_Udacity/devel/lib/navfn/path_calc_test: /usr/lib/x86_64-linux-gnu/libvtkRenderingExternal-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/navfn/path_calc_test: /opt/ros/kinetic/lib/liblaser_geometry.so

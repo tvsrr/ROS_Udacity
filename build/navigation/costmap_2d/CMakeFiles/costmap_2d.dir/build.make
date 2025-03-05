@@ -344,6 +344,7 @@ costmap_2d_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libpcl_features.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/libOpenNI.so
+/home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libz.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libnetcdf_c++.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libnetcdf.so
@@ -388,6 +389,7 @@ costmap_2d_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libqhull.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/libOpenNI.so
+/home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersReebGraph-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libvtkIOParallelNetCDF-6.2.so.6.2.0
@@ -725,6 +727,7 @@ costmap_2d_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libpcl_features.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/libOpenNI.so
+/home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libjpeg.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libpng.so
 /home/robond/ROS_Udacity/devel/lib/libcostmap_2d.so: /usr/lib/x86_64-linux-gnu/libtiff.so

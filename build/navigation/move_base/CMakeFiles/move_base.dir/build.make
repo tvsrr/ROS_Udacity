@@ -92,6 +92,7 @@ move_base_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libmove_base.so: navigation/move_base/CMakeFiles/move_base.dir/build.make
 /home/robond/ROS_Udacity/devel/lib/libmove_base.so: /home/robond/ROS_Udacity/devel/lib/libclear_costmap_recovery.so
 /home/robond/ROS_Udacity/devel/lib/libmove_base.so: /home/robond/ROS_Udacity/devel/lib/libnavfn.so
+/home/robond/ROS_Udacity/devel/lib/libmove_base.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libmove_base.so: /usr/lib/x86_64-linux-gnu/libproj.so
 /home/robond/ROS_Udacity/devel/lib/libmove_base.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingExternal-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libmove_base.so: /opt/ros/kinetic/lib/liblaser_geometry.so
@@ -468,6 +469,7 @@ move_base_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libmove_base.so: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libmove_base.so: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libmove_base.so: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.2.so.6.2.0
+/home/robond/ROS_Udacity/devel/lib/libmove_base.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libmove_base.so: /usr/lib/x86_64-linux-gnu/libproj.so
 /home/robond/ROS_Udacity/devel/lib/libmove_base.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingExternal-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libmove_base.so: /opt/ros/kinetic/lib/liblaser_geometry.so

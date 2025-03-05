@@ -245,6 +245,7 @@ move_base_node_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/move_base/move_base: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/move_base/move_base: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/move_base/move_base: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.2.so.6.2.0
+/home/robond/ROS_Udacity/devel/lib/move_base/move_base: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/move_base/move_base: /usr/lib/x86_64-linux-gnu/libproj.so
 /home/robond/ROS_Udacity/devel/lib/move_base/move_base: /usr/lib/x86_64-linux-gnu/libvtkRenderingExternal-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/move_base/move_base: /opt/ros/kinetic/lib/liblaser_geometry.so

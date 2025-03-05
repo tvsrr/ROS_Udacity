@@ -559,6 +559,7 @@ base_local_planner_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: navigation/base_local_planner/CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: navigation/base_local_planner/CMakeFiles/base_local_planner.dir/build.make
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /home/robond/ROS_Udacity/devel/lib/liblayers.so
+/home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libproj.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingExternal-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /opt/ros/kinetic/lib/liblaser_geometry.so
@@ -803,6 +804,7 @@ base_local_planner_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libpcl_features.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/libOpenNI.so
+/home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libz.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libnetcdf_c++.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libnetcdf.so
@@ -847,6 +849,7 @@ base_local_planner_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libqhull.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/libOpenNI.so
+/home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libz.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libnetcdf_c++.so
@@ -1030,6 +1033,7 @@ base_local_planner_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.2.so.6.2.0
+/home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /opt/ros/kinetic/lib/liblaser_geometry.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /opt/ros/kinetic/lib/libpcl_ros_filters.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /opt/ros/kinetic/lib/libpcl_ros_io.so
@@ -1115,6 +1119,11 @@ base_local_planner_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libvtkViewsCore-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libvtkTestingGenericBridge-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/libgl2ps.so
+/home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/libOpenNI2.so
+/home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /opt/ros/kinetic/lib/liblaser_geometry.so
+/home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /opt/ros/kinetic/lib/libpcl_ros_filters.so
+/home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /opt/ros/kinetic/lib/libpcl_ros_io.so
+/home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /opt/ros/kinetic/lib/libpcl_ros_tf.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so
 /home/robond/ROS_Udacity/devel/lib/libbase_local_planner.so: /usr/lib/x86_64-linux-gnu/libpcl_octree.so

@@ -97,6 +97,7 @@ move_slow_and_clear_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 /home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /home/robond/ROS_Udacity/devel/lib/liblayers.so
+/home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /usr/lib/x86_64-linux-gnu/libproj.so
 /home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingExternal-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /opt/ros/kinetic/lib/liblaser_geometry.so
@@ -332,6 +333,7 @@ move_slow_and_clear_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /usr/lib/x86_64-linux-gnu/libvtkIOParallel-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /usr/lib/x86_64-linux-gnu/libvtkIONetCDF-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /usr/lib/x86_64-linux-gnu/libvtkGUISupportQtSQL-6.2.so.6.2.0
+/home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersParallelGeometry-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /usr/lib/x86_64-linux-gnu/libvtkIOODBC-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libmove_slow_and_clear.so: /usr/lib/x86_64-linux-gnu/libvtkIOMPIParallel-6.2.so.6.2.0

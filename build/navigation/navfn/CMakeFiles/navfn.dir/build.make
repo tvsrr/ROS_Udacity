@@ -117,6 +117,7 @@ navfn_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libnavfn.so: navigation/navfn/CMakeFiles/navfn.dir/src/navfn_ros.cpp.o
 /home/robond/ROS_Udacity/devel/lib/libnavfn.so: navigation/navfn/CMakeFiles/navfn.dir/build.make
 /home/robond/ROS_Udacity/devel/lib/libnavfn.so: /home/robond/ROS_Udacity/devel/lib/liblayers.so
+/home/robond/ROS_Udacity/devel/lib/libnavfn.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libnavfn.so: /usr/lib/x86_64-linux-gnu/libproj.so
 /home/robond/ROS_Udacity/devel/lib/libnavfn.so: /usr/lib/x86_64-linux-gnu/libvtkRenderingExternal-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libnavfn.so: /opt/ros/kinetic/lib/liblaser_geometry.so
@@ -352,6 +353,7 @@ navfn_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/libnavfn.so: /usr/lib/x86_64-linux-gnu/libvtkIOParallel-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libnavfn.so: /usr/lib/x86_64-linux-gnu/libvtkIONetCDF-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libnavfn.so: /usr/lib/x86_64-linux-gnu/libvtkGUISupportQtSQL-6.2.so.6.2.0
+/home/robond/ROS_Udacity/devel/lib/libnavfn.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/libnavfn.so: /usr/lib/x86_64-linux-gnu/libvtkFiltersParallelGeometry-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libnavfn.so: /usr/lib/x86_64-linux-gnu/libvtkIOODBC-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/libnavfn.so: /usr/lib/x86_64-linux-gnu/libvtkIOMPIParallel-6.2.so.6.2.0

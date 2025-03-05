@@ -32,6 +32,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/pcl-1.7"
   "/usr/include/eigen3"
   "/usr/include/ni"
+  "/usr/include/openni2"
   "/usr/include/vtk-6.2"
   "/usr/include/hdf5/serial"
   "/usr/include/libxml2"

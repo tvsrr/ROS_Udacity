@@ -93,6 +93,7 @@ planner_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/global_planner/planner: /home/robond/ROS_Udacity/devel/lib/libglobal_planner.so
 /home/robond/ROS_Udacity/devel/lib/global_planner/planner: /home/robond/ROS_Udacity/devel/lib/libnavfn.so
 /home/robond/ROS_Udacity/devel/lib/global_planner/planner: /home/robond/ROS_Udacity/devel/lib/liblayers.so
+/home/robond/ROS_Udacity/devel/lib/global_planner/planner: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/global_planner/planner: /usr/lib/x86_64-linux-gnu/libproj.so
 /home/robond/ROS_Udacity/devel/lib/global_planner/planner: /usr/lib/x86_64-linux-gnu/libvtkRenderingExternal-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/global_planner/planner: /opt/ros/kinetic/lib/liblaser_geometry.so
@@ -465,6 +466,7 @@ planner_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/global_planner/planner: /usr/lib/x86_64-linux-gnu/libvtkCommonMisc-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/global_planner/planner: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-6.2.so.6.2.0
 /home/robond/ROS_Udacity/devel/lib/global_planner/planner: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.2.so.6.2.0
+/home/robond/ROS_Udacity/devel/lib/global_planner/planner: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/global_planner/planner: /usr/lib/x86_64-linux-gnu/libproj.so
 /home/robond/ROS_Udacity/devel/lib/global_planner/planner: /opt/ros/kinetic/lib/liblaser_geometry.so
 /home/robond/ROS_Udacity/devel/lib/global_planner/planner: /opt/ros/kinetic/lib/libpcl_ros_filters.so

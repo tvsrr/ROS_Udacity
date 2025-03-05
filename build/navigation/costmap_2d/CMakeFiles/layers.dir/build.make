@@ -354,6 +354,7 @@ layers_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/x86_64-linux-gnu/libpcl_features.so
 /home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
 /home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/libOpenNI.so
+/home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/x86_64-linux-gnu/libjpeg.so
 /home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/x86_64-linux-gnu/libpng.so
 /home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/x86_64-linux-gnu/libtiff.so
@@ -439,6 +440,7 @@ layers_EXTERNAL_OBJECTS =
 /home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/x86_64-linux-gnu/libpcl_features.so
 /home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
 /home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/libOpenNI.so
+/home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/libOpenNI2.so
 /home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/x86_64-linux-gnu/libjpeg.so
 /home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/x86_64-linux-gnu/libpng.so
 /home/robond/ROS_Udacity/devel/lib/liblayers.so: /usr/lib/x86_64-linux-gnu/libtiff.so
