@@ -884,6 +884,77 @@ void cameraModelToROS(const rtabmap::CameraModel & model,
     }
 }
 
+void userDataToROS(const cv::Mat & data,
+                   rtabmap_msgs::UserData & msg,
+                   bool compress)
+{
+    // Mark how big the matrix is, then copy or compress its bytes into msg.data
+    msg.rows = data.rows;
+    msg.cols = data.cols;
+    msg.type = data.type();
+    msg.compressed = compress;
+
+    if(!data.empty())
+    {
+        if(compress)
+        {
+            // Use RTAB-Map’s built-in compression
+            msg.data = rtabmap::compressData(data);
+        }
+        else
+        {
+            // Direct copy of raw bytes
+            msg.data.resize(data.total() * data.elemSize());
+            memcpy(msg.data.data(), data.data, msg.data.size());
+        }
+    }
+    else
+    {
+        // If empty, mark everything zero
+        msg.data.clear();
+    }
+}
+
+void mapDataFromROS(const rtabmap_msgs::MapData & msg,
+                    std::map<int, rtabmap::Transform> & poses,
+                    std::multimap<int, rtabmap::Link> & links,
+                    std::map<int, rtabmap::Signature> & signatures,
+                    rtabmap::Transform & mapToOdom)
+{
+    // Reconstruct mapToOdom
+    mapToOdom = transformFromGeometryMsg(msg.mapToOdom);
+
+    // Reconstruct poses from nodeIds[] and poses[]
+    poses.clear();
+    for(size_t i=0; i < msg.graph.nodeIds.size() && i < msg.graph.poses.size(); ++i)
+    {
+        int nodeId = msg.graph.nodeIds[i];
+        const geometry_msgs::Pose & poseMsg = msg.graph.poses[i];
+        poses.insert(std::make_pair(nodeId, transformFromPoseMsg(poseMsg)));
+    }
+
+    // Reconstruct links
+    links.clear();
+    for(size_t i=0; i < msg.graph.links.size(); ++i)
+    {
+        // linkFromROS(...) is typically defined in MsgConversion.cpp
+        rtabmap::Link link = linkFromROS(msg.graph.links[i]);
+        // Usually the "fromId" is the multimap key,
+        // but you can choose how to store it if needed
+        links.insert(std::make_pair(link.from(), link));
+    }
+
+    // Reconstruct signatures (each node is basically a "Signature")
+    signatures.clear();
+    for(size_t i=0; i < msg.nodes.size(); ++i)
+    {
+        // nodeDataFromROS(...) is a helper function that returns rtabmap::Signature
+        // from the rtabmap_msgs::NodeData. Make sure that function is also defined.
+        rtabmap::Signature s = nodeDataFromROS(msg.nodes[i]);
+        signatures.insert(std::make_pair(s.id(), s));
+    }
+}
+
 // double timestampFromROS(const ros::Time & stamp)
 //{
 //    return double(stamp.sec) + double(stamp.nsec) / 1000000000.0;
