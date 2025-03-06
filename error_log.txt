@@ -1,0 +1,1248 @@
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _ball_chaser_generate_messages_check_deps_DriveToTarget
+[ 18%] Built target ball_chaser_generate_messages_py
+[ 36%] Built target ball_chaser_generate_messages_eus
+[ 45%] Built target ball_chaser_generate_messages_nodejs
+[ 54%] Built target ball_chaser_generate_messages_lisp
+[ 63%] Built target ball_chaser_generate_messages_cpp
+[ 63%] Built target ball_chaser_generate_messages
+[ 81%] Built target process_image
+[100%] Built target drive_bot
+[  4%] Built target rtabmap_utilite
+[  5%] Built target res_tool
+[  5%] Built target imagesJoiner
+[  6%] Built target extractObject
+[ 43%] Built target rtabmap_core
+[ 44%] Built target consoleApp
+[ 44%] Built target camera
+[ 45%] Built target stereoEval
+[ 46%] Built target kitti_dataset
+[ 46%] Built target euroc_dataset
+[ 46%] Built target rgbd_dataset
+[ 47%] Built target recovery
+[ 47%] Built target reprocess
+[ 48%] Built target detectMoreLoopClosures
+[ 49%] Built target export
+[ 50%] Built target info
+[ 51%] Built target rgbd_camera
+[ 51%] Built target bow_mapping
+[ 89%] Built target rtabmap_gui
+[ 91%] Built target rtabmap
+[ 91%] Built target report
+[ 91%] Built target databaseViewer
+[ 92%] Built target epipolar_geometry
+[ 93%] Built target dataRecorder
+[ 93%] Built target odometryViewer
+[ 94%] Built target calibration
+[ 94%] Built target matcher
+[ 96%] Built target rgbd_mapping
+[100%] Built target wifi_mapping
+[100%] Built target noEventsExample
+[  4%] Built target rtabmap_utilite
+[  5%] Built target res_tool
+[ 42%] Built target rtabmap_core
+[ 80%] Built target rtabmap_gui
+[ 81%] Built target rtabmap
+[ 82%] Built target consoleApp
+[ 82%] Built target imagesJoiner
+[ 83%] Built target extractObject
+[ 83%] Built target camera
+[ 84%] Built target stereoEval
+[ 85%] Built target kitti_dataset
+[ 85%] Built target rgbd_dataset
+[ 85%] Built target euroc_dataset
+[ 86%] Built target recovery
+[ 86%] Built target reprocess
+[ 87%] Built target detectMoreLoopClosures
+[ 88%] Built target export
+[ 89%] Built target report
+[ 90%] Built target info
+[ 91%] Built target rgbd_camera
+[ 91%] Built target databaseViewer
+[ 92%] Built target epipolar_geometry
+[ 92%] Built target odometryViewer
+[ 93%] Built target dataRecorder
+[ 94%] Built target calibration
+[ 94%] Built target matcher
+[ 94%] Built target bow_mapping
+[ 96%] Built target rgbd_mapping
+[ 98%] Built target wifi_mapping
+[100%] Built target noEventsExample
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/RTABMapConfig.cmake
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/RTABMapConfigVersion.cmake
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/share/rtabmap/package.xml
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_utilite.so.0.20.7
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_utilite.so.0.20
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_utilite.so
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UEventsManager.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UDirectory.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UEventsHandler.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UDestroyer.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UMath.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UThread.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UEventsSender.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UThreadC.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UObjDeletionThread.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UVariant.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UProcessInfo.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UTimer.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UThreadNode.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UException.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Win32
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Win32/UThreadC.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Win32/UWin32.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UMutex.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/USemaphore.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UtiLiteExp.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UEvent.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UConversion.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Posix
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/Posix/UThreadC.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UtiLite.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UStl.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UFile.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/ULogger.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-res_tool-0.3.0
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-res_tool
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_core.so.0.20.7
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_core.so.0.20
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_core.so
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/IMU.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_motion_estimation.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/IMUFilter.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/ParticleFilter.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraEvent.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/RtabmapEvent.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Version.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/DBDriverSqlite3.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/GlobalDescriptor.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraModel.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Recovery.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/RegistrationInfo.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/OdometryEvent.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_registration.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/impl
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/impl/OccupancyGrid.hpp
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/impl/util3d_surface.hpp
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/impl/util3d_mapping.hpp
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/ParamEvent.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/DBDriver.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/RtabmapThread.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_filtering.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/RegistrationIcp.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/StereoCameraModel.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/IMUThread.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraInfo.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_features.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Parameters.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/GeodeticCoords.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/stereo
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/stereo/StereoBM.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/stereo/stereoRectifyFisheye.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/stereo/StereoSGBM.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Stereo.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/util2d.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/DBReader.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/BayesFilter.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraRGBD.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/StereoDense.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraRGB.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_transforms.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Registration.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/GPS.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Camera.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/MarkerDetector.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Features2d.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Statistics.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Compression.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Optimizer.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerTORO.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerCVSBA.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerG2O.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerGTSAM.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/optimizer/OptimizerCeres.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Landmark.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/EpipolarGeometry.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/SensorData.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/LaserScan.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/VWDictionary.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/RegistrationVis.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/UserDataEvent.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_correspondences.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryF2F.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryViso2.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryORBSLAM2.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryF2M.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryMono.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryFovis.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryMSCKF.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryLOAM.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryOkvis.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryDVO.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/odometry/OdometryVINS.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/OdometryThread.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/OdometryInfo.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/clams
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/clams/frame_projector.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/clams/slam_calibrator.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/clams/discrete_depth_distortion_model.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/FlannIndex.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Signature.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_mapping.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/util3d_surface.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/ProgressState.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraThread.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/EnvSensor.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/CameraStereo.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Link.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraFreenect.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoTara.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoZed.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoFlyCapture2.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraK4W2.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraRealSense2.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraRGBDImages.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraOpenni.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraK4A.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoImages.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraMyntEye.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoVideo.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraOpenNICV.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraOpenNI2.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraFreenect2.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraStereoDC1394.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraRealSense.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraVideo.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/camera/CameraImages.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Transform.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/GainCompensator.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/VisualWord.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Rtabmap.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/RtabmapExp.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Graph.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Memory.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Odometry.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/OccupancyGrid.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/Image.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/core/OctoMap.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_gui.so.0.20.7
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_gui.so.0.20
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_gui.so
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/EditMapArea.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/RecoveryState.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/PostProcessingDialog.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/ExportCloudsDialog.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/LoopClosureViewer.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/TexturingState.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/ProgressDialog.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/CalibrationDialog.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/OdometryViewer.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/ExportBundlerDialog.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/DataRecorder.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/DepthCalibrationDialog.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/RtabmapGuiExp.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/KeypointItem.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/CloudViewerCellPicker.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/EditDepthArea.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/AboutDialog.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/EditConstraintDialog.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/MapVisibilityWidget.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/CameraViewer.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/ImageView.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/ExportDialog.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/ConsoleWidget.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/DatabaseViewer.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/GraphViewer.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/MainWindow.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/ParametersToolBox.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/PreferencesDialog.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/CloudViewerInteractorStyle.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/CloudViewer.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/CreateSimpleCalibrationDialog.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/StatsToolBox.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/gui/PdfPlot.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UPlot.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UCv2Qt.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/include/rtabmap-0.20/rtabmap/utilite/UImageView.h
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-console
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-extractObject
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-camera
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-kitti_dataset
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-rgbd_dataset
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-euroc_dataset
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-recovery
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-reprocess
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-detectMoreLoopClosures
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-export
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-report
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-info
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-rgbd_camera
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-databaseViewer
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-odometryViewer
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-dataRecorder
+-- Up-to-date: /home/robond/ROS_Udacity/devel_isolated/rtabmap/bin/rtabmap-calibration
+[ 33%] Built target rtabmap_costmap_plugins
+[ 66%] Built target rtabmap_costmap_voxel_markers
+[100%] Built target rtabmap_costmap_plugins2
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetLabel
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Info
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Path
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetGoal
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Goal
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GlobalDescriptor
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LoadDatabase
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_AddLink
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_MapGraph
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_KeyPoint
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetMap2
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CameraModels
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_OdomInfo
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CleanupLocalGrids
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Point3f
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetNodesInRadius
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_ResetPose
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GPS
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RGBDImage
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RGBDImages
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_PublishMap
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_ListLabels
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GlobalBundleAdjustment
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Link
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LandmarkDetection
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Node
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RemoveLabel
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_EnvSensor
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetNodeData
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Point2f
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_MapData
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetPlan
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetMap
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_UserData
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_ScanDescriptor
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LandmarkDetections
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SensorData
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CameraModel
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_DetectMoreLoopClosures
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_lisp
+[ 20%] Built target rtabmap_msgs_generate_messages_nodejs
+[ 38%] Built target rtabmap_msgs_generate_messages_cpp
+[ 60%] Built target rtabmap_msgs_generate_messages_py
+[ 81%] Built target rtabmap_msgs_generate_messages_eus
+[100%] Built target rtabmap_msgs_generate_messages_lisp
+[100%] Built target rtabmap_msgs_generate_messages
+[  0%] Built target rtabmap_msgs_generate_messages_cpp
+[ 50%] Building CXX object CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘void rtabmap_conversions::rgbdImageToROS(const rtabmap::SensorData&, rtabmap_msgs::RGBDImage&, const string&)’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:230:15: error: ‘const class rtabmap::SensorData’ has no member named ‘stereoCameraModels’
+  else if(data.stereoCameraModels().size() == 1)
+               ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:233:46: error: ‘const class rtabmap::SensorData’ has no member named ‘stereoCameraModels’
+   rtabmap_conversions::cameraModelToROS(data.stereoCameraModels()[0].left(), msg.rgb_camera_info);
+                                              ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:234:46: error: ‘const class rtabmap::SensorData’ has no member named ‘stereoCameraModels’
+   rtabmap_conversions::cameraModelToROS(data.stereoCameraModels()[0].right(), msg.depth_camera_info);
+                                              ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:237:25: error: ‘const class rtabmap::SensorData’ has no member named ‘stereoCameraModels’
+   localTransform = data.stereoCameraModels()[0].localTransform();
+                         ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘void rtabmap_conversions::infoFromROS(const Info&, rtabmap::Statistics&)’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:516:7: error: ‘class rtabmap::Statistics’ has no member named ‘setOdomCachePoses’
+  stat.setOdomCachePoses(poses);
+       ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:517:7: error: ‘class rtabmap::Statistics’ has no member named ‘setOdomCacheConstraints’
+  stat.setOdomCacheConstraints(constraints);
+       ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘void rtabmap_conversions::infoToROS(const rtabmap::Statistics&, rtabmap_msgs::Info&)’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:554:23: error: ‘const class rtabmap::Statistics’ has no member named ‘odomCachePoses’
+   mapGraphToROS(stats.odomCachePoses(), stats.odomCacheConstraints(), stats.mapCorrection(), info.odom_cache);
+                       ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:554:47: error: ‘const class rtabmap::Statistics’ has no member named ‘odomCacheConstraints’
+   mapGraphToROS(stats.odomCachePoses(), stats.odomCacheConstraints(), stats.mapCorrection(), info.odom_cache);
+                                               ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘rtabmap::SensorData rtabmap_conversions::sensorDataFromROS(const SensorData&)’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1181:16: error: no matching function for call to ‘rtabmap::SensorData::setStereoImage(cv::Mat, cv::Mat, std::vector<rtabmap::StereoCameraModel>&)’
+    stereoModels);
+                ^
+In file included from /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Signature.h:42:0,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:47,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/SensorData.h:175:7: note: candidate: void rtabmap::SensorData::setStereoImage(const cv::Mat&, const cv::Mat&, const rtabmap::StereoCameraModel&, bool)
+  void setStereoImage(const cv::Mat & left, const cv::Mat & right, const StereoCameraModel & stereoCameraModel, bool clearPreviousData = true);
+       ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/SensorData.h:175:7: note:   no known conversion for argument 3 from ‘std::vector<rtabmap::StereoCameraModel>’ to ‘const rtabmap::StereoCameraModel&’
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1184:53: error: no matching function for call to ‘rtabmap::SensorData::setStereoImage(cv::Mat&, cv::Mat&, std::vector<rtabmap::StereoCameraModel>&, bool)’
+    s.setStereoImage(left, right, stereoModels, false);
+                                                     ^
+In file included from /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Signature.h:42:0,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:47,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/SensorData.h:175:7: note: candidate: void rtabmap::SensorData::setStereoImage(const cv::Mat&, const cv::Mat&, const rtabmap::StereoCameraModel&, bool)
+  void setStereoImage(const cv::Mat & left, const cv::Mat & right, const StereoCameraModel & stereoCameraModel, bool clearPreviousData = true);
+       ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/SensorData.h:175:7: note:   no known conversion for argument 3 from ‘std::vector<rtabmap::StereoCameraModel>’ to ‘const rtabmap::StereoCameraModel&’
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1217:60: error: no matching function for call to ‘rtabmap::LaserScan::LaserScan(rtabmap::LaserScan, const _laser_scan_max_pts_type&, const _laser_scan_max_range_type&, rtabmap::Transform)’
+    transformFromGeometryMsg(msg.laser_scan_local_transform)),
+                                                            ^
+In file included from /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/SensorData.h:38:0,
+                 from /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Signature.h:42,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:47,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:79:2: note: candidate: rtabmap::LaserScan::LaserScan(const cv::Mat&, rtabmap::LaserScan::Format, float, float, float, float, float, const rtabmap::Transform&)
+  LaserScan(const cv::Mat & data,
+  ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:79:2: note:   candidate expects 8 arguments, 4 provided
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:74:2: note: candidate: rtabmap::LaserScan::LaserScan(const cv::Mat&, int, float, rtabmap::LaserScan::Format, const rtabmap::Transform&)
+  LaserScan(const cv::Mat & data,
+  ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:74:2: note:   no known conversion for argument 1 from ‘rtabmap::LaserScan’ to ‘const cv::Mat&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:73:2: note: candidate: rtabmap::LaserScan::LaserScan()
+  LaserScan();
+  ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:73:2: note:   candidate expects 0 arguments, 4 provided
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:37:19: note: candidate: rtabmap::LaserScan::LaserScan(const rtabmap::LaserScan&)
+ class RTABMAP_EXP LaserScan
+                   ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:37:19: note:   candidate expects 1 argument, 4 provided
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘void rtabmap_conversions::sensorDataToROS(const rtabmap::SensorData&, rtabmap_msgs::SensorData&, const string&, bool)’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1277:15: error: ‘const class rtabmap::SensorData’ has no member named ‘stereoCameraModels’
+  else if(data.stereoCameraModels().size())
+               ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1279:36: error: ‘const class rtabmap::SensorData’ has no member named ‘stereoCameraModels’
+   msg.left_camera_info.resize(data.stereoCameraModels().size());
+                                    ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1280:37: error: ‘const class rtabmap::SensorData’ has no member named ‘stereoCameraModels’
+   msg.right_camera_info.resize(data.stereoCameraModels().size());
+                                     ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1281:35: error: ‘const class rtabmap::SensorData’ has no member named ‘stereoCameraModels’
+   msg.local_transform.resize(data.stereoCameraModels().size());
+                                   ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1282:32: error: ‘const class rtabmap::SensorData’ has no member named ‘stereoCameraModels’
+   for(unsigned int i=0; i<data.stereoCameraModels().size(); ++i)
+                                ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1284:26: error: ‘const class rtabmap::SensorData’ has no member named ‘stereoCameraModels’
+    cameraModelToROS(data.stereoCameraModels()[i].left(), msg.left_camera_info[i]);
+                          ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1285:26: error: ‘const class rtabmap::SensorData’ has no member named ‘stereoCameraModels’
+    cameraModelToROS(data.stereoCameraModels()[i].right(), msg.right_camera_info[i]);
+                          ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1286:32: error: ‘const class rtabmap::SensorData’ has no member named ‘stereoCameraModels’
+    transformToGeometryMsg(data.stereoCameraModels()[i].left().localTransform(), msg.local_transform[i]);
+                                ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘std::map<std::__cxx11::basic_string<char>, float> rtabmap_conversions::odomInfoToStatistics(const rtabmap::OdometryInfo&)’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1601:80: error: ‘const class rtabmap::OdometryInfo’ has no member named ‘localBundleAvgInlierDistance’
+  stats.insert(std::make_pair("Odometry/localBundleAvgInlierDistance/pix", info.localBundleAvgInlierDistance));
+                                                                                ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1602:81: error: ‘const class rtabmap::OdometryInfo’ has no member named ‘localBundleMaxKeyFramesForInlier’
+  stats.insert(std::make_pair("Odometry/localBundleMaxKeyFramesForInlier/", info.localBundleMaxKeyFramesForInlier));
+                                                                                 ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘rtabmap::OdometryInfo rtabmap_conversions::odomInfoFromROS(const OdomInfo&, bool)’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1679:7: error: ‘class rtabmap::OdometryInfo’ has no member named ‘localBundleAvgInlierDistance’
+  info.localBundleAvgInlierDistance = msg.localBundleAvgInlierDistance;
+       ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1680:7: error: ‘class rtabmap::OdometryInfo’ has no member named ‘localBundleMaxKeyFramesForInlier’
+  info.localBundleMaxKeyFramesForInlier = msg.localBundleMaxKeyFramesForInlier;
+       ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1723:8: error: ‘class rtabmap::OdometryInfo’ has no member named ‘guess’
+   info.guess = transformFromGeometryMsg(msg.guess);
+        ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘void rtabmap_conversions::odomInfoToROS(const rtabmap::OdometryInfo&, rtabmap_msgs::OdomInfo&, bool)’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1760:42: error: ‘const class rtabmap::OdometryInfo’ has no member named ‘localBundleAvgInlierDistance’
+  msg.localBundleAvgInlierDistance = info.localBundleAvgInlierDistance;
+                                          ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1761:46: error: ‘const class rtabmap::OdometryInfo’ has no member named ‘localBundleMaxKeyFramesForInlier’
+  msg.localBundleMaxKeyFramesForInlier = info.localBundleMaxKeyFramesForInlier;
+                                              ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1763:105: error: conversion from ‘std::map<int, rtabmap::CameraModel>::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, rtabmap::CameraModel> >}’ to non-scalar type ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ requested
+  for(std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator iter=info.localBundleModels.begin();
+                                                                                                         ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:7: error: no match for ‘operator!=’ (operand types are ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ and ‘std::map<int, rtabmap::CameraModel>::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, rtabmap::CameraModel> >}’)
+   iter!=info.localBundleModels.end();
+       ^
+In file included from /usr/include/c++/5/map:60:0,
+                 from /opt/ros/kinetic/include/tf/tf.h:40,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_tree.h:316:7: note: candidate: bool std::_Rb_tree_const_iterator<_Tp>::operator!=(const _Self&) const [with _Tp = std::pair<const int, std::vector<rtabmap::CameraModel> >; std::_Rb_tree_const_iterator<_Tp>::_Self = std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >]
+       operator!=(const _Self& __x) const _GLIBCXX_NOEXCEPT
+       ^
+/usr/include/c++/5/bits/stl_tree.h:316:7: note:   no known conversion for argument 1 from ‘std::map<int, rtabmap::CameraModel>::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, rtabmap::CameraModel> >}’ to ‘const _Self& {aka const std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >&}’
+In file included from /usr/include/c++/5/stack:61:0,
+                 from /usr/include/boost/filesystem/operations.hpp:43,
+                 from /usr/include/boost/filesystem.hpp:17,
+                 from /usr/include/pcl-1.7/pcl/io/boost.h:52,
+                 from /usr/include/pcl-1.7/pcl/io/file_io.h:43,
+                 from /usr/include/pcl-1.7/pcl/io/pcd_io.h:44,
+                 from /opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:70,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:40:
+/usr/include/c++/5/bits/stl_stack.h:270:5: note: candidate: template<class _Tp, class _Seq> bool std::operator!=(const std::stack<_Tp, _Seq>&, const std::stack<_Tp, _Seq>&)
+     operator!=(const stack<_Tp, _Seq>& __x, const stack<_Tp, _Seq>& __y)
+     ^
+/usr/include/c++/5/bits/stl_stack.h:270:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::stack<_Tp, _Seq>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/queue:64:0,
+                 from /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util_inl.hpp:46,
+                 from /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/util.hpp:119,
+                 from /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching/detail/motion_estimators.hpp:48,
+                 from /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/stitching.hpp:50,
+                 from /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv2/opencv.hpp:86,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:41,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_queue.h:295:5: note: candidate: template<class _Tp, class _Seq> bool std::operator!=(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)
+     operator!=(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+     ^
+/usr/include/c++/5/bits/stl_queue.h:295:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::queue<_Tp, _Seq>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/deque:64:0,
+                 from /usr/include/boost/detail/container_fwd.hpp:91,
+                 from /usr/include/boost/functional/hash/extensions.hpp:22,
+                 from /usr/include/boost/functional/hash/hash.hpp:558,
+                 from /usr/include/boost/functional/hash.hpp:6,
+                 from /usr/include/boost/unordered/unordered_map.hpp:21,
+                 from /usr/include/boost/unordered_map.hpp:17,
+                 from /opt/ros/kinetic/include/tf/tf.h:44,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_deque.h:2246:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator!=(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)
+     operator!=(const deque<_Tp, _Alloc>& __x,
+     ^
+/usr/include/c++/5/bits/stl_deque.h:2246:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::deque<_Tp, _Alloc>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/deque:64:0,
+                 from /usr/include/boost/detail/container_fwd.hpp:91,
+                 from /usr/include/boost/functional/hash/extensions.hpp:22,
+                 from /usr/include/boost/functional/hash/hash.hpp:558,
+                 from /usr/include/boost/functional/hash.hpp:6,
+                 from /usr/include/boost/unordered/unordered_map.hpp:21,
+                 from /usr/include/boost/unordered_map.hpp:17,
+                 from /opt/ros/kinetic/include/tf/tf.h:44,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_deque.h:285:5: note: candidate: template<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator!=(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)
+     operator!=(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+     ^
+/usr/include/c++/5/bits/stl_deque.h:285:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/deque:64:0,
+                 from /usr/include/boost/detail/container_fwd.hpp:91,
+                 from /usr/include/boost/functional/hash/extensions.hpp:22,
+                 from /usr/include/boost/functional/hash/hash.hpp:558,
+                 from /usr/include/boost/functional/hash.hpp:6,
+                 from /usr/include/boost/unordered/unordered_map.hpp:21,
+                 from /usr/include/boost/unordered_map.hpp:17,
+                 from /opt/ros/kinetic/include/tf/tf.h:44,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_deque.h:278:5: note: candidate: template<class _Tp, class _Ref, class _Ptr> bool std::operator!=(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)
+     operator!=(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+     ^
+/usr/include/c++/5/bits/stl_deque.h:278:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::_Deque_iterator<_Tp, _Ref, _Ptr>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/list:63:0,
+                 from /opt/ros/kinetic/include/ros/datatypes.h:35,
+                 from /opt/ros/kinetic/include/ros/serialization.h:40,
+                 from /opt/ros/kinetic/include/geometry_msgs/PointStamped.h:14,
+                 from /opt/ros/kinetic/include/tf/transform_datatypes.h:36,
+                 from /opt/ros/kinetic/include/tf/time_cache.h:38,
+                 from /opt/ros/kinetic/include/tf/tf.h:43,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_list.h:1843:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator!=(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)
+     operator!=(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+     ^
+/usr/include/c++/5/bits/stl_list.h:1843:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::__cxx11::list<_Tp, _Alloc>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/list:63:0,
+                 from /opt/ros/kinetic/include/ros/datatypes.h:35,
+                 from /opt/ros/kinetic/include/ros/serialization.h:40,
+                 from /opt/ros/kinetic/include/geometry_msgs/PointStamped.h:14,
+                 from /opt/ros/kinetic/include/tf/transform_datatypes.h:36,
+                 from /opt/ros/kinetic/include/tf/time_cache.h:38,
+                 from /opt/ros/kinetic/include/tf/tf.h:43,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_list.h:291:5: note: candidate: template<class _Val> bool std::operator!=(const std::_List_iterator<_Tp>&, const std::_List_const_iterator<_Val>&)
+     operator!=(const _List_iterator<_Val>& __x,
+     ^
+/usr/include/c++/5/bits/stl_list.h:291:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::_List_iterator<_Tp>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/serialization.h:34,
+                 from /opt/ros/kinetic/include/geometry_msgs/PointStamped.h:14,
+                 from /opt/ros/kinetic/include/tf/transform_datatypes.h:36,
+                 from /opt/ros/kinetic/include/tf/time_cache.h:38,
+                 from /opt/ros/kinetic/include/tf/tf.h:43,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/complex:486:5: note: candidate: template<class _Tp> bool std::operator!=(const _Tp&, const std::complex<_Tp>&)
+     operator!=(const _Tp& __x, const complex<_Tp>& __y)
+     ^
+/usr/include/c++/5/complex:486:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, rtabmap::CameraModel>::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, rtabmap::CameraModel> >}’ is not derived from ‘const std::complex<_Tp>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/serialization.h:34,
+                 from /opt/ros/kinetic/include/geometry_msgs/PointStamped.h:14,
+                 from /opt/ros/kinetic/include/tf/transform_datatypes.h:36,
+                 from /opt/ros/kinetic/include/tf/time_cache.h:38,
+                 from /opt/ros/kinetic/include/tf/tf.h:43,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/complex:481:5: note: candidate: template<class _Tp> bool std::operator!=(const std::complex<_Tp>&, const _Tp&)
+     operator!=(const complex<_Tp>& __x, const _Tp& __y)
+     ^
+/usr/include/c++/5/complex:481:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::complex<_Tp>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/serialization.h:34,
+                 from /opt/ros/kinetic/include/geometry_msgs/PointStamped.h:14,
+                 from /opt/ros/kinetic/include/tf/transform_datatypes.h:36,
+                 from /opt/ros/kinetic/include/tf/time_cache.h:38,
+                 from /opt/ros/kinetic/include/tf/tf.h:43,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/complex:476:5: note: candidate: template<class _Tp> bool std::operator!=(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator!=(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^
+/usr/include/c++/5/complex:476:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::complex<_Tp>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/iterator:66:0,
+                 from /usr/include/boost/iterator.hpp:10,
+                 from /usr/include/boost/operators.hpp:86,
+                 from /usr/include/boost/date_time/time_duration.hpp:13,
+                 from /usr/include/boost/date_time/posix_time/posix_time_config.hpp:16,
+                 from /usr/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /usr/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /usr/include/boost/date_time/posix_time/posix_time_types.hpp:12,
+                 from /usr/include/boost/thread/thread_time.hpp:11,
+                 from /usr/include/boost/thread/lock_types.hpp:18,
+                 from /usr/include/boost/thread/pthread/mutex.hpp:16,
+                 from /usr/include/boost/thread/mutex.hpp:16,
+                 from /opt/ros/kinetic/include/tf/time_cache.h:36,
+                 from /opt/ros/kinetic/include/tf/tf.h:43,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stream_iterator.h:137:5: note: candidate: template<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator!=(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)
+     operator!=(const istream_iterator<_Tp, _CharT, _Traits, _Dist>& __x,
+     ^
+/usr/include/c++/5/bits/stream_iterator.h:137:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/set:62:0,
+                 from /opt/ros/kinetic/include/tf/time_cache.h:35,
+                 from /opt/ros/kinetic/include/tf/tf.h:43,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_multiset.h:849:5: note: candidate: template<class _Key, class _Compare, class _Alloc> bool std::operator!=(const std::multiset<_Key, _Compare, _Alloc>&, const std::multiset<_Key, _Compare, _Alloc>&)
+     operator!=(const multiset<_Key, _Compare, _Alloc>& __x,
+     ^
+/usr/include/c++/5/bits/stl_multiset.h:849:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::multiset<_Key, _Compare, _Alloc>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/set:61:0,
+                 from /opt/ros/kinetic/include/tf/time_cache.h:35,
+                 from /opt/ros/kinetic/include/tf/tf.h:43,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_set.h:866:5: note: candidate: template<class _Key, class _Compare, class _Alloc> bool std::operator!=(const std::set<_Key, _Compare, _Alloc>&, const std::set<_Key, _Compare, _Alloc>&)
+     operator!=(const set<_Key, _Compare, _Alloc>& __x,
+     ^
+/usr/include/c++/5/bits/stl_set.h:866:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::set<_Key, _Compare, _Alloc>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/map:62:0,
+                 from /opt/ros/kinetic/include/tf/tf.h:40,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_multimap.h:998:5: note: candidate: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator!=(const std::multimap<_Key, _Tp, _Compare, _Alloc>&, const std::multimap<_Key, _Tp, _Compare, _Alloc>&)
+     operator!=(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+     ^
+/usr/include/c++/5/bits/stl_multimap.h:998:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::multimap<_Key, _Tp, _Compare, _Alloc>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/map:61:0,
+                 from /opt/ros/kinetic/include/tf/tf.h:40,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_map.h:1097:5: note: candidate: template<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator!=(const std::map<_Key, _Tp, _Compare, _Alloc>&, const std::map<_Key, _Tp, _Compare, _Alloc>&)
+     operator!=(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+     ^
+/usr/include/c++/5/bits/stl_map.h:1097:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::map<_Key, _Tp, _Compare, _Alloc>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/map:60:0,
+                 from /opt/ros/kinetic/include/tf/tf.h:40,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_tree.h:1293:5: note: candidate: template<class _Key, class _Val, class _KeyOfValue, class _Compare, class _Alloc> bool std::operator!=(const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&, const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>&)
+     operator!=(const _Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>& __x,
+     ^
+/usr/include/c++/5/bits/stl_tree.h:1293:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::_Rb_tree<_Key, _Val, _KeyOfValue, _Compare, _Alloc>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/map:60:0,
+                 from /opt/ros/kinetic/include/tf/tf.h:40,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_tree.h:330:5: note: candidate: template<class _Val> bool std::operator!=(const std::_Rb_tree_iterator<_Tp>&, const std::_Rb_tree_const_iterator<_Val>&)
+     operator!=(const _Rb_tree_iterator<_Val>& __x,
+     ^
+/usr/include/c++/5/bits/stl_tree.h:330:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::_Rb_tree_iterator<_Tp>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/vector:64:0,
+                 from /opt/ros/kinetic/include/tf/tf.h:38,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_vector.h:1535:5: note: candidate: template<class _Tp, class _Alloc> bool std::operator!=(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)
+     operator!=(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+     ^
+/usr/include/c++/5/bits/stl_vector.h:1535:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::vector<_Tp, _Alloc>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/bits/locale_facets.h:48:0,
+                 from /usr/include/c++/5/bits/basic_ios.h:37,
+                 from /usr/include/c++/5/ios:44,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/streambuf_iterator.h:210:5: note: candidate: template<class _CharT, class _Traits> bool std::operator!=(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)
+     operator!=(const istreambuf_iterator<_CharT, _Traits>& __a,
+     ^
+/usr/include/c++/5/bits/streambuf_iterator.h:210:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::istreambuf_iterator<_CharT, _Traits>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/basic_string.h:4974:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4974:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/basic_string.h:4962:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator!=(const _CharT* __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4962:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   mismatched types ‘const _CharT*’ and ‘std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/basic_string.h:4950:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> bool std::operator!=(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator!=(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4950:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/string:41:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/allocator.h:146:5: note: candidate: template<class _Tp> bool std::operator!=(const std::allocator<_CharT>&, const std::allocator<_CharT>&)
+     operator!=(const allocator<_Tp>&, const allocator<_Tp>&)
+     ^
+/usr/include/c++/5/bits/allocator.h:146:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::allocator<_CharT>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/string:41:0,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/allocator.h:140:5: note: candidate: template<class _T1, class _T2> bool std::operator!=(const std::allocator<_CharT>&, const std::allocator<_T2>&)
+     operator!=(const allocator<_T1>&, const allocator<_T2>&)
+     ^
+/usr/include/c++/5/bits/allocator.h:140:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::allocator<_CharT>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_iterator.h:354:5: note: candidate: template<class _IteratorL, class _IteratorR> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator!=(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:354:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_iterator.h:304:5: note: candidate: template<class _Iterator> bool std::operator!=(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator!=(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:304:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:64:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_pair.h:227:5: note: candidate: template<class _T1, class _T2> bool std::operator!=(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)
+     operator!=(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+     ^
+/usr/include/c++/5/bits/stl_pair.h:227:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::pair<_T1, _T2>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/iosfwd:40:0,
+                 from /usr/include/c++/5/ios:38,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/postypes.h:221:5: note: candidate: template<class _StateT> bool std::operator!=(const std::fpos<_StateT>&, const std::fpos<_StateT>&)
+     operator!=(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+     ^
+/usr/include/c++/5/bits/postypes.h:221:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const std::fpos<_StateT>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/boost/algorithm/string/std/slist_traits.hpp:16:0,
+                 from /usr/include/boost/algorithm/string/std_containers_traits.hpp:23,
+                 from /usr/include/boost/algorithm/string.hpp:18,
+                 from /usr/include/pcl-1.7/pcl/io/boost.h:65,
+                 from /usr/include/pcl-1.7/pcl/io/file_io.h:43,
+                 from /usr/include/pcl-1.7/pcl/io/pcd_io.h:44,
+                 from /opt/ros/kinetic/include/pcl_conversions/pcl_conversions.h:70,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:40:
+/usr/include/c++/5/ext/slist:818:5: note: candidate: template<class _Tp, class _Alloc> bool __gnu_cxx::operator!=(const __gnu_cxx::slist<_Tp, _Alloc>&, const __gnu_cxx::slist<_Tp, _Alloc>&)
+     operator!=(const slist<_Tp, _Alloc>& _SL1, const slist<_Tp, _Alloc>& _SL2)
+     ^
+/usr/include/c++/5/ext/slist:818:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const __gnu_cxx::slist<_Tp, _Alloc>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h:33:0,
+                 from /usr/include/c++/5/bits/allocator.h:46,
+                 from /usr/include/c++/5/string:41,
+                 from /usr/include/c++/5/bits/locale_classes.h:40,
+                 from /usr/include/c++/5/bits/ios_base.h:41,
+                 from /usr/include/c++/5/ios:42,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/ext/new_allocator.h:144:5: note: candidate: template<class _Tp> bool __gnu_cxx::operator!=(const __gnu_cxx::new_allocator<_Tp>&, const __gnu_cxx::new_allocator<_Tp>&)
+     operator!=(const new_allocator<_Tp>&, const new_allocator<_Tp>&)
+     ^
+/usr/include/c++/5/ext/new_allocator.h:144:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const __gnu_cxx::new_allocator<_Tp>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_iterator.h:841:5: note: candidate: template<class _Iterator, class _Container> bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)
+     operator!=(const __normal_iterator<_Iterator, _Container>& __lhs,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:841:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_Iterator, _Container>’
+   iter!=info.localBundleModels.end();
+                                    ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_iterator.h:834:5: note: candidate: template<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)
+     operator!=(const __normal_iterator<_IteratorL, _Container>& __lhs,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:834:5: note:   template argument deduction/substitution failed:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1764:36: note:   ‘std::map<int, std::vector<rtabmap::CameraModel> >::const_iterator {aka std::_Rb_tree_const_iterator<std::pair<const int, std::vector<rtabmap::CameraModel> > >}’ is not derived from ‘const __gnu_cxx::__normal_iterator<_IteratorL, _Container>’
+   iter!=info.localBundleModels.end();
+                                    ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1799:30: error: ‘const class rtabmap::OdometryInfo’ has no member named ‘guess’
+  transformToGeometryMsg(info.guess, msg.guess);
+                              ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘rtabmap::Landmarks rtabmap_conversions::landmarksFromROS(const std::map<int, std::pair<geometry_msgs::PoseWithCovarianceStamped_<std::allocator<void> >, float> >&, const string&, const string&, const ros::Time&, tf::TransformListener&, double, double, double)’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1965:122: error: no matching function for call to ‘rtabmap::Landmark::Landmark(const int&, const float&, rtabmap::Transform&, cv::Mat&)’
+    landmarks.insert(std::make_pair(iter->first, rtabmap::Landmark(iter->first, iter->second.second, baseToTag, covariance)));
+                                                                                                                          ^
+In file included from /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/SensorData.h:42:0,
+                 from /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Signature.h:42,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:47,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Landmark.h:44:2: note: candidate: rtabmap::Landmark::Landmark(const int&, const rtabmap::Transform&, const cv::Mat&)
+  Landmark(const int & id, const Transform & pose, const cv::Mat & covariance) :
+  ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Landmark.h:44:2: note:   candidate expects 3 arguments, 4 provided
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Landmark.h:41:2: note: candidate: rtabmap::Landmark::Landmark()
+  Landmark() :
+  ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Landmark.h:41:2: note:   candidate expects 0 arguments, 4 provided
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Landmark.h:38:7: note: candidate: rtabmap::Landmark::Landmark(const rtabmap::Landmark&)
+ class Landmark
+       ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Landmark.h:38:7: note:   candidate expects 1 argument, 4 provided
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘bool rtabmap_conversions::convertScanMsg(const LaserScan&, const string&, const string&, const ros::Time&, rtabmap::LaserScan&, tf::TransformListener&, double, bool)’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:2718:81: error: expression cannot be used as a function
+   data = rtabmap::util3d::laserScan2dFromPointCloud(*pclScan, laserToOdom).data(); // put back in laser frame
+                                                                                 ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:2726:81: error: expression cannot be used as a function
+   data = rtabmap::util3d::laserScan2dFromPointCloud(*pclScan, laserToOdom).data(); // put back in laser frame
+                                                                                 ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘bool rtabmap_conversions::convertScan3dMsg(const PointCloud2&, const string&, const string&, const ros::Time&, rtabmap::LaserScan&, tf::TransformListener&, double, int, float, bool)’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:2793:71: error: no matching function for call to ‘laserScanFromPointCloud(const PointCloud2&, bool, bool&)’
+  scan = rtabmap::util3d::laserScanFromPointCloud(scan3dMsg, true, is2D);
+                                                                       ^
+In file included from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:33:0:
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:199:23: note: candidate: rtabmap::LaserScan rtabmap::util3d::laserScanFromPointCloud(const pcl::PCLPointCloud2&, bool, bool, const rtabmap::Transform&)
+ LaserScan RTABMAP_EXP laserScanFromPointCloud(const pcl::PCLPointCloud2 & cloud, bool filterNaNs = true, bool is2D = false, const Transform & transform = Transform());
+                       ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:199:23: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PCLPointCloud2&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:201:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZ>&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZ> & cloud, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:201:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointXYZ>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:202:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZ>&, const IndicesPtr&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZ> & cloud, const pcl::IndicesPtr & indices, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:202:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointXYZ>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:204:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointNormal>&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointNormal> & cloud, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:204:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointNormal>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:205:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointNormal>&, const IndicesPtr&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointNormal> & cloud, const pcl::IndicesPtr & indices, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:205:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointNormal>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:206:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZ>&, const pcl::PointCloud<pcl::Normal>&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZ> & cloud, const pcl::PointCloud<pcl::Normal> & normals, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:206:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointXYZ>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:208:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZRGB>&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZRGB> & cloud, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:208:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointXYZRGB>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:209:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZRGB>&, const IndicesPtr&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZRGB> & cloud, const pcl::IndicesPtr & indices, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:209:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointXYZRGB>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:211:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZI>&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZI> & cloud, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:211:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointXYZI>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:212:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZI>&, const IndicesPtr&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZI> & cloud, const pcl::IndicesPtr & indices, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:212:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointXYZI>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:214:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZRGB>&, const pcl::PointCloud<pcl::Normal>&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZRGB> & cloud, const pcl::PointCloud<pcl::Normal> & normals, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:214:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointXYZRGB>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:215:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZRGBNormal>&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZRGBNormal> & cloud, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:215:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointXYZRGBNormal>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:216:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZRGBNormal>&, const IndicesPtr&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZRGBNormal> & cloud, const pcl::IndicesPtr & indices, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:216:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointXYZRGBNormal>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:218:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZI>&, const pcl::PointCloud<pcl::Normal>&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZI> & cloud, const pcl::PointCloud<pcl::Normal> & normals, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:218:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointXYZI>&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:219:21: note: candidate: cv::Mat rtabmap::util3d::laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZINormal>&, const rtabmap::Transform&, bool)
+ cv::Mat RTABMAP_EXP laserScanFromPointCloud(const pcl::PointCloud<pcl::PointXYZINormal> & cloud, const Transform & transform = Transform(), bool filterNaNs = true);
+                     ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/util3d.h:219:21: note:   no known conversion for argument 1 from ‘const PointCloud2 {aka const sensor_msgs::PointCloud2_<std::allocator<void> >}’ to ‘const pcl::PointCloud<pcl::PointXYZINormal>&’
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:2794:73: error: no matching function for call to ‘rtabmap::LaserScan::LaserScan(rtabmap::LaserScan&, int&, float&, rtabmap::Transform&)’
+  scan = rtabmap::LaserScan(scan, maxPoints, maxRange, scanLocalTransform);
+                                                                         ^
+In file included from /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/SensorData.h:38:0,
+                 from /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Signature.h:42,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:47,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:79:2: note: candidate: rtabmap::LaserScan::LaserScan(const cv::Mat&, rtabmap::LaserScan::Format, float, float, float, float, float, const rtabmap::Transform&)
+  LaserScan(const cv::Mat & data,
+  ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:79:2: note:   candidate expects 8 arguments, 4 provided
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:74:2: note: candidate: rtabmap::LaserScan::LaserScan(const cv::Mat&, int, float, rtabmap::LaserScan::Format, const rtabmap::Transform&)
+  LaserScan(const cv::Mat & data,
+  ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:74:2: note:   no known conversion for argument 1 from ‘rtabmap::LaserScan’ to ‘const cv::Mat&’
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:73:2: note: candidate: rtabmap::LaserScan::LaserScan()
+  LaserScan();
+  ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:73:2: note:   candidate expects 0 arguments, 4 provided
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:37:19: note: candidate: rtabmap::LaserScan::LaserScan(const rtabmap::LaserScan&)
+ class RTABMAP_EXP LaserScan
+                   ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/LaserScan.h:37:19: note:   candidate expects 1 argument, 4 provided
+In file included from /usr/include/c++/5/bits/stl_algobase.h:64:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/ios:40,
+                 from /usr/include/c++/5/ostream:38,
+                 from /usr/include/c++/5/iostream:39,
+                 from /opt/ros/kinetic/include/tf/tf.h:35,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:31,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/usr/include/c++/5/bits/stl_pair.h: In instantiation of ‘std::pair<_T1, _T2>::pair(const std::pair<_U1, _U2>&) [with _U1 = int; _U2 = std::vector<rtabmap::CameraModel>; _T1 = const int; _T2 = rtabmap::CameraModel]’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:1690:78:   required from here
+/usr/include/c++/5/bits/stl_pair.h:119:39: error: no matching function for call to ‘rtabmap::CameraModel::CameraModel(const std::vector<rtabmap::CameraModel>&)’
+  : first(__p.first), second(__p.second) { }
+                                       ^
+In file included from /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/SensorData.h:33:0,
+                 from /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Signature.h:42,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:47,
+                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:28:
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:72:2: note: candidate: rtabmap::CameraModel::CameraModel(const string&, double, double, double, double, const rtabmap::Transform&, double, const Size&)
+  CameraModel(
+  ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:72:2: note:   candidate expects 8 arguments, 1 provided
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:63:2: note: candidate: rtabmap::CameraModel::CameraModel(double, double, double, double, const rtabmap::Transform&, double, const Size&)
+  CameraModel(
+  ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:63:2: note:   candidate expects 7 arguments, 1 provided
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:53:2: note: candidate: rtabmap::CameraModel::CameraModel(const string&, const Size&, const cv::Mat&, const cv::Mat&, const cv::Mat&, const cv::Mat&, const rtabmap::Transform&)
+  CameraModel(
+  ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:53:2: note:   candidate expects 7 arguments, 1 provided
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:48:2: note: candidate: rtabmap::CameraModel::CameraModel()
+  CameraModel();
+  ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:48:2: note:   candidate expects 0 arguments, 1 provided
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:38:19: note: candidate: rtabmap::CameraModel::CameraModel(const rtabmap::CameraModel&)
+ class RTABMAP_EXP CameraModel
+                   ^
+/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:38:19: note:   no known conversion for argument 1 from ‘const std::vector<rtabmap::CameraModel>’ to ‘const rtabmap::CameraModel&’
+CMakeFiles/rtabmap_conversions.dir/build.make:62: recipe for target 'CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o' failed
+make[2]: *** [CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o] Error 1
+CMakeFiles/Makefile2:72: recipe for target 'CMakeFiles/rtabmap_conversions.dir/all' failed
+make[1]: *** [CMakeFiles/rtabmap_conversions.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
+Base path: /home/robond/ROS_Udacity
+Source space: /home/robond/ROS_Udacity/src
+Build space: /home/robond/ROS_Udacity/build_isolated
+Devel space: /home/robond/ROS_Udacity/devel_isolated
+Install space: /home/robond/ROS_Udacity/install_isolated
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~  traversing 18 packages in topological order:
+~~  - ball_chaser
+~~  - my_robot
+~~  - rtabmap (plain cmake)
+~~  - rtabmap_costmap_plugins
+~~  - rtabmap_launch
+~~  - rtabmap_msgs
+~~  - rtabmap_conversions
+~~  - rtabmap_demos
+~~  - rtabmap_examples
+~~  - rtabmap_python
+~~  - rtabmap_ros
+~~  - rtabmap_rviz_plugins
+~~  - rtabmap_sync
+~~  - rtabmap_util
+~~  - rtabmap_legacy
+~~  - rtabmap_odom
+~~  - rtabmap_slam
+~~  - rtabmap_viz
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+==> Processing catkin package: 'ball_chaser'
+Makefile exists, skipping explicit cmake invocation...
+==> make cmake_check_build_system in '/home/robond/ROS_Udacity/build_isolated/ball_chaser'
+==> make -j3 -l3 in '/home/robond/ROS_Udacity/build_isolated/ball_chaser'
+<== Finished processing package [1 of 18]: 'ball_chaser'
+
+==> Processing catkin package: 'my_robot'
+==> Building with env: '/home/robond/ROS_Udacity/devel_isolated/ball_chaser/env.sh'
+Makefile exists, skipping explicit cmake invocation...
+==> make cmake_check_build_system in '/home/robond/ROS_Udacity/build_isolated/my_robot'
+==> make -j3 -l3 in '/home/robond/ROS_Udacity/build_isolated/my_robot'
+<== Finished processing package [2 of 18]: 'my_robot'
+
+==> Processing plain cmake package: 'rtabmap'
+==> Building with env: '/home/robond/ROS_Udacity/devel_isolated/my_robot/env.sh'
+Makefile exists, skipping explicit cmake invocation...
+==> make cmake_check_build_system in '/home/robond/ROS_Udacity/build_isolated/rtabmap/devel'
+==> make -j3 -l3 in '/home/robond/ROS_Udacity/build_isolated/rtabmap/devel'
+==> make install in '/home/robond/ROS_Udacity/build_isolated/rtabmap/devel'
+==> Generating an env.sh
+<== Finished processing package [3 of 18]: 'rtabmap'
+
+==> Processing catkin package: 'rtabmap_costmap_plugins'
+==> Building with env: '/home/robond/ROS_Udacity/devel_isolated/rtabmap/env.sh'
+Makefile exists, skipping explicit cmake invocation...
+==> make cmake_check_build_system in '/home/robond/ROS_Udacity/build_isolated/rtabmap_costmap_plugins'
+==> make -j3 -l3 in '/home/robond/ROS_Udacity/build_isolated/rtabmap_costmap_plugins'
+<== Finished processing package [4 of 18]: 'rtabmap_costmap_plugins'
+
+==> Processing catkin package: 'rtabmap_launch'
+==> Building with env: '/home/robond/ROS_Udacity/devel_isolated/rtabmap_costmap_plugins/env.sh'
+Makefile exists, skipping explicit cmake invocation...
+==> make cmake_check_build_system in '/home/robond/ROS_Udacity/build_isolated/rtabmap_launch'
+==> make -j3 -l3 in '/home/robond/ROS_Udacity/build_isolated/rtabmap_launch'
+<== Finished processing package [5 of 18]: 'rtabmap_launch'
+
+==> Processing catkin package: 'rtabmap_msgs'
+==> Building with env: '/home/robond/ROS_Udacity/devel_isolated/rtabmap_launch/env.sh'
+Makefile exists, skipping explicit cmake invocation...
+==> make cmake_check_build_system in '/home/robond/ROS_Udacity/build_isolated/rtabmap_msgs'
+==> make -j3 -l3 in '/home/robond/ROS_Udacity/build_isolated/rtabmap_msgs'
+<== Finished processing package [6 of 18]: 'rtabmap_msgs'
+
+==> Processing catkin package: 'rtabmap_conversions'
+==> Building with env: '/home/robond/ROS_Udacity/devel_isolated/rtabmap_msgs/env.sh'
+Makefile exists, skipping explicit cmake invocation...
+==> make cmake_check_build_system in '/home/robond/ROS_Udacity/build_isolated/rtabmap_conversions'
+==> make -j3 -l3 in '/home/robond/ROS_Udacity/build_isolated/rtabmap_conversions'
+<== Failed to process package 'rtabmap_conversions': 
+  Command '['/home/robond/ROS_Udacity/devel_isolated/rtabmap_msgs/env.sh', 'make', '-j3', '-l3']' returned non-zero exit status 2
+
+Reproduce this error by running:
+==> cd /home/robond/ROS_Udacity/build_isolated/rtabmap_conversions && /home/robond/ROS_Udacity/devel_isolated/rtabmap_msgs/env.sh make -j3 -l3
+
+Command failed, exiting.
