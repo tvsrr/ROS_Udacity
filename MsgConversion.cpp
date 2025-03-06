@@ -960,4 +960,90 @@ void mapDataFromROS(const rtabmap_msgs::MapData & msg,
 //    return double(stamp.sec) + double(stamp.nsec) / 1000000000.0;
 //}
 
+void userDataToROS(const cv::Mat & data,
+                   rtabmap_msgs::UserData & msg,
+                   bool compress)
+{
+    msg.rows = data.rows;
+    msg.cols = data.cols;
+    msg.type = data.type();
+    msg.compressed = compress;
+
+    if(!data.empty())
+    {
+        if(compress)
+        {
+            // Use built-in compression in RTAB-Map
+            msg.data = rtabmap::compressData(data);
+        }
+        else
+        {
+            // Direct copy of raw data
+            msg.data.resize(data.total() * data.elemSize());
+            memcpy(msg.data.data(), data.data, msg.data.size());
+        }
+    }
+    else
+    {
+        msg.data.clear();
+    }
+}
+
+rtabmap::Signature nodeDataFromROS(const rtabmap_msgs::NodeData & msg)
+{
+    // This reconstructs a single node’s Signature from the NodeData message.
+    // Adjust to your older RTAB-Map version’s fields if any differences.
+    rtabmap::Signature s(msg.id, msg.mapId, msg.weight, msg.stamp, msg.label);
+    s.setUserData(rtabmap::uncompressData(msg.userData.data),  // if compressed
+                  msg.userData.rows, msg.userData.cols, msg.userData.type,
+                  msg.userData.compressed);
+
+    // If your older version doesn’t have wordIds/wordKpts/etc., comment them out:
+    s.setWords(uMultiMapFromVectors(msg.wordIds, points2fFromROS(msg.wordKpts)));
+    if(!msg.wordPts.empty())
+    {
+        // 3D word points
+        std::vector<cv::Point3f> pts3 = points3fFromROS(msg.wordPts);
+        // Convert them to a format RTAB-Map expects, etc.
+    }
+    // ... handle descriptors if needed ...
+    // ... handle laserScanInfo, etc. if needed ...
+    return s;
+}
+
+void mapDataFromROS(const rtabmap_msgs::MapData & msg,
+                    std::map<int, rtabmap::Transform> & poses,
+                    std::multimap<int, rtabmap::Link> & links,
+                    std::map<int, rtabmap::Signature> & signatures,
+                    rtabmap::Transform & mapToOdom)
+{
+    // Reconstruct map->odom
+    mapToOdom = transformFromGeometryMsg(msg.mapToOdom);
+
+    // Reconstruct all poses
+    poses.clear();
+    for(size_t i=0; i < msg.graph.nodeIds.size() && i<msg.graph.poses.size(); ++i)
+    {
+        poses.insert(std::make_pair(msg.graph.nodeIds[i],
+                                    transformFromPoseMsg(msg.graph.poses[i])));
+    }
+
+    // Reconstruct all links
+    links.clear();
+    for(size_t i=0; i < msg.graph.links.size(); ++i)
+    {
+        rtabmap::Link l = linkFromROS(msg.graph.links[i]);
+        links.insert(std::make_pair(l.from(), l));
+    }
+
+    // Reconstruct each Signature from the node list
+    signatures.clear();
+    for(size_t i=0; i < msg.nodes.size(); ++i)
+    {
+        rtabmap::Signature s = nodeDataFromROS(msg.nodes[i]);
+        signatures.insert(std::make_pair(s.id(), s));
+    }
+}
+
+
 } // namespace rtabmap_conversions
