@@ -1,5 +1,5 @@
-[  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target rosgraph_msgs_generate_messages_py
 [  0%] Built target rosgraph_msgs_generate_messages_nodejs
@@ -7,26 +7,26 @@
 [  0%] Built target rosgraph_msgs_generate_messages_eus
 [  0%] Built target roscpp_generate_messages_py
 [  0%] Built target rosgraph_msgs_generate_messages_cpp
-[  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target _catkin_empty_exported_target
-[  0%] Built target roscpp_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_eus
-[  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target rosgraph_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target roscpp_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target _ball_chaser_generate_messages_check_deps_DriveToTarget
-[ 18%] Built target ball_chaser_generate_messages_eus
+[ 18%] Built target ball_chaser_generate_messages_py
 [ 27%] Built target ball_chaser_generate_messages_nodejs
-[ 45%] Built target ball_chaser_generate_messages_py
-[ 54%] Built target ball_chaser_generate_messages_cpp
-[ 63%] Built target ball_chaser_generate_messages_lisp
+[ 45%] Built target ball_chaser_generate_messages_eus
+[ 54%] Built target ball_chaser_generate_messages_lisp
+[ 63%] Built target ball_chaser_generate_messages_cpp
 [ 63%] Built target ball_chaser_generate_messages
-[100%] Built target process_image
+[ 81%] Built target process_image
 [100%] Built target drive_bot
 [  4%] Built target rtabmap_utilite
 [  5%] Built target res_tool
@@ -37,8 +37,8 @@
 [ 44%] Built target consoleApp
 [ 45%] Built target stereoEval
 [ 46%] Built target kitti_dataset
-[ 46%] Built target euroc_dataset
 [ 46%] Built target rgbd_dataset
+[ 46%] Built target euroc_dataset
 [ 47%] Built target recovery
 [ 47%] Built target reprocess
 [ 48%] Built target detectMoreLoopClosures
@@ -50,9 +50,9 @@
 [ 90%] Built target report
 [ 90%] Built target databaseViewer
 [ 91%] Built target rtabmap
-[ 92%] Built target dataRecorder
+[ 92%] Built target epipolar_geometry
 [ 92%] Built target odometryViewer
-[ 93%] Built target epipolar_geometry
+[ 93%] Built target dataRecorder
 [ 94%] Built target calibration
 [ 94%] Built target matcher
 [ 96%] Built target rgbd_mapping
@@ -322,20 +322,20 @@ Install the project...
 [ 66%] Built target rtabmap_costmap_plugins
 [100%] Built target rtabmap_costmap_plugins2
 [  0%] Built target geometry_msgs_generate_messages_nodejs
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetLabel
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Info
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetLabel
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Path
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetGoal
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Goal
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetGoal
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GlobalDescriptor
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LoadDatabase
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_AddLink
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_MapGraph
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_KeyPoint
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetMap2
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_KeyPoint
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CameraModels
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_OdomInfo
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CleanupLocalGrids
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_OdomInfo
 [  0%] Built target sensor_msgs_generate_messages_nodejs
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Point3f
 [  0%] Built target std_msgs_generate_messages_nodejs
@@ -350,8 +350,8 @@ Install the project...
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Link
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LandmarkDetection
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Node
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_EnvSensor
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RemoveLabel
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_EnvSensor
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetNodeData
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Point2f
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_MapData
@@ -384,67 +384,27 @@ Install the project...
 [  0%] Built target rtabmap_msgs_generate_messages_cpp
 Scanning dependencies of target rtabmap_conversions
 [ 50%] Building CXX object CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘rtabmap::CameraModel rtabmap_conversions::cameraModelFromROS(const CameraInfo&, const rtabmap::Transform&)’:
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:866:61: error: no matching function for call to ‘rtabmap::CameraModel::CameraModel(const char [1], cv::Size&, cv::Mat&, cv::Mat&, const rtabmap::Transform&, float, cv::Size)’
-             "", size, K, D, localTransform, 0.0f, cv::Size());
-                                                             ^
-In file included from /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/SensorData.h:33:0,
-                 from /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/Signature.h:42,
-                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:47,
-                 from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:18:
-/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:72:2: note: candidate: rtabmap::CameraModel::CameraModel(const string&, double, double, double, double, const rtabmap::Transform&, double, const Size&)
-  CameraModel(
-  ^
-/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:72:2: note:   no known conversion for argument 2 from ‘cv::Size {aka cv::Size_<int>}’ to ‘double’
-/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:63:2: note: candidate: rtabmap::CameraModel::CameraModel(double, double, double, double, const rtabmap::Transform&, double, const Size&)
-  CameraModel(
-  ^
-/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:63:2: note:   no known conversion for argument 1 from ‘const char [1]’ to ‘double’
-/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:53:2: note: candidate: rtabmap::CameraModel::CameraModel(const string&, const Size&, const cv::Mat&, const cv::Mat&, const cv::Mat&, const cv::Mat&, const rtabmap::Transform&)
-  CameraModel(
-  ^
-/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:53:2: note:   no known conversion for argument 5 from ‘const rtabmap::Transform’ to ‘const cv::Mat&’
-/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:48:2: note: candidate: rtabmap::CameraModel::CameraModel()
-  CameraModel();
-  ^
-/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:48:2: note:   candidate expects 0 arguments, 7 provided
-/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:38:19: note: candidate: rtabmap::CameraModel::CameraModel(const rtabmap::CameraModel&)
- class RTABMAP_EXP CameraModel
-                   ^
-/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/rtabmap-0.20/../../include/rtabmap-0.20/rtabmap/core/CameraModel.h:38:19: note:   candidate expects 1 argument, 7 provided
 /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘void rtabmap_conversions::cameraModelToROS(const rtabmap::CameraModel&, sensor_msgs::CameraInfo&)’:
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:891:23: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:855:23: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
          camInfo.K = {0};
                        ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:891:19: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:855:19: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
          camInfo.K = {0};
                    ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:901:23: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:865:23: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
          camInfo.R = {0};
                        ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:901:19: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:865:19: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
          camInfo.R = {0};
                    ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:911:23: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:875:23: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
          camInfo.P = {0};
                        ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:911:19: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:875:19: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
          camInfo.P = {0};
                    ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘double rtabmap_conversions::timestampFromROS(const ros::Time&)’:
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:923:8: error: redefinition of ‘double rtabmap_conversions::timestampFromROS(const ros::Time&)’
- double timestampFromROS(const ros::Time & stamp)
-        ^
-In file included from /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:18:0:
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h:198:15: note: ‘double rtabmap_conversions::timestampFromROS(const ros::Time&)’ previously defined here
- inline double timestampFromROS(const ros::Time & stamp) {return double(stamp.sec) + double(stamp.nsec)/1000000000.0;}
-               ^
-CMakeFiles/rtabmap_conversions.dir/build.make:62: recipe for target 'CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o' failed
-make[2]: *** [CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o] Error 1
-CMakeFiles/Makefile2:72: recipe for target 'CMakeFiles/rtabmap_conversions.dir/all' failed
-make[1]: *** [CMakeFiles/rtabmap_conversions.dir/all] Error 2
-Makefile:140: recipe for target 'all' failed
-make: *** [all] Error 2
+[100%] Linking CXX shared library /home/robond/ROS_Udacity/devel_isolated/rtabmap_conversions/lib/librtabmap_conversions.so
+[100%] Built target rtabmap_conversions
 Base path: /home/robond/ROS_Udacity
 Source space: /home/robond/ROS_Udacity/src
 Build space: /home/robond/ROS_Udacity/build_isolated
@@ -520,10 +480,96 @@ Makefile exists, skipping explicit cmake invocation...
 Makefile exists, skipping explicit cmake invocation...
 ==> make cmake_check_build_system in '/home/robond/ROS_Udacity/build_isolated/rtabmap_conversions'
 ==> make -j3 -l3 in '/home/robond/ROS_Udacity/build_isolated/rtabmap_conversions'
-<== Failed to process package 'rtabmap_conversions': 
-  Command '['/home/robond/ROS_Udacity/devel_isolated/rtabmap_msgs/env.sh', 'make', '-j3', '-l3']' returned non-zero exit status 2
+<== Finished processing package [7 of 18]: 'rtabmap_conversions'
+
+==> Processing catkin package: 'rtabmap_demos'
+==> Creating build directory: 'build_isolated/rtabmap_demos'
+==> Building with env: '/home/robond/ROS_Udacity/devel_isolated/rtabmap_conversions/env.sh'
+==> cmake /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_demos -DCATKIN_DEVEL_PREFIX=/home/robond/ROS_Udacity/devel_isolated/rtabmap_demos -DCMAKE_INSTALL_PREFIX=/Scanning dependencies of target rtabmap_wifi_signal_pub
+Scanning dependencies of target rtabmap_wifi_signal_sub
+[ 16%] Building CXX object CMakeFiles/rtabmap_wifi_signal_pub.dir/src/WifiSignalPubNode.cpp.o
+Scanning dependencies of target rtabmap_save_objects_example
+[ 33%] Building CXX object CMakeFiles/rtabmap_wifi_signal_sub.dir/src/WifiSignalSubNode.cpp.o
+[ 50%] Building CXX object CMakeFiles/rtabmap_save_objects_example.dir/src/SaveObjectsExample.cpp.o
+[ 66%] Linking CXX executable /home/robond/ROS_Udacity/devel_isolated/rtabmap_demos/lib/rtabmap_demos/wifi_signal_pub
+CMakeFiles/rtabmap_wifi_signal_pub.dir/src/WifiSignalPubNode.cpp.o: In function `main':
+WifiSignalPubNode.cpp:(.text+0x8f0): undefined reference to `rtabmap_conversions::userDataToROS(cv::Mat const&, rtabmap_msgs::UserData_<std::allocator<void> >&, bool)'
+collect2: error: ld returned 1 exit status
+CMakeFiles/rtabmap_wifi_signal_pub.dir/build.make:181: recipe for target '/home/robond/ROS_Udacity/devel_isolated/rtabmap_demos/lib/rtabmap_demos/wifi_signal_pub' failed
+make[2]: *** [/home/robond/ROS_Udacity/devel_isolated/rtabmap_demos/lib/rtabmap_demos/wifi_signal_pub] Error 1
+CMakeFiles/Makefile2:109: recipe for target 'CMakeFiles/rtabmap_wifi_signal_pub.dir/all' failed
+make[1]: *** [CMakeFiles/rtabmap_wifi_signal_pub.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 83%] Linking CXX executable /home/robond/ROS_Udacity/devel_isolated/rtabmap_demos/lib/rtabmap_demos/wifi_signal_sub
+[100%] Linking CXX executable /home/robond/ROS_Udacity/devel_isolated/rtabmap_demos/lib/rtabmap_demos/save_objects_example
+CMakeFiles/rtabmap_wifi_signal_sub.dir/src/WifiSignalSubNode.cpp.o: In function `mapDataCallback(boost::shared_ptr<rtabmap_msgs::MapData_<std::allocator<void> > const> const&)':
+WifiSignalSubNode.cpp:(.text+0x3c7): undefined reference to `rtabmap_conversions::mapDataFromROS(rtabmap_msgs::MapData_<std::allocator<void> > const&, std::map<int, rtabmap::Transform, std::less<int>, std::allocator<std::pair<int const, rtabmap::Transform> > >&, std::multimap<int, rtabmap::Link, std::less<int>, std::allocator<std::pair<int const, rtabmap::Link> > >&, std::map<int, rtabmap::Signature, std::less<int>, std::allocator<std::pair<int const, rtabmap::Signature> > >&, rtabmap::Transform&)'
+collect2: error: ld returned 1 exit status
+CMakeFiles/rtabmap_wifi_signal_sub.dir/build.make:181: recipe for target '/home/robond/ROS_Udacity/devel_isolated/rtabmap_demos/lib/rtabmap_demos/wifi_signal_sub' failed
+make[2]: *** [/home/robond/ROS_Udacity/devel_isolated/rtabmap_demos/lib/rtabmap_demos/wifi_signal_sub] Error 1
+CMakeFiles/Makefile2:72: recipe for target 'CMakeFiles/rtabmap_wifi_signal_sub.dir/all' failed
+make[1]: *** [CMakeFiles/rtabmap_wifi_signal_sub.dir/all] Error 2
+CMakeFiles/rtabmap_save_objects_example.dir/src/SaveObjectsExample.cpp.o: In function `SaveObjectsExample::objectsDetectedCallback(boost::shared_ptr<find_object_2d::ObjectsStamped_<std::allocator<void> > const> const&)':
+SaveObjectsExample.cpp:(.text._ZN18SaveObjectsExample23objectsDetectedCallbackERKN5boost10shared_ptrIKN14find_object_2d15ObjectsStamped_ISaIvEEEEE[_ZN18SaveObjectsExample23objectsDetectedCallbackERKN5boost10shared_ptrIKN14find_object_2d15ObjectsStamped_ISaIvEEEEE]+0x4c3): undefined reference to `rtabmap_conversions::userDataToROS(cv::Mat const&, rtabmap_msgs::UserData_<std::allocator<void> >&, bool)'
+CMakeFiles/rtabmap_save_objects_example.dir/src/SaveObjectsExample.cpp.o: In function `SaveObjectsExample::mapDataCallback(boost::shared_ptr<rtabmap_msgs::MapData_<std::allocator<void> > const> const&)':
+SaveObjectsExample.cpp:(.text._ZN18SaveObjectsExample15mapDataCallbackERKN5boost10shared_ptrIKN12rtabmap_msgs8MapData_ISaIvEEEEE[_ZN18SaveObjectsExample15mapDataCallbackERKN5boost10shared_ptrIKN12rtabmap_msgs8MapData_ISaIvEEEEE]+0xa2): undefined reference to `rtabmap_conversions::mapDataFromROS(rtabmap_msgs::MapData_<std::allocator<void> > const&, std::map<int, rtabmap::Transform, std::less<int>, std::allocator<std::pair<int const, rtabmap::Transform> > >&, std::multimap<int, rtabmap::Link, std::less<int>, std::allocator<std::pair<int const, rtabmap::Link> > >&, std::map<int, rtabmap::Signature, std::less<int>, std::allocator<std::pair<int const, rtabmap::Signature> > >&, rtabmap::Transform&)'
+collect2: error: ld returned 1 exit status
+CMakeFiles/rtabmap_save_objects_example.dir/build.make:281: recipe for target '/home/robond/ROS_Udacity/devel_isolated/rtabmap_demos/lib/rtabmap_demos/save_objects_example' failed
+make[2]: *** [/home/robond/ROS_Udacity/devel_isolated/rtabmap_demos/lib/rtabmap_demos/save_objects_example] Error 1
+CMakeFiles/Makefile2:818: recipe for target 'CMakeFiles/rtabmap_save_objects_example.dir/all' failed
+make[1]: *** [CMakeFiles/rtabmap_save_objects_example.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
+home/robond/ROS_Udacity/install_isolated -G Unix Makefiles in '/home/robond/ROS_Udacity/build_isolated/rtabmap_demos'
+-- The C compiler identification is GNU 5.4.0
+-- The CXX compiler identification is GNU 5.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/robond/ROS_Udacity/devel_isolated/rtabmap_demos
+-- Using CMAKE_PREFIX_PATH: /home/robond/ROS_Udacity/devel_isolated/rtabmap_conversions;/home/robond/ROS_Udacity/devel_isolated/rtabmap_msgs;/home/robond/ROS_Udacity/devel_isolated/rtabmap_launch;/home/robond/ROS_Udacity/devel_isolated/rtabmap_costmap_plugins;/home/robond/ROS_Udacity/devel_isolated/rtabmap;/home/robond/ROS_Udacity/devel_isolated/my_robot;/home/robond/ROS_Udacity/devel_isolated/ball_chaser;/opt/ros/kinetic
+-- This workspace overlays: /home/robond/ROS_Udacity/devel_isolated/rtabmap_conversions;/home/robond/ROS_Udacity/devel_isolated/rtabmap_msgs;/home/robond/ROS_Udacity/devel_isolated/rtabmap_launch;/home/robond/ROS_Udacity/devel_isolated/rtabmap_costmap_plugins;/home/robond/ROS_Udacity/devel_isolated/my_robot;/home/robond/ROS_Udacity/devel_isolated/ball_chaser;/opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/robond/ROS_Udacity/build_isolated/rtabmap_demos/test_results
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/local/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- WITH find_object_2d
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robond/ROS_Udacity/build_isolated/rtabmap_demos
+==> make -j3 -l3 in '/home/robond/ROS_Udacity/build_isolated/rtabmap_demos'
+<== Failed to process package 'rtabmap_demos': 
+  Command '['/home/robond/ROS_Udacity/devel_isolated/rtabmap_conversions/env.sh', 'make', '-j3', '-l3']' returned non-zero exit status 2
 
 Reproduce this error by running:
-==> cd /home/robond/ROS_Udacity/build_isolated/rtabmap_conversions && /home/robond/ROS_Udacity/devel_isolated/rtabmap_msgs/env.sh make -j3 -l3
+==> cd /home/robond/ROS_Udacity/build_isolated/rtabmap_demos && /home/robond/ROS_Udacity/devel_isolated/rtabmap_conversions/env.sh make -j3 -l3
 
 Command failed, exiting.
