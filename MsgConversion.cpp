@@ -799,7 +799,7 @@ void userDataToROS(const cv::Mat & data,
     msg.rows = data.rows;
     msg.cols = data.cols;
     msg.type = data.type();
-    // Do not assign to msg.compressed (it does not exist in ROS Kinetic)
+    // No assignment to "msg.compressed" (field does not exist in Kinetic)
     if(!data.empty())
     {
         if(compress)
@@ -831,11 +831,10 @@ void mapDataFromROS(const rtabmap_msgs::MapData & msg,
                     std::map<int, rtabmap::Signature> & signatures,
                     rtabmap::Transform & mapToOdom)
 {
-    // As the structure of MapData in your version is different, we clear outputs.
-    mapToOdom = rtabmap::Transform();
+    mapToOdom = transformFromGeometryMsg(msg.mapToOdom);
     poses.clear();
     links.clear();
-    signatures.clear();
+    signatures.clear(); // No node data conversion in Kinetic
 }
 
 } // namespace rtabmap_conversions
