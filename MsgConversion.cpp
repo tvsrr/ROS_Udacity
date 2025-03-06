@@ -818,37 +818,43 @@ void userDataToROS(const cv::Mat & data,
     }
 }
 
-void mapDataFromROS(const rtabmap_msgs::MapData & msg,
-                    std::map<int, rtabmap::Transform> & poses,
-                    std::multimap<int, rtabmap::Link> & links,
-                    std::map<int, rtabmap::Signature> & signatures,
-                    rtabmap::Transform & mapToOdom)
+void mapDataFromROS(
+    const rtabmap_msgs::MapData & msg,
+    std::map<int, rtabmap::Transform> & poses,
+    std::multimap<int, rtabmap::Link> & links,
+    std::map<int, rtabmap::Signature> & signatures,
+    rtabmap::Transform & mapToOdom)
 {
-    // Kinectic's MapData has no mapToOdom field
-    mapToOdom = rtabmap::Transform(); 
-    
-    // Convert poses (if nodes are available)
-    poses.clear();
-    for(size_t i = 0; i < msg.nodes.size(); ++i)
+  // Update poses
+  for(size_t i=0; i<msg.nodes.size(); ++i)
+  {
+    rtabmap::Transform pose = transformFromPoseMsg(msg.nodes[i].pose); // FIXED: transformFromPoseMsg instead of transformFromGeometryMsg
+    if(!pose.isNull())
     {
-        poses.insert(std::make_pair(
-            msg.nodes[i].id,
-            transformFromGeometryMsg(msg.nodes[i].pose)
-        ));
+      poses.insert(std::make_pair(msg.nodes[i].id, pose));
     }
-    
-    // Convert links
-    links.clear();
-    for(size_t i = 0; i < msg.links.size(); ++i)
+  }
+
+  // Update links
+  for(size_t i=0; i<msg.edges.size(); ++i) // FIXED: msg.edges instead of msg.links
+  {
+    links.insert(std::make_pair(
+        msg.edges[i].fromId, // FIXED: msg.edges instead of msg.links
+        linkFromROS(msg.edges[i]))); // FIXED: msg.edges instead of msg.links
+  }
+
+  // Update signatures
+  for(size_t i=0; i<msg.nodes.size(); ++i)
+  {
+    if(!msg.nodes[i].wordIds.empty() || !msg.nodes[i].wordKpts.empty())
     {
-        links.insert(std::make_pair(
-            msg.links[i].fromId,
-            linkFromROS(msg.links[i])
-        ));
+      rtabmap::Signature node = nodeFromROS(msg.nodes[i]);
+      signatures.insert(std::make_pair(msg.nodes[i].id, node));
     }
-    
-    // Signatures not supported in Kinetic
-    signatures.clear(); 
+  }
+
+  // Update map to odom transform
+  mapToOdom = transformFromGeometryMsg(msg.mapToOdom);
 }
 
 } // namespace rtabmap_conversions
