@@ -1,14 +1,14 @@
 [  0%] Built target geometry_msgs_generate_messages_cpp
-[  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target rosgraph_msgs_generate_messages_py
 [  0%] Built target roscpp_generate_messages_nodejs
 [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
 [  0%] Built target rosgraph_msgs_generate_messages_eus
 [  0%] Built target roscpp_generate_messages_py
-[  0%] Built target rosgraph_msgs_generate_messages_cpp
-[  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target _catkin_empty_exported_target
 [  0%] Built target geometry_msgs_generate_messages_nodejs
 [  0%] Built target roscpp_generate_messages_cpp
@@ -20,11 +20,11 @@
 [  0%] Built target roscpp_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target _ball_chaser_generate_messages_check_deps_DriveToTarget
-[ 27%] Built target ball_chaser_generate_messages_py
-[ 18%] Built target ball_chaser_generate_messages_nodejs
-[ 45%] Built target ball_chaser_generate_messages_eus
-[ 54%] Built target ball_chaser_generate_messages_lisp
-[ 63%] Built target ball_chaser_generate_messages_cpp
+[ 36%] Built target ball_chaser_generate_messages_py
+[ 36%] Built target ball_chaser_generate_messages_eus
+[ 45%] Built target ball_chaser_generate_messages_nodejs
+[ 54%] Built target ball_chaser_generate_messages_cpp
+[ 63%] Built target ball_chaser_generate_messages_lisp
 [ 63%] Built target ball_chaser_generate_messages
 [ 81%] Built target process_image
 [100%] Built target drive_bot
@@ -37,8 +37,8 @@
 [ 44%] Built target camera
 [ 45%] Built target stereoEval
 [ 46%] Built target kitti_dataset
-[ 46%] Built target euroc_dataset
 [ 46%] Built target rgbd_dataset
+[ 46%] Built target euroc_dataset
 [ 47%] Built target recovery
 [ 47%] Built target reprocess
 [ 48%] Built target detectMoreLoopClosures
@@ -49,10 +49,10 @@
 [ 89%] Built target rtabmap_gui
 [ 91%] Built target rtabmap
 [ 90%] Built target databaseViewer
-[ 90%] Built target report
-[ 93%] Built target epipolar_geometry
+[ 91%] Built target report
+[ 92%] Built target epipolar_geometry
+[ 92%] Built target odometryViewer
 [ 93%] Built target dataRecorder
-[ 93%] Built target odometryViewer
 [ 94%] Built target calibration
 [ 94%] Built target matcher
 [ 96%] Built target rgbd_mapping
@@ -325,8 +325,8 @@ Install the project...
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Info
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetLabel
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Path
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetGoal
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Goal
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetGoal
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GlobalDescriptor
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LoadDatabase
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_AddLink
@@ -334,22 +334,22 @@ Install the project...
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetMap2
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_KeyPoint
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CameraModels
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CleanupLocalGrids
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_OdomInfo
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CleanupLocalGrids
 [  0%] Built target sensor_msgs_generate_messages_nodejs
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Point3f
-[  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetNodesInRadius
+[  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_ResetPose
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GPS
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RGBDImage
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GPS
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RGBDImages
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_PublishMap
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_ListLabels
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GlobalBundleAdjustment
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Link
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LandmarkDetection
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Node
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Link
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RemoveLabel
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_EnvSensor
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetNodeData
@@ -363,113 +363,30 @@ Install the project...
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SensorData
 [  0%] Built target sensor_msgs_generate_messages_cpp
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CameraModel
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_DetectMoreLoopClosures
 [  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target sensor_msgs_generate_messages_py
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_DetectMoreLoopClosures
 [  0%] Built target geometry_msgs_generate_messages_py
 [  0%] Built target std_msgs_generate_messages_py
-[  0%] Built target sensor_msgs_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_eus
 [  0%] Built target geometry_msgs_generate_messages_eus
 [  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target sensor_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_lisp
-[ 33%] Built target rtabmap_msgs_generate_messages_nodejs
+[ 20%] Built target rtabmap_msgs_generate_messages_nodejs
 [ 38%] Built target rtabmap_msgs_generate_messages_cpp
 [ 60%] Built target rtabmap_msgs_generate_messages_py
-[ 90%] Built target rtabmap_msgs_generate_messages_eus
+[ 81%] Built target rtabmap_msgs_generate_messages_eus
 [100%] Built target rtabmap_msgs_generate_messages_lisp
 [100%] Built target rtabmap_msgs_generate_messages
 [  0%] Built target rtabmap_msgs_generate_messages_cpp
 Scanning dependencies of target rtabmap_conversions
 [ 50%] Building CXX object CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘void rtabmap_conversions::cameraModelToROS(const rtabmap::CameraModel&, sensor_msgs::CameraInfo&)’:
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:855:23: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
-         camInfo.K = {0};
-                       ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:855:19: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
-         camInfo.K = {0};
-                   ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:865:23: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
-         camInfo.R = {0};
-                       ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:865:19: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
-         camInfo.R = {0};
-                   ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:875:23: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
-         camInfo.P = {0};
-                       ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:875:19: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11
-         camInfo.P = {0};
-                   ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘void rtabmap_conversions::userDataToROS(const cv::Mat&, rtabmap_msgs::UserData&, bool)’:
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:900:9: error: ‘rtabmap_msgs::UserData {aka struct rtabmap_msgs::UserData_<std::allocator<void> >}’ has no member named ‘compressed’
-     msg.compressed = compress;
-         ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: At global scope:
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:922:56: error: ‘NodeData’ in namespace ‘rtabmap_msgs’ does not name a type
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:821:56: error: ‘NodeData’ in namespace ‘rtabmap_msgs’ does not name a type
  rtabmap::Signature nodeDataFromROS(const rtabmap_msgs::NodeData & msg)
                                                         ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘rtabmap::Signature rtabmap_conversions::nodeDataFromROS(const int&)’:
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:926:30: error: request for member ‘id’ in ‘msg’, which is of non-class type ‘const int’
-     rtabmap::Signature s(msg.id, msg.mapId, msg.weight, msg.stamp, msg.label);
-                              ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:926:38: error: request for member ‘mapId’ in ‘msg’, which is of non-class type ‘const int’
-     rtabmap::Signature s(msg.id, msg.mapId, msg.weight, msg.stamp, msg.label);
-                                      ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:926:49: error: request for member ‘weight’ in ‘msg’, which is of non-class type ‘const int’
-     rtabmap::Signature s(msg.id, msg.mapId, msg.weight, msg.stamp, msg.label);
-                                                 ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:926:61: error: request for member ‘stamp’ in ‘msg’, which is of non-class type ‘const int’
-     rtabmap::Signature s(msg.id, msg.mapId, msg.weight, msg.stamp, msg.label);
-                                                             ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:926:72: error: request for member ‘label’ in ‘msg’, which is of non-class type ‘const int’
-     rtabmap::Signature s(msg.id, msg.mapId, msg.weight, msg.stamp, msg.label);
-                                                                        ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:927:7: error: ‘class rtabmap::Signature’ has no member named ‘setUserData’
-     s.setUserData(rtabmap::uncompressData(msg.userData.data),  // if compressed
-       ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:927:47: error: request for member ‘userData’ in ‘msg’, which is of non-class type ‘const int’
-     s.setUserData(rtabmap::uncompressData(msg.userData.data),  // if compressed
-                                               ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:928:23: error: request for member ‘userData’ in ‘msg’, which is of non-class type ‘const int’
-                   msg.userData.rows, msg.userData.cols, msg.userData.type,
-                       ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:928:42: error: request for member ‘userData’ in ‘msg’, which is of non-class type ‘const int’
-                   msg.userData.rows, msg.userData.cols, msg.userData.type,
-                                          ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:928:61: error: request for member ‘userData’ in ‘msg’, which is of non-class type ‘const int’
-                   msg.userData.rows, msg.userData.cols, msg.userData.type,
-                                                             ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:929:23: error: request for member ‘userData’ in ‘msg’, which is of non-class type ‘const int’
-                   msg.userData.compressed);
-                       ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:932:41: error: request for member ‘wordIds’ in ‘msg’, which is of non-class type ‘const int’
-     s.setWords(uMultiMapFromVectors(msg.wordIds, points2fFromROS(msg.wordKpts)));
-                                         ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:932:70: error: request for member ‘wordKpts’ in ‘msg’, which is of non-class type ‘const int’
-     s.setWords(uMultiMapFromVectors(msg.wordIds, points2fFromROS(msg.wordKpts)));
-                                                                      ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:932:79: error: ‘uMultiMapFromVectors’ was not declared in this scope
-     s.setWords(uMultiMapFromVectors(msg.wordIds, points2fFromROS(msg.wordKpts)));
-                                                                               ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:933:13: error: request for member ‘wordPts’ in ‘msg’, which is of non-class type ‘const int’
-     if(!msg.wordPts.empty())
-             ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:936:61: error: request for member ‘wordPts’ in ‘msg’, which is of non-class type ‘const int’
-         std::vector<cv::Point3f> pts3 = points3fFromROS(msg.wordPts);
-                                                             ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘void rtabmap_conversions::mapDataFromROS(const MapData&, std::map<int, rtabmap::Transform>&, std::multimap<int, rtabmap::Link>&, std::map<int, rtabmap::Signature>&, rtabmap::Transform&)’:
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:951:46: error: ‘const MapData {aka const struct rtabmap_msgs::MapData_<std::allocator<void> >}’ has no member named ‘mapToOdom’
-     mapToOdom = transformFromGeometryMsg(msg.mapToOdom);
-                                              ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:955:35: error: ‘const _graph_type {aka const struct rtabmap_msgs::MapGraph_<std::allocator<void> >}’ has no member named ‘nodeIds’
-     for(size_t i=0; i < msg.graph.nodeIds.size() && i<msg.graph.poses.size(); ++i)
-                                   ^
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:957:47: error: ‘const _graph_type {aka const struct rtabmap_msgs::MapGraph_<std::allocator<void> >}’ has no member named ‘nodeIds’
-         poses.insert(std::make_pair(msg.graph.nodeIds[i],
-                                               ^
 CMakeFiles/rtabmap_conversions.dir/build.make:62: recipe for target 'CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o' failed
 make[2]: *** [CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o] Error 1
 CMakeFiles/Makefile2:72: recipe for target 'CMakeFiles/rtabmap_conversions.dir/all' failed
