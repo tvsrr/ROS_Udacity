@@ -785,92 +785,56 @@ void points3fToROS(const std::vector<cv::Point3f> & pts,
     }
 }
 
-rtabmap::CameraModel cameraModelFromROS(const sensor_msgs::CameraInfo & camInfo,
-                                        const rtabmap::Transform & localTransform)
+rtabmap::CameraModel cameraModelFromROS(
+    const sensor_msgs::CameraInfo & camInfo,
+    const rtabmap::Transform & localTransform)
 {
-    cv::Mat K;
+    cv::Mat K, D, R, P;
     if(!camInfo.K.empty())
     {
         UASSERT(camInfo.K.size() == 9);
         K = cv::Mat(3, 3, CV_64FC1);
-        memcpy(K.data, camInfo.K.elems, 9 * sizeof(double));
+        memcpy(K.data, camInfo.K.elems, 9*sizeof(double));
     }
-
-    cv::Mat D;
     if(camInfo.D.size())
     {
-        if(camInfo.D.size() >= 4 &&
-           (uStrContains(camInfo.distortion_model, "fisheye") ||
-            uStrContains(camInfo.distortion_model, "equidistant") ||
-            uStrContains(camInfo.distortion_model, "Kannala")))
-        {
-            D = cv::Mat::zeros(1, 6, CV_64FC1);
-            D.at<double>(0, 0) = camInfo.D[0];
-            D.at<double>(0, 1) = camInfo.D[1];
-            D.at<double>(0, 4) = camInfo.D[2];
-            D.at<double>(0, 5) = camInfo.D[3];
-        }
-        else if(camInfo.D.size() > 8)
-        {
-            bool zerosAfter8 = true;
-            for(size_t i = 8; i < camInfo.D.size() && zerosAfter8; ++i)
-            {
-                if(camInfo.D[i] != 0.0)
-                {
-                    zerosAfter8 = false;
-                }
-            }
-            static bool warned = false;
-            if(!zerosAfter8 && !warned)
-            {
-                ROS_WARN("Distortion model is larger than 8; ignoring extras...");
-                warned = true;
-            }
-            D = cv::Mat(1, 8, CV_64FC1);
-            memcpy(D.data, camInfo.D.data(), D.cols * sizeof(double));
-        }
-        else
-        {
-            D = cv::Mat(1, (int)camInfo.D.size(), CV_64FC1);
-            memcpy(D.data, camInfo.D.data(), D.cols * sizeof(double));
-        }
+        D = cv::Mat(1, (int)camInfo.D.size(), CV_64FC1);
+        memcpy(D.data, camInfo.D.data(), D.cols*sizeof(double));
     }
-
-    cv::Mat R;
     if(!camInfo.R.empty())
     {
         UASSERT(camInfo.R.size() == 9);
         R = cv::Mat(3, 3, CV_64FC1);
-        memcpy(R.data, camInfo.R.elems, 9 * sizeof(double));
+        memcpy(R.data, camInfo.R.elems, 9*sizeof(double));
     }
-
-    cv::Mat P;
     if(!camInfo.P.empty())
     {
         UASSERT(camInfo.P.size() == 12);
         P = cv::Mat(3, 4, CV_64FC1);
-        memcpy(P.data, camInfo.P.elems, 12 * sizeof(double));
+        memcpy(P.data, camInfo.P.elems, 12*sizeof(double));
     }
 
     cv::Size size(camInfo.width, camInfo.height);
-
     rtabmap::CameraModel model;
-    if(!K.empty() && !R.empty() && !P.empty() && camInfo.height > 0 && camInfo.width > 0)
+
+    // If R,P available:
+    if(!K.empty() && !R.empty() && !P.empty() && size.width>0 && size.height>0)
     {
-        model = rtabmap::CameraModel(
-            "", size, K, D, R, P, localTransform);
+        model = rtabmap::CameraModel("", size, K, D, R, P, localTransform);
     }
-    else if(!K.empty() && camInfo.height > 0 && camInfo.width > 0)
+    // Else parse fx,fy,cx,cy from K:
+    else if(!K.empty() && size.width>0 && size.height>0)
     {
-        model = rtabmap::CameraModel(
-            "", size, K, D, localTransform, 0.0f, cv::Size());
+        double fx = K.at<double>(0,0);
+        double fy = K.at<double>(1,1);
+        double cx = K.at<double>(0,2);
+        double cy = K.at<double>(1,2);
+        model = rtabmap::CameraModel(fx, fy, cx, cy, localTransform, 0.0, size);
     }
-    else
-    {
-        model = rtabmap::CameraModel();
-    }
+    // Otherwise empty
     return model;
 }
+
 
 void cameraModelToROS(const rtabmap::CameraModel & model,
                       sensor_msgs::CameraInfo & camInfo)
@@ -920,9 +884,9 @@ void cameraModelToROS(const rtabmap::CameraModel & model,
     }
 }
 
-double timestampFromROS(const ros::Time & stamp)
-{
-    return double(stamp.sec) + double(stamp.nsec) / 1000000000.0;
-}
+// double timestampFromROS(const ros::Time & stamp)
+//{
+//    return double(stamp.sec) + double(stamp.nsec) / 1000000000.0;
+//}
 
 } // namespace rtabmap_conversions
