@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robond/ROS_Udacity/devel_isolated/my_robot/setup.sh

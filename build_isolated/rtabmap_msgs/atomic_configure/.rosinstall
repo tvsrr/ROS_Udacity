@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robond/ROS_Udacity/devel_isolated/rtabmap_msgs/setup.sh
