@@ -818,23 +818,37 @@ void userDataToROS(const cv::Mat & data,
     }
 }
 
-rtabmap::Signature nodeDataFromROS(const rtabmap_msgs::NodeData & msg)
-{
-    // In your current message definitions, NodeData is not fully defined.
-    // Return an empty Signature as a stub.
-    return rtabmap::Signature();
-}
-
 void mapDataFromROS(const rtabmap_msgs::MapData & msg,
                     std::map<int, rtabmap::Transform> & poses,
                     std::multimap<int, rtabmap::Link> & links,
                     std::map<int, rtabmap::Signature> & signatures,
                     rtabmap::Transform & mapToOdom)
 {
-    mapToOdom = transformFromGeometryMsg(msg.mapToOdom);
+    // Kinectic's MapData has no mapToOdom field
+    mapToOdom = rtabmap::Transform(); 
+    
+    // Convert poses (if nodes are available)
     poses.clear();
+    for(size_t i = 0; i < msg.nodes.size(); ++i)
+    {
+        poses.insert(std::make_pair(
+            msg.nodes[i].id,
+            transformFromGeometryMsg(msg.nodes[i].pose)
+        ));
+    }
+    
+    // Convert links
     links.clear();
-    signatures.clear(); // No node data conversion in Kinetic
+    for(size_t i = 0; i < msg.links.size(); ++i)
+    {
+        links.insert(std::make_pair(
+            msg.links[i].fromId,
+            linkFromROS(msg.links[i])
+        ));
+    }
+    
+    // Signatures not supported in Kinetic
+    signatures.clear(); 
 }
 
 } // namespace rtabmap_conversions
