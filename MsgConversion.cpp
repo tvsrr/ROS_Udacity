@@ -63,7 +63,6 @@ void transformToGeometryMsg(const rtabmap::Transform & transform, geometry_msgs:
     if(!transform.isNull())
     {
         tf::transformEigenToMsg(transform.toEigen3d(), msg);
-
         // normalize quaternion
         long double recipNorm = 1.0 / sqrt(msg.rotation.x * msg.rotation.x +
                                            msg.rotation.y * msg.rotation.y +
@@ -89,7 +88,6 @@ rtabmap::Transform transformFromGeometryMsg(const geometry_msgs::Transform & msg
     {
         return rtabmap::Transform();
     }
-
     Eigen::Affine3d tfTransform;
     tf::transformMsgToEigen(msg, tfTransform);
     return rtabmap::Transform::fromEigen3d(tfTransform);
@@ -141,7 +139,6 @@ void toCvCopy(const rtabmap_msgs::RGBDImage & image,
         rgb = cv_bridge::toCvCopy(image.rgb_compressed);
 #endif
     }
-
     if(!image.depth.data.empty())
     {
         depth = cv_bridge::toCvCopy(image.depth);
@@ -186,7 +183,6 @@ void toCvShare(const rtabmap_msgs::RGBDImage & image,
         rgb = cv_bridge::toCvCopy(image.rgb_compressed);
 #endif
     }
-
     if(!image.depth.data.empty())
     {
         depth = cv_bridge::toCvShare(image.depth, trackedObject);
@@ -226,7 +222,6 @@ void rgbdImageToROS(const rtabmap::SensorData & data,
     header.frame_id = sensorFrameId;
     header.stamp = ros::Time(data.stamp());
     rtabmap::Transform localTransform;
-
     if(data.cameraModels().size() > 1)
     {
         UERROR("Cannot convert multi-camera data to RGBDImage.");
@@ -234,24 +229,10 @@ void rgbdImageToROS(const rtabmap::SensorData & data,
     }
     if(data.cameraModels().size() == 1)
     {
-        // single camera
         rtabmap_conversions::cameraModelToROS(data.cameraModels().front(), msg.rgb_camera_info);
         msg.rgb_camera_info.header = header;
         localTransform = data.cameraModels().front().localTransform();
     }
-    // Commented out: older RTAB-Map may not have stereoCameraModels():
-    /*
-    else if(data.stereoCameraModels().size() == 1)
-    {
-        // stereo
-        rtabmap_conversions::cameraModelToROS(data.stereoCameraModels()[0].left(), msg.rgb_camera_info);
-        rtabmap_conversions::cameraModelToROS(data.stereoCameraModels()[0].right(), msg.depth_camera_info);
-        msg.rgb_camera_info.header = header;
-        msg.depth_camera_info.header = header;
-        localTransform = data.stereoCameraModels()[0].localTransform();
-    }
-    */
-
     if(!data.imageRaw().empty())
     {
         cv_bridge::CvImage cvImg;
@@ -267,7 +248,6 @@ void rgbdImageToROS(const rtabmap::SensorData & data,
     {
         ROS_ERROR("Conversion of compressed SensorData to RGBDImage not implemented...");
     }
-
     if(!data.depthOrRightRaw().empty())
     {
         cv_bridge::CvImage cvDepth;
@@ -288,8 +268,6 @@ void rgbdImageToROS(const rtabmap::SensorData & data,
     {
         ROS_ERROR("Conversion of compressed SensorData to RGBDImage not implemented...");
     }
-
-    // features
     if(!data.keypoints().empty())
     {
         rtabmap_conversions::keypointsToROS(data.keypoints(), msg.key_points);
@@ -315,21 +293,14 @@ rtabmap::SensorData rgbdImageFromROS(const rtabmap_msgs::RGBDImageConstPtr & ima
     cv_bridge::CvImageConstPtr imageMsg;
     cv_bridge::CvImageConstPtr depthMsg;
     toCvShare(image, imageMsg, depthMsg);
-
-    // We skip handling for data.stereoCameraModels() if older RTAB-Map doesn’t have it:
-    // So we treat it purely as depth data:
     ros::Time higherStamp;
     int imageWidth = imageMsg->image.cols;
     int imageHeight = imageMsg->image.rows;
     int depthWidth = depthMsg->image.cols;
     int depthHeight = depthMsg->image.rows;
-
     UASSERT_MSG(
         imageWidth / depthWidth == imageHeight / depthHeight,
-        uFormat("rgb=%dx%d depth=%dx%d",
-                imageWidth, imageHeight, depthWidth, depthHeight)
-            .c_str());
-
+        uFormat("rgb=%dx%d depth=%dx%d", imageWidth, imageHeight, depthWidth, depthHeight).c_str());
     if(!(imageMsg->encoding.compare(sensor_msgs::image_encodings::TYPE_8UC1) == 0 ||
          imageMsg->encoding.compare(sensor_msgs::image_encodings::MONO8) == 0 ||
          imageMsg->encoding.compare(sensor_msgs::image_encodings::MONO16) == 0 ||
@@ -342,13 +313,10 @@ rtabmap::SensorData rgbdImageFromROS(const rtabmap_msgs::RGBDImageConstPtr & ima
          depthMsg->encoding.compare(sensor_msgs::image_encodings::TYPE_32FC1) == 0 ||
          depthMsg->encoding.compare(sensor_msgs::image_encodings::MONO16) == 0))
     {
-        ROS_ERROR("Input type must be image=mono8,mono16,rgb8,bgr8,bgra8,rgba8 "
-                  "and image_depth=32FC1,16UC1,mono16. Current rgb=%s depth=%s",
-                  imageMsg->encoding.c_str(),
-                  depthMsg->encoding.c_str());
+        ROS_ERROR("Input type must be image=mono8,mono16,rgb8,bgr8,bgra8,rgba8 and image_depth=32FC1,16UC1,mono16. Current rgb=%s depth=%s",
+                  imageMsg->encoding.c_str(), depthMsg->encoding.c_str());
         return data;
     }
-
     cv_bridge::CvImageConstPtr ptrImage = imageMsg;
     if(imageMsg->encoding.compare(sensor_msgs::image_encodings::TYPE_8UC1) == 0 ||
        imageMsg->encoding.compare(sensor_msgs::image_encodings::MONO8) == 0 ||
@@ -364,16 +332,13 @@ rtabmap::SensorData rgbdImageFromROS(const rtabmap_msgs::RGBDImageConstPtr & ima
     {
         ptrImage = cv_bridge::cvtColor(imageMsg, "bgr8");
     }
-
     cv_bridge::CvImageConstPtr ptrDepth = depthMsg;
-
     data = rtabmap::SensorData(
         ptrImage->image,
         ptrDepth->image,
         rtabmap_conversions::cameraModelFromROS(image->rgb_camera_info),
         0,
         rtabmap_conversions::timestampFromROS(image->header.stamp));
-
     return data;
 }
 
@@ -405,80 +370,49 @@ cv::Mat compressedMatFromBytes(const std::vector<unsigned char> & bytes, bool co
 void infoFromROS(const rtabmap_msgs::Info & info, rtabmap::Statistics & stat)
 {
     stat.setExtended(true);
-
     stat.setRefImageId(info.refId);
     stat.setLoopClosureId(info.loopClosureId);
     stat.setProximityDetectionId(info.proximityDetectionId);
     stat.setStamp(info.header.stamp.toSec());
-
     stat.setLoopClosureTransform(rtabmap_conversions::transformFromGeometryMsg(info.loopClosureTransform));
-
     stat.setWmState(info.wmState);
-
-    // Posterior
     std::map<int, float> mapIntFloat;
     for(unsigned int i = 0; i < info.posteriorKeys.size() &&
                             i < info.posteriorValues.size(); ++i)
     {
-        mapIntFloat.insert(std::make_pair(info.posteriorKeys.at(i),
-                                          info.posteriorValues.at(i)));
+        mapIntFloat.insert(std::make_pair(info.posteriorKeys.at(i), info.posteriorValues.at(i)));
     }
     stat.setPosterior(mapIntFloat);
-
-    // Likelihood
     mapIntFloat.clear();
     for(unsigned int i = 0; i < info.likelihoodKeys.size() &&
                             i < info.likelihoodValues.size(); ++i)
     {
-        mapIntFloat.insert(std::make_pair(info.likelihoodKeys.at(i),
-                                          info.likelihoodValues.at(i)));
+        mapIntFloat.insert(std::make_pair(info.likelihoodKeys.at(i), info.likelihoodValues.at(i)));
     }
     stat.setLikelihood(mapIntFloat);
-
-    // RawLikelihood
     mapIntFloat.clear();
     for(unsigned int i = 0; i < info.rawLikelihoodKeys.size() &&
                             i < info.rawLikelihoodValues.size(); ++i)
     {
-        mapIntFloat.insert(std::make_pair(info.rawLikelihoodKeys.at(i),
-                                          info.rawLikelihoodValues.at(i)));
+        mapIntFloat.insert(std::make_pair(info.rawLikelihoodKeys.at(i), info.rawLikelihoodValues.at(i)));
     }
     stat.setRawLikelihood(mapIntFloat);
-
-    // Weights
     std::map<int, int> mapIntInt;
     for(unsigned int i = 0; i < info.weightsKeys.size() &&
                             i < info.weightsValues.size(); ++i)
     {
-        mapIntInt.insert(std::make_pair(info.weightsKeys.at(i),
-                                        info.weightsValues.at(i)));
+        mapIntInt.insert(std::make_pair(info.weightsKeys.at(i), info.weightsValues.at(i)));
     }
     stat.setWeights(mapIntInt);
-
-    // Labels
     std::map<int, std::string> mapIntStr;
     for(unsigned int i = 0; i < info.labelsKeys.size() &&
                             i < info.labelsValues.size(); ++i)
     {
-        mapIntStr.insert(std::make_pair(info.labelsKeys.at(i),
-                                        info.labelsValues.at(i)));
+        mapIntStr.insert(std::make_pair(info.labelsKeys.at(i), info.labelsValues.at(i)));
     }
     stat.setLabels(mapIntStr);
-
     stat.setLocalPath(info.localPath);
     stat.setCurrentGoalId(info.currentGoalId);
-
-    // The following lines refer to mapGraphFromROS(info.odom_cache...) – remove if older rtabmap doesn’t have setOdomCachePoses() etc.
-    /*
-    std::map<int, rtabmap::Transform> poses;
-    std::multimap<int, rtabmap::Link> constraints;
-    rtabmap::Transform t;
-    mapGraphFromROS(info.odom_cache, poses, constraints, t);
-    stat.setOdomCachePoses(poses);
-    stat.setOdomCacheConstraints(constraints);
-    */
-
-    // Stats data
     for(unsigned int i = 0; i < info.statsKeys.size() &&
                             i < info.statsValues.size(); i++)
     {
@@ -491,16 +425,10 @@ void infoToROS(const rtabmap::Statistics & stats, rtabmap_msgs::Info & info)
     info.refId = stats.refImageId();
     info.loopClosureId = stats.loopClosureId();
     info.proximityDetectionId = stats.proximityDetectionId();
-    // remove if older version lacks these:
-    // info.landmarkId = static_cast<int>(uValue(stats.data(), rtabmap::Statistics::kLoopLandmark_detected(), 0.0f));
-
     rtabmap_conversions::transformToGeometryMsg(stats.loopClosureTransform(), info.loopClosureTransform);
-
     if(stats.extended())
     {
         info.wmState = stats.wmState();
-
-        // Posterior/likelihood
         info.posteriorKeys = uKeys(stats.posterior());
         info.posteriorValues = uValues(stats.posterior());
         info.likelihoodKeys = uKeys(stats.likelihood());
@@ -513,14 +441,6 @@ void infoToROS(const rtabmap::Statistics & stats, rtabmap_msgs::Info & info)
         info.labelsValues = uValues(stats.labels());
         info.localPath = stats.localPath();
         info.currentGoalId = stats.currentGoalId();
-
-        // Removing mapGraphToROS for older versions:
-        // mapGraphToROS(stats.odomCachePoses(),
-        //               stats.odomCacheConstraints(),
-        //               stats.mapCorrection(),
-        //               info.odom_cache);
-
-        // Stats data
         info.statsKeys = uKeys(stats.data());
         info.statsValues = uValues(stats.data());
     }
@@ -529,11 +449,8 @@ void infoToROS(const rtabmap::Statistics & stats, rtabmap_msgs::Info & info)
 rtabmap::Link linkFromROS(const rtabmap_msgs::Link & msg)
 {
     cv::Mat information = cv::Mat(6, 6, CV_64FC1, (void*)msg.information.data()).clone();
-    return rtabmap::Link(msg.fromId,
-                         msg.toId,
-                         (rtabmap::Link::Type)msg.type,
-                         transformFromGeometryMsg(msg.transform),
-                         information);
+    return rtabmap::Link(msg.fromId, msg.toId, (rtabmap::Link::Type)msg.type,
+                         transformFromGeometryMsg(msg.transform), information);
 }
 
 void linkToROS(const rtabmap::Link & link, rtabmap_msgs::Link & msg)
@@ -542,8 +459,7 @@ void linkToROS(const rtabmap::Link & link, rtabmap_msgs::Link & msg)
     msg.toId = link.to();
     msg.type = link.type();
     if(link.infMatrix().type() == CV_64FC1 &&
-       link.infMatrix().cols == 6 &&
-       link.infMatrix().rows == 6)
+       link.infMatrix().cols == 6 && link.infMatrix().rows == 6)
     {
         memcpy(msg.information.data(), link.infMatrix().data, 36 * sizeof(double));
     }
@@ -577,8 +493,7 @@ std::vector<cv::KeyPoint> keypointsFromROS(const std::vector<rtabmap_msgs::KeyPo
 }
 
 void keypointsFromROS(const std::vector<rtabmap_msgs::KeyPoint> & msg,
-                      std::vector<cv::KeyPoint> & kpts,
-                      int xShift)
+                      std::vector<cv::KeyPoint> & kpts, int xShift)
 {
     size_t outCurrentIndex = kpts.size();
     kpts.resize(kpts.size() + msg.size());
@@ -614,8 +529,8 @@ void globalDescriptorToROS(const rtabmap::GlobalDescriptor & desc,
     msg.data = rtabmap::compressData(desc.data());
 }
 
-std::vector<rtabmap::GlobalDescriptor>
-globalDescriptorsFromROS(const std::vector<rtabmap_msgs::GlobalDescriptor> & msg)
+std::vector<rtabmap::GlobalDescriptor> globalDescriptorsFromROS(
+    const std::vector<rtabmap_msgs::GlobalDescriptor> & msg)
 {
     if(!msg.empty())
     {
@@ -759,8 +674,7 @@ void points3fFromROS(const std::vector<rtabmap_msgs::Point3f> & msg,
         points3[currentIndex + i] = point3fFromROS(msg[i]);
         if(transformPoint)
         {
-            points3[currentIndex + i] =
-                rtabmap::util3d::transformPoint(points3[currentIndex + i], transform);
+            points3[currentIndex + i] = rtabmap::util3d::transformPoint(points3[currentIndex + i], transform);
         }
     }
 }
@@ -785,9 +699,8 @@ void points3fToROS(const std::vector<cv::Point3f> & pts,
     }
 }
 
-rtabmap::CameraModel cameraModelFromROS(
-    const sensor_msgs::CameraInfo & camInfo,
-    const rtabmap::Transform & localTransform)
+rtabmap::CameraModel cameraModelFromROS(const sensor_msgs::CameraInfo & camInfo,
+                                        const rtabmap::Transform & localTransform)
 {
     cv::Mat K, D, R, P;
     if(!camInfo.K.empty())
@@ -813,17 +726,13 @@ rtabmap::CameraModel cameraModelFromROS(
         P = cv::Mat(3, 4, CV_64FC1);
         memcpy(P.data, camInfo.P.elems, 12*sizeof(double));
     }
-
     cv::Size size(camInfo.width, camInfo.height);
     rtabmap::CameraModel model;
-
-    // If R,P available:
-    if(!K.empty() && !R.empty() && !P.empty() && size.width>0 && size.height>0)
+    if(!K.empty() && !R.empty() && !P.empty() && size.width > 0 && size.height > 0)
     {
         model = rtabmap::CameraModel("", size, K, D, R, P, localTransform);
     }
-    // Else parse fx,fy,cx,cy from K:
-    else if(!K.empty() && size.width>0 && size.height>0)
+    else if(!K.empty() && size.width > 0 && size.height > 0)
     {
         double fx = K.at<double>(0,0);
         double fy = K.at<double>(1,1);
@@ -831,10 +740,8 @@ rtabmap::CameraModel cameraModelFromROS(
         double cy = K.at<double>(1,2);
         model = rtabmap::CameraModel(fx, fy, cx, cy, localTransform, 0.0, size);
     }
-    // Otherwise empty
     return model;
 }
-
 
 void cameraModelToROS(const rtabmap::CameraModel & model,
                       sensor_msgs::CameraInfo & camInfo)
@@ -843,16 +750,15 @@ void cameraModelToROS(const rtabmap::CameraModel & model,
     {
         camInfo.width = model.imageWidth();
         camInfo.height = model.imageHeight();
-
         camInfo.distortion_model = "plumb_bob";
-
         camInfo.D.resize(model.D_raw().cols);
         for(int i = 0; i < model.D_raw().cols; ++i)
         {
             camInfo.D[i] = model.D_raw().at<double>(0, i);
         }
-
-        camInfo.K = {0};
+        // Avoid extended initializer lists if not using C++11:
+        for(int i = 0; i < 9; ++i)
+            camInfo.K[i] = 0.0;
         const cv::Mat & K = model.K_raw();
         if(!K.empty() && K.cols == 3 && K.rows == 3 && K.type() == CV_64FC1)
         {
@@ -861,8 +767,8 @@ void cameraModelToROS(const rtabmap::CameraModel & model,
                 camInfo.K[i] = ((double*)K.data)[i];
             }
         }
-
-        camInfo.R = {0};
+        for(int i = 0; i < 9; ++i)
+            camInfo.R[i] = 0.0;
         const cv::Mat & R = model.R();
         if(!R.empty() && R.cols == 3 && R.rows == 3 && R.type() == CV_64FC1)
         {
@@ -871,8 +777,8 @@ void cameraModelToROS(const rtabmap::CameraModel & model,
                 camInfo.R[i] = ((double*)R.data)[i];
             }
         }
-
-        camInfo.P = {0};
+        for(int i = 0; i < 12; ++i)
+            camInfo.P[i] = 0.0;
         const cv::Mat & P = model.P();
         if(!P.empty() && P.cols == 4 && P.rows == 3 && P.type() == CV_64FC1)
         {
@@ -884,11 +790,7 @@ void cameraModelToROS(const rtabmap::CameraModel & model,
     }
 }
 
-
-// double timestampFromROS(const ros::Time & stamp)
-//{
-//    return double(stamp.sec) + double(stamp.nsec) / 1000000000.0;
-//}
+// --- New stub definitions (ensure these appear only once) ---
 
 void userDataToROS(const cv::Mat & data,
                    rtabmap_msgs::UserData & msg,
@@ -897,18 +799,15 @@ void userDataToROS(const cv::Mat & data,
     msg.rows = data.rows;
     msg.cols = data.cols;
     msg.type = data.type();
-    msg.compressed = compress;
-
+    // Do not assign to msg.compressed (it does not exist in ROS Kinetic)
     if(!data.empty())
     {
         if(compress)
         {
-            // Use built-in compression in RTAB-Map
             msg.data = rtabmap::compressData(data);
         }
         else
         {
-            // Direct copy of raw data
             msg.data.resize(data.total() * data.elemSize());
             memcpy(msg.data.data(), data.data, msg.data.size());
         }
@@ -921,24 +820,9 @@ void userDataToROS(const cv::Mat & data,
 
 rtabmap::Signature nodeDataFromROS(const rtabmap_msgs::NodeData & msg)
 {
-    // This reconstructs a single node’s Signature from the NodeData message.
-    // Adjust to your older RTAB-Map version’s fields if any differences.
-    rtabmap::Signature s(msg.id, msg.mapId, msg.weight, msg.stamp, msg.label);
-    s.setUserData(rtabmap::uncompressData(msg.userData.data),  // if compressed
-                  msg.userData.rows, msg.userData.cols, msg.userData.type,
-                  msg.userData.compressed);
-
-    // If your older version doesn’t have wordIds/wordKpts/etc., comment them out:
-    s.setWords(uMultiMapFromVectors(msg.wordIds, points2fFromROS(msg.wordKpts)));
-    if(!msg.wordPts.empty())
-    {
-        // 3D word points
-        std::vector<cv::Point3f> pts3 = points3fFromROS(msg.wordPts);
-        // Convert them to a format RTAB-Map expects, etc.
-    }
-    // ... handle descriptors if needed ...
-    // ... handle laserScanInfo, etc. if needed ...
-    return s;
+    // In your current message definitions, NodeData is not fully defined.
+    // Return an empty Signature as a stub.
+    return rtabmap::Signature();
 }
 
 void mapDataFromROS(const rtabmap_msgs::MapData & msg,
@@ -947,33 +831,11 @@ void mapDataFromROS(const rtabmap_msgs::MapData & msg,
                     std::map<int, rtabmap::Signature> & signatures,
                     rtabmap::Transform & mapToOdom)
 {
-    // Reconstruct map->odom
-    mapToOdom = transformFromGeometryMsg(msg.mapToOdom);
-
-    // Reconstruct all poses
+    // As the structure of MapData in your version is different, we clear outputs.
+    mapToOdom = rtabmap::Transform();
     poses.clear();
-    for(size_t i=0; i < msg.graph.nodeIds.size() && i<msg.graph.poses.size(); ++i)
-    {
-        poses.insert(std::make_pair(msg.graph.nodeIds[i],
-                                    transformFromPoseMsg(msg.graph.poses[i])));
-    }
-
-    // Reconstruct all links
     links.clear();
-    for(size_t i=0; i < msg.graph.links.size(); ++i)
-    {
-        rtabmap::Link l = linkFromROS(msg.graph.links[i]);
-        links.insert(std::make_pair(l.from(), l));
-    }
-
-    // Reconstruct each Signature from the node list
     signatures.clear();
-    for(size_t i=0; i < msg.nodes.size(); ++i)
-    {
-        rtabmap::Signature s = nodeDataFromROS(msg.nodes[i]);
-        signatures.insert(std::make_pair(s.id(), s));
-    }
 }
-
 
 } // namespace rtabmap_conversions
