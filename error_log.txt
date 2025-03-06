@@ -1,28 +1,28 @@
-[  0%] Built target geometry_msgs_generate_messages_cpp
-[  0%] Built target std_msgs_generate_messages_py
 [  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target rosgraph_msgs_generate_messages_py
 [  0%] Built target roscpp_generate_messages_nodejs
 [  0%] Built target rosgraph_msgs_generate_messages_nodejs
-[  0%] Built target rosgraph_msgs_generate_messages_cpp
 [  0%] Built target rosgraph_msgs_generate_messages_eus
 [  0%] Built target roscpp_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
 [  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target _catkin_empty_exported_target
 [  0%] Built target geometry_msgs_generate_messages_nodejs
 [  0%] Built target roscpp_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target geometry_msgs_generate_messages_py
-[  0%] Built target rosgraph_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target roscpp_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target _ball_chaser_generate_messages_check_deps_DriveToTarget
 [ 18%] Built target ball_chaser_generate_messages_py
-[ 27%] Built target ball_chaser_generate_messages_nodejs
-[ 45%] Built target ball_chaser_generate_messages_eus
+[ 36%] Built target ball_chaser_generate_messages_eus
+[ 45%] Built target ball_chaser_generate_messages_nodejs
 [ 54%] Built target ball_chaser_generate_messages_cpp
 [ 63%] Built target ball_chaser_generate_messages_lisp
 [ 63%] Built target ball_chaser_generate_messages
@@ -37,8 +37,8 @@
 [ 44%] Built target camera
 [ 45%] Built target stereoEval
 [ 46%] Built target kitti_dataset
-[ 46%] Built target euroc_dataset
 [ 46%] Built target rgbd_dataset
+[ 46%] Built target euroc_dataset
 [ 47%] Built target recovery
 [ 47%] Built target reprocess
 [ 48%] Built target detectMoreLoopClosures
@@ -47,12 +47,12 @@
 [ 51%] Built target rgbd_camera
 [ 51%] Built target bow_mapping
 [ 89%] Built target rtabmap_gui
-[ 90%] Built target databaseViewer
-[ 90%] Built target report
 [ 91%] Built target rtabmap
+[ 91%] Built target report
+[ 90%] Built target databaseViewer
 [ 92%] Built target epipolar_geometry
-[ 92%] Built target odometryViewer
 [ 93%] Built target dataRecorder
+[ 93%] Built target odometryViewer
 [ 94%] Built target calibration
 [ 94%] Built target matcher
 [ 96%] Built target rgbd_mapping
@@ -322,31 +322,31 @@ Install the project...
 [ 66%] Built target rtabmap_costmap_plugins
 [100%] Built target rtabmap_costmap_plugins2
 [  0%] Built target geometry_msgs_generate_messages_nodejs
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetLabel
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Info
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetLabel
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Path
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Goal
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetGoal
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Goal
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GlobalDescriptor
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_AddLink
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LoadDatabase
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_AddLink
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_MapGraph
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_KeyPoint
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetMap2
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_KeyPoint
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CameraModels
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CleanupLocalGrids
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_OdomInfo
 [  0%] Built target sensor_msgs_generate_messages_nodejs
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Point3f
-[  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetNodesInRadius
+[  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_ResetPose
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GPS
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RGBDImage
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RGBDImages
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_PublishMap
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_ListLabels
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GlobalBundleAdjustment
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_ListLabels
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_PublishMap
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Link
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LandmarkDetection
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Node
@@ -361,8 +361,8 @@ Install the project...
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_ScanDescriptor
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LandmarkDetections
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SensorData
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CameraModel
 [  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CameraModel
 [  0%] Built target geometry_msgs_generate_messages_cpp
 [  0%] Built target std_msgs_generate_messages_cpp
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_DetectMoreLoopClosures
@@ -382,14 +382,24 @@ Install the project...
 [100%] Built target rtabmap_msgs_generate_messages_lisp
 [100%] Built target rtabmap_msgs_generate_messages
 [  0%] Built target rtabmap_msgs_generate_messages_cpp
+Scanning dependencies of target rtabmap_conversions
 [ 50%] Building CXX object CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:821:56: error: ‘NodeData’ in namespace ‘rtabmap_msgs’ does not name a type
- rtabmap::Signature nodeDataFromROS(const rtabmap_msgs::NodeData & msg)
-                                                        ^
 /home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘void rtabmap_conversions::mapDataFromROS(const MapData&, std::map<int, rtabmap::Transform>&, std::multimap<int, rtabmap::Link>&, std::map<int, rtabmap::Signature>&, rtabmap::Transform&)’:
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:834:46: error: ‘const MapData {aka const struct rtabmap_msgs::MapData_<std::allocator<void> >}’ has no member named ‘mapToOdom’
-     mapToOdom = transformFromGeometryMsg(msg.mapToOdom);
-                                              ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:836:51: error: invalid initialization of reference of type ‘const Transform& {aka const geometry_msgs::Transform_<std::allocator<void> >&}’ from expression of type ‘const _pose_type {aka const geometry_msgs::Pose_<std::allocator<void> >}’
+             transformFromGeometryMsg(msg.nodes[i].pose)
+                                                   ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:82:20: note: in passing argument 1 of ‘rtabmap::Transform rtabmap_conversions::transformFromGeometryMsg(const Transform&)’
+ rtabmap::Transform transformFromGeometryMsg(const geometry_msgs::Transform & msg)
+                    ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:842:31: error: ‘const MapData {aka const struct rtabmap_msgs::MapData_<std::allocator<void> >}’ has no member named ‘links’
+     for(size_t i = 0; i < msg.links.size(); ++i)
+                               ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:845:17: error: ‘const MapData {aka const struct rtabmap_msgs::MapData_<std::allocator<void> >}’ has no member named ‘links’
+             msg.links[i].fromId,
+                 ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:846:29: error: ‘const MapData {aka const struct rtabmap_msgs::MapData_<std::allocator<void> >}’ has no member named ‘links’
+             linkFromROS(msg.links[i])
+                             ^
 CMakeFiles/rtabmap_conversions.dir/build.make:62: recipe for target 'CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o' failed
 make[2]: *** [CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o] Error 1
 CMakeFiles/Makefile2:72: recipe for target 'CMakeFiles/rtabmap_conversions.dir/all' failed
