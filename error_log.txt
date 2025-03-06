@@ -4,15 +4,15 @@
 [  0%] Built target rosgraph_msgs_generate_messages_py
 [  0%] Built target roscpp_generate_messages_nodejs
 [  0%] Built target rosgraph_msgs_generate_messages_nodejs
-[  0%] Built target rosgraph_msgs_generate_messages_cpp
 [  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
 [  0%] Built target roscpp_generate_messages_py
-[  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target _catkin_empty_exported_target
 [  0%] Built target geometry_msgs_generate_messages_nodejs
-[  0%] Built target roscpp_generate_messages_cpp
 [  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
 [  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target geometry_msgs_generate_messages_py
 [  0%] Built target rosgraph_msgs_generate_messages_lisp
@@ -20,21 +20,21 @@
 [  0%] Built target roscpp_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target _ball_chaser_generate_messages_check_deps_DriveToTarget
-[ 36%] Built target ball_chaser_generate_messages_py
-[ 36%] Built target ball_chaser_generate_messages_eus
-[ 45%] Built target ball_chaser_generate_messages_nodejs
+[ 18%] Built target ball_chaser_generate_messages_py
+[ 27%] Built target ball_chaser_generate_messages_nodejs
+[ 45%] Built target ball_chaser_generate_messages_eus
 [ 54%] Built target ball_chaser_generate_messages_cpp
 [ 63%] Built target ball_chaser_generate_messages_lisp
 [ 63%] Built target ball_chaser_generate_messages
-[ 81%] Built target process_image
-[100%] Built target drive_bot
+[ 81%] Built target drive_bot
+[100%] Built target process_image
 [  4%] Built target rtabmap_utilite
 [  5%] Built target res_tool
 [  5%] Built target imagesJoiner
 [  6%] Built target extractObject
 [ 43%] Built target rtabmap_core
+[ 43%] Built target camera
 [ 44%] Built target consoleApp
-[ 44%] Built target camera
 [ 45%] Built target stereoEval
 [ 46%] Built target kitti_dataset
 [ 46%] Built target rgbd_dataset
@@ -47,12 +47,12 @@
 [ 51%] Built target rgbd_camera
 [ 51%] Built target bow_mapping
 [ 89%] Built target rtabmap_gui
-[ 91%] Built target rtabmap
+[ 90%] Built target report
 [ 90%] Built target databaseViewer
-[ 91%] Built target report
+[ 91%] Built target rtabmap
 [ 92%] Built target epipolar_geometry
-[ 92%] Built target odometryViewer
 [ 93%] Built target dataRecorder
+[ 93%] Built target odometryViewer
 [ 94%] Built target calibration
 [ 94%] Built target matcher
 [ 96%] Built target rgbd_mapping
@@ -322,14 +322,14 @@ Install the project...
 [ 66%] Built target rtabmap_costmap_plugins
 [100%] Built target rtabmap_costmap_plugins2
 [  0%] Built target geometry_msgs_generate_messages_nodejs
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Info
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetLabel
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Info
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Path
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Goal
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SetGoal
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Goal
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GlobalDescriptor
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LoadDatabase
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_AddLink
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LoadDatabase
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_MapGraph
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetMap2
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_KeyPoint
@@ -338,18 +338,18 @@ Install the project...
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CleanupLocalGrids
 [  0%] Built target sensor_msgs_generate_messages_nodejs
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Point3f
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetNodesInRadius
 [  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetNodesInRadius
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_ResetPose
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RGBDImage
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GPS
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RGBDImage
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RGBDImages
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_PublishMap
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_ListLabels
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GlobalBundleAdjustment
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Link
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LandmarkDetection
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Node
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_Link
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_RemoveLabel
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_EnvSensor
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_GetNodeData
@@ -361,16 +361,16 @@ Install the project...
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_ScanDescriptor
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_LandmarkDetections
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_SensorData
-[  0%] Built target sensor_msgs_generate_messages_cpp
 [  0%] Built target _rtabmap_msgs_generate_messages_check_deps_CameraModel
-[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_DetectMoreLoopClosures
-[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_cpp
 [  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target _rtabmap_msgs_generate_messages_check_deps_DetectMoreLoopClosures
 [  0%] Built target sensor_msgs_generate_messages_py
 [  0%] Built target geometry_msgs_generate_messages_py
 [  0%] Built target std_msgs_generate_messages_py
-[  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target geometry_msgs_generate_messages_eus
 [  0%] Built target geometry_msgs_generate_messages_lisp
 [  0%] Built target sensor_msgs_generate_messages_lisp
@@ -381,18 +381,6 @@ Install the project...
 [ 81%] Built target rtabmap_msgs_generate_messages_eus
 [100%] Built target rtabmap_msgs_generate_messages_lisp
 [100%] Built target rtabmap_msgs_generate_messages
-[  0%] Built target rtabmap_msgs_generate_messages_cpp
-Scanning dependencies of target rtabmap_conversions
-[ 50%] Building CXX object CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o
-/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:821:56: error: ‘NodeData’ in namespace ‘rtabmap_msgs’ does not name a type
- rtabmap::Signature nodeDataFromROS(const rtabmap_msgs::NodeData & msg)
-                                                        ^
-CMakeFiles/rtabmap_conversions.dir/build.make:62: recipe for target 'CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o' failed
-make[2]: *** [CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o] Error 1
-CMakeFiles/Makefile2:72: recipe for target 'CMakeFiles/rtabmap_conversions.dir/all' failed
-make[1]: *** [CMakeFiles/rtabmap_conversions.dir/all] Error 2
-Makefile:140: recipe for target 'all' failed
-make: *** [all] Error 2
 Base path: /home/robond/ROS_Udacity
 Source space: /home/robond/ROS_Udacity/src
 Build space: /home/robond/ROS_Udacity/build_isolated
@@ -467,6 +455,45 @@ Makefile exists, skipping explicit cmake invocation...
 ==> Building with env: '/home/robond/ROS_Udacity/devel_isolated/rtabmap_msgs/env.sh'
 Makefile exists, skipping explicit cmake invocation...
 ==> make cmake_check_build_system in '/home/robond/ROS_Udacity/build_isolated/rtabmap_conversions'
+-- Using CATKIN_DEVEL_PREFIX: /home/robond/ROS_Udacity/devel_isolated/rtabmap_conversions
+-- Using CMAKE_PREFIX_PATH: /home/robond/ROS_Udacity/devel_isolated/rtabmap_msgs;/home/robond/ROS_Udacity/devel_isolated/rtabmap_launch;/home/robond/ROS_Udacity/devel_isolated/rtabmap_costmap_plugins;/home/robond/ROS_Udacity/devel_isolated/rtabmap;/home/robond/ROS_Udacity/devel_isolated/my_robot;/home/robond/ROS_Udacity/devel_isolated/ball_chaser;/opt/ros/kinetic
+-- This workspace overlays: /home/robond/ROS_Udacity/devel_isolated/rtabmap_msgs;/home/robond/ROS_Udacity/devel_isolated/rtabmap_launch;/home/robond/ROS_Udacity/devel_isolated/rtabmap_costmap_plugins;/home/robond/ROS_Udacity/devel_isolated/my_robot;/home/robond/ROS_Udacity/devel_isolated/ball_chaser;/opt/ros/kinetic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/robond/ROS_Udacity/build_isolated/rtabmap_conversions/test_results
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.12") 
+-- Using Python nosetests: /usr/local/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Found RTABMap: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_core.so;/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_utilite.so;/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_gui.so;/usr/lib/x86_64-linux-gnu/libz.so;/opt/ros/kinetic/lib/libg2o_core.so;/opt/ros/kinetic/lib/libg2o_types_slam2d.so;/opt/ros/kinetic/lib/libg2o_types_slam3d.so;/opt/ros/kinetic/lib/libg2o_types_sba.so;/opt/ros/kinetic/lib/libg2o_stuff.so;/opt/ros/kinetic/lib/libg2o_solver_csparse.so;/opt/ros/kinetic/lib/libg2o_csparse_extension.so;/usr/lib/x86_64-linux-gnu/libcxsparse.so;/opt/ros/kinetic/lib/libg2o_solver_cholmod.so;/usr/lib/x86_64-linux-gnu/libcholmod.so;/usr/lib/x86_64-linux-gnu/libfreenect.so;/usr/lib/x86_64-linux-gnu/libfreenect_sync.so;/usr/lib/libOpenNI2.so;/usr/lib/x86_64-linux-gnu/libdc1394.so;/opt/ros/kinetic/lib/librealsense.so;/opt/ros/kinetic/lib/liboctomap.so;/opt/ros/kinetic/lib/liboctomath.so (Required is at least version "0.20.7") 
+-- Found RTABMap: /home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_core.so;/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_utilite.so;/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_gui.so;/usr/lib/x86_64-linux-gnu/libz.so;/opt/ros/kinetic/lib/libg2o_core.so;/opt/ros/kinetic/lib/libg2o_types_slam2d.so;/opt/ros/kinetic/lib/libg2o_types_slam3d.so;/opt/ros/kinetic/lib/libg2o_types_sba.so;/opt/ros/kinetic/lib/libg2o_stuff.so;/opt/ros/kinetic/lib/libg2o_solver_csparse.so;/opt/ros/kinetic/lib/libg2o_csparse_extension.so;/usr/lib/x86_64-linux-gnu/libcxsparse.so;/opt/ros/kinetic/lib/libg2o_solver_cholmod.so;/usr/lib/x86_64-linux-gnu/libcholmod.so;/usr/lib/x86_64-linux-gnu/libfreenect.so;/usr/lib/x86_64-linux-gnu/libfreenect_sync.so;/usr/lib/libOpenNI2.so;/usr/lib/x86_64-linux-gnu/libdc1394.so;/opt/ros/kinetic/lib/librealsense.so;/opt/ros/kinetic/lib/liboctomap.so;/opt/ros/kinetic/lib/liboctomath.so  
+-- Libraries: /opt/ros/kinetic/lib/libcv_bridge.so;/opt/ros/kinetic/lib/libtf_conversions.so;/opt/ros/kinetic/lib/libkdl_conversions.so;/opt/ros/kinetic/lib/libeigen_conversions.so;/opt/ros/kinetic/lib/liborocos-kdl.so.1.3.2;/opt/ros/kinetic/lib/liblaser_geometry.so;/opt/ros/kinetic/lib/libtf.so;/opt/ros/kinetic/lib/libtf2_ros.so;/opt/ros/kinetic/lib/libactionlib.so;/opt/ros/kinetic/lib/libmessage_filters.so;/opt/ros/kinetic/lib/libtf2.so;/opt/ros/kinetic/lib/libroscpp.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_signals.so;/opt/ros/kinetic/lib/librosconsole.so;/opt/ros/kinetic/lib/librosconsole_log4cxx.so;/opt/ros/kinetic/lib/librosconsole_backend_interface.so;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/opt/ros/kinetic/lib/libxmlrpcpp.so;/opt/ros/kinetic/lib/libimage_geometry.so;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1;/opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1;/opt/ros/kinetic/lib/libroscpp_serialization.so;/opt/ros/kinetic/lib/librostime.so;/opt/ros/kinetic/lib/libcpp_common.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libpthread.so;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_core.so;/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_utilite.so;/home/robond/ROS_Udacity/devel_isolated/rtabmap/lib/librtabmap_gui.so;/usr/lib/x86_64-linux-gnu/libz.so;/opt/ros/kinetic/lib/libg2o_core.so;/opt/ros/kinetic/lib/libg2o_types_slam2d.so;/opt/ros/kinetic/lib/libg2o_types_slam3d.so;/opt/ros/kinetic/lib/libg2o_types_sba.so;/opt/ros/kinetic/lib/libg2o_stuff.so;/opt/ros/kinetic/lib/libg2o_solver_csparse.so;/opt/ros/kinetic/lib/libg2o_csparse_extension.so;/usr/lib/x86_64-linux-gnu/libcxsparse.so;/opt/ros/kinetic/lib/libg2o_solver_cholmod.so;/usr/lib/x86_64-linux-gnu/libcholmod.so;/usr/lib/x86_64-linux-gnu/libfreenect.so;/usr/lib/x86_64-linux-gnu/libfreenect_sync.so;/usr/lib/libOpenNI2.so;/usr/lib/x86_64-linux-gnu/libdc1394.so;/opt/ros/kinetic/lib/librealsense.so;/opt/ros/kinetic/lib/liboctomap.so;/opt/ros/kinetic/lib/liboctomath.so
+-- Configuring done
+-- Gen[  0%] Built target rtabmap_msgs_generate_messages_cpp
+Scanning dependencies of target rtabmap_conversions
+[ 50%] Building CXX object CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:821:56: error: ‘NodeData’ in namespace ‘rtabmap_msgs’ does not name a type
+ rtabmap::Signature nodeDataFromROS(const rtabmap_msgs::NodeData & msg)
+                                                        ^
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp: In function ‘void rtabmap_conversions::mapDataFromROS(const MapData&, std::map<int, rtabmap::Transform>&, std::multimap<int, rtabmap::Link>&, std::map<int, rtabmap::Signature>&, rtabmap::Transform&)’:
+/home/robond/ROS_Udacity/src/rtabmap_ros/rtabmap_conversions/src/MsgConversion.cpp:834:46: error: ‘const MapData {aka const struct rtabmap_msgs::MapData_<std::allocator<void> >}’ has no member named ‘mapToOdom’
+     mapToOdom = transformFromGeometryMsg(msg.mapToOdom);
+                                              ^
+CMakeFiles/rtabmap_conversions.dir/build.make:62: recipe for target 'CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o' failed
+make[2]: *** [CMakeFiles/rtabmap_conversions.dir/src/MsgConversion.cpp.o] Error 1
+CMakeFiles/Makefile2:72: recipe for target 'CMakeFiles/rtabmap_conversions.dir/all' failed
+make[1]: *** [CMakeFiles/rtabmap_conversions.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2
+erating done
+-- Build files have been written to: /home/robond/ROS_Udacity/build_isolated/rtabmap_conversions
 ==> make -j3 -l3 in '/home/robond/ROS_Udacity/build_isolated/rtabmap_conversions'
 <== Failed to process package 'rtabmap_conversions': 
   Command '['/home/robond/ROS_Udacity/devel_isolated/rtabmap_msgs/env.sh', 'make', '-j3', '-l3']' returned non-zero exit status 2
