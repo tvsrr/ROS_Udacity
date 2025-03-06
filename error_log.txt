@@ -1,0 +1,49 @@
+[31mERROR: cannot launch node of type [rtabmap_ros/rtabmap]: can't locate node [rtabmap] in package [rtabmap_ros][0m
+[31mERROR: cannot launch node of type [rtabmap_ros/rtabmapviz]: can't locate node [rtabmapviz] in package [rtabmap_ros][0m
+... logging to /home/robond/.ros/log/e833e114-fabb-11ef-bf79-000c29a6cf05/roslaunch-udacity-33392.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/robond/ROS_Udacity/src/my_robot/launch/mapping.launch
+[1mstarted roslaunch server http://192.168.112.130:38263/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.17
+ * /rtabmap/rtabmap/Kp/DetectorStrategy: 0
+ * /rtabmap/rtabmap/Kp/MaxFeatures: 400
+ * /rtabmap/rtabmap/Mem/NotLinkedNodesKept: false
+ * /rtabmap/rtabmap/Reg/Force3DoF: true
+ * /rtabmap/rtabmap/Reg/Strategy: 0
+ * /rtabmap/rtabmap/Rtabmap/DetectionRate: 1
+ * /rtabmap/rtabmap/SURF/HessianThreshold: 100
+ * /rtabmap/rtabmap/Vis/MinInliers: 15
+ * /rtabmap/rtabmap/database_path: rtabmap.db
+ * /rtabmap/rtabmap/frame_id: base_footprint
+ * /rtabmap/rtabmap/odom_frame_id: odom
+ * /rtabmap/rtabmap/subscribe_depth: True
+ * /rtabmap/rtabmap/subscribe_scan: True
+ * /rtabmap/rtabmapviz/frame_id: base_footprint
+ * /rtabmap/rtabmapviz/subscribe_depth: True
+ * /rtabmap/rtabmapviz/subscribe_scan: True
+
+NODES
+  /rtabmap/
+    rtabmap (rtabmap_ros/rtabmap)
+    rtabmapviz (rtabmap_ros/rtabmapviz)
+
+auto-starting new master
+[1mprocess[master]: started with pid [33404][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/robond/ROS_Udacity/src/my_robot/launch/mapping.launch http://localhost:11311
+[1msetting /run_id to e833e114-fabb-11ef-bf79-000c29a6cf05[0m
+[1mprocess[rosout-1]: started with pid [33417][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
