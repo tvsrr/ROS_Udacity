@@ -1,8 +1,0 @@
-prefix=/home/robond/ROS_Udacity/devel
-
-Name: carrot_planner
-Description: Description of carrot_planner
-Version: 1.14.9
-Cflags: -I/home/robond/ROS_Udacity/src/navigation/carrot_planner/include
-Libs: -L/home/robond/ROS_Udacity/devel/lib -lcarrot_planner
-Requires: roscpp pluginlib costmap_2d base_local_planner nav_core

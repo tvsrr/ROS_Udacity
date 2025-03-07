@@ -1,8 +1,0 @@
-prefix=/home/robond/ROS_Udacity/devel
-
-Name: voxel_grid
-Description: Description of voxel_grid
-Version: 1.14.9
-Cflags: -I/home/robond/ROS_Udacity/src/navigation/voxel_grid/include
-Libs: -L/home/robond/ROS_Udacity/devel/lib -lvoxel_grid
-Requires: roscpp

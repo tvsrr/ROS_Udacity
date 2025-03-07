@@ -1,8 +1,0 @@
-prefix=/home/robond/ROS_Udacity/devel
-
-Name: nav_core
-Description: Description of nav_core
-Version: 1.14.9
-Cflags: -I/home/robond/ROS_Udacity/src/navigation/nav_core/include
-Libs: -L/home/robond/ROS_Udacity/devel/lib 
-Requires: std_msgs geometry_msgs tf costmap_2d

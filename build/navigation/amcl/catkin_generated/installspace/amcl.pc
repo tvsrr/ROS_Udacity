@@ -1,8 +1,0 @@
-prefix=/home/robond/ROS_Udacity/install
-
-Name: amcl
-Description: Description of amcl
-Version: 1.14.9
-Cflags: -I/home/robond/ROS_Udacity/install/include
-Libs: -L/home/robond/ROS_Udacity/install/lib -lamcl_sensors -lamcl_map -lamcl_pf
-Requires: rosbag roscpp dynamic_reconfigure tf nav_msgs std_srvs

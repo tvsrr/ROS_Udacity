@@ -62,7 +62,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/robond/ROS_Udacity/devel/lib/python2.7/dist-packages/ball_chaser")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/robond/ROS_Udacity/devel/lib/python2.7/dist-packages/ball_chaser")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

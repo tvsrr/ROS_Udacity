@@ -1,8 +1,0 @@
-prefix=/home/robond/ROS_Udacity/install
-
-Name: rtabmap_python
-Description: Description of rtabmap_python
-Version: 0.21.10
-Cflags: 
-Libs: -L/home/robond/ROS_Udacity/install/lib 
-Requires: rospy

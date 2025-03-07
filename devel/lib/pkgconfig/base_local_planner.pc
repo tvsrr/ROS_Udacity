@@ -1,8 +1,0 @@
-prefix=/home/robond/ROS_Udacity/devel
-
-Name: base_local_planner
-Description: Description of base_local_planner
-Version: 1.14.9
-Cflags: -I/home/robond/ROS_Udacity/devel/include -I/home/robond/ROS_Udacity/src/navigation/base_local_planner/include
-Libs: -L/home/robond/ROS_Udacity/devel/lib -lbase_local_planner -ltrajectory_planner_ros
-Requires: angles costmap_2d dynamic_reconfigure geometry_msgs message_runtime nav_core nav_msgs pluginlib roscpp std_msgs tf

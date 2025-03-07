@@ -1,8 +1,0 @@
-prefix=/home/robond/ROS_Udacity/install
-
-Name: dwa_local_planner
-Description: Description of dwa_local_planner
-Version: 1.14.9
-Cflags: -I/home/robond/ROS_Udacity/install/include
-Libs: -L/home/robond/ROS_Udacity/install/lib -ldwa_local_planner
-Requires: dynamic_reconfigure nav_msgs pluginlib roscpp

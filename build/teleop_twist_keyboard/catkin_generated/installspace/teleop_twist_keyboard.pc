@@ -1,8 +1,0 @@
-prefix=/home/robond/ROS_Udacity/install
-
-Name: teleop_twist_keyboard
-Description: Description of teleop_twist_keyboard
-Version: 1.0.0
-Cflags: 
-Libs: -L/home/robond/ROS_Udacity/install/lib 
-Requires: 
