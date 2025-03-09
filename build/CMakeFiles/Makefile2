@@ -442,6 +442,24 @@ clean: my_robot/CMakeFiles/_catkin_empty_exported_target.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory teleop_twist_keyboard
+
+# Convenience name for "all" pass in the directory.
+teleop_twist_keyboard/all:
+
+.PHONY : teleop_twist_keyboard/all
+
+# Convenience name for "clean" pass in the directory.
+teleop_twist_keyboard/clean:
+
+.PHONY : teleop_twist_keyboard/clean
+
+# Convenience name for "preinstall" pass in the directory.
+teleop_twist_keyboard/preinstall:
+
+.PHONY : teleop_twist_keyboard/preinstall
+
+#=============================================================================
 # Directory level rules for directory ball_chaser
 
 # Convenience name for "all" pass in the directory.
@@ -1658,6 +1676,226 @@ ball_chaser/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 
 # clean rule for target.
 clean: ball_chaser/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory helper_codes
+
+# Convenience name for "all" pass in the directory.
+helper_codes/all: helper_codes/CMakeFiles/unpause_physics.dir/all
+
+.PHONY : helper_codes/all
+
+# Convenience name for "clean" pass in the directory.
+helper_codes/clean: helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+helper_codes/clean: helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+helper_codes/clean: helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+helper_codes/clean: helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+helper_codes/clean: helper_codes/CMakeFiles/unpause_physics.dir/clean
+helper_codes/clean: helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+
+.PHONY : helper_codes/clean
+
+# Convenience name for "preinstall" pass in the directory.
+helper_codes/preinstall:
+
+.PHONY : helper_codes/preinstall
+
+#=============================================================================
+# Target rules for target helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir
+
+# All Build rule for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/all:
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robond/ROS_Udacity/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_lisp"
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/ROS_Udacity/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/ROS_Udacity/build/CMakeFiles 0
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_lisp: helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/rule
+
+.PHONY : std_srvs_generate_messages_lisp
+
+# clean rule for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: helper_codes/CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir
+
+# All Build rule for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/all:
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/depend
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robond/ROS_Udacity/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_eus"
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+
+# Build rule for subdir invocation for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/ROS_Udacity/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/ROS_Udacity/build/CMakeFiles 0
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_eus: helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/rule
+
+.PHONY : std_srvs_generate_messages_eus
+
+# clean rule for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/clean:
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+
+# clean rule for target.
+clean: helper_codes/CMakeFiles/std_srvs_generate_messages_eus.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir
+
+# All Build rule for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all:
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/depend
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robond/ROS_Udacity/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_nodejs"
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+
+# Build rule for subdir invocation for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/ROS_Udacity/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/ROS_Udacity/build/CMakeFiles 0
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_nodejs: helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/rule
+
+.PHONY : std_srvs_generate_messages_nodejs
+
+# clean rule for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean:
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+
+# clean rule for target.
+clean: helper_codes/CMakeFiles/std_srvs_generate_messages_nodejs.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir
+
+# All Build rule for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/all:
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/depend
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robond/ROS_Udacity/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_cpp"
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/ROS_Udacity/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/ROS_Udacity/build/CMakeFiles 0
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_cpp: helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/rule
+
+.PHONY : std_srvs_generate_messages_cpp
+
+# clean rule for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean:
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+
+# clean rule for target.
+clean: helper_codes/CMakeFiles/std_srvs_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target helper_codes/CMakeFiles/unpause_physics.dir
+
+# All Build rule for target.
+helper_codes/CMakeFiles/unpause_physics.dir/all:
+	$(MAKE) -f helper_codes/CMakeFiles/unpause_physics.dir/build.make helper_codes/CMakeFiles/unpause_physics.dir/depend
+	$(MAKE) -f helper_codes/CMakeFiles/unpause_physics.dir/build.make helper_codes/CMakeFiles/unpause_physics.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robond/ROS_Udacity/build/CMakeFiles --progress-num=23,24 "Built target unpause_physics"
+.PHONY : helper_codes/CMakeFiles/unpause_physics.dir/all
+
+# Include target in all.
+all: helper_codes/CMakeFiles/unpause_physics.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+helper_codes/CMakeFiles/unpause_physics.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/ROS_Udacity/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 helper_codes/CMakeFiles/unpause_physics.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/ROS_Udacity/build/CMakeFiles 0
+.PHONY : helper_codes/CMakeFiles/unpause_physics.dir/rule
+
+# Convenience name for target.
+unpause_physics: helper_codes/CMakeFiles/unpause_physics.dir/rule
+
+.PHONY : unpause_physics
+
+# clean rule for target.
+helper_codes/CMakeFiles/unpause_physics.dir/clean:
+	$(MAKE) -f helper_codes/CMakeFiles/unpause_physics.dir/build.make helper_codes/CMakeFiles/unpause_physics.dir/clean
+.PHONY : helper_codes/CMakeFiles/unpause_physics.dir/clean
+
+# clean rule for target.
+clean: helper_codes/CMakeFiles/unpause_physics.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir
+
+# All Build rule for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/all:
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/depend
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/robond/ROS_Udacity/build/CMakeFiles --progress-num= "Built target std_srvs_generate_messages_py"
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/all
+
+# Build rule for subdir invocation for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/ROS_Udacity/build/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/robond/ROS_Udacity/build/CMakeFiles 0
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+std_srvs_generate_messages_py: helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/rule
+
+.PHONY : std_srvs_generate_messages_py
+
+# clean rule for target.
+helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/clean:
+	$(MAKE) -f helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/build.make helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+.PHONY : helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: helper_codes/CMakeFiles/std_srvs_generate_messages_py.dir/clean
 
 .PHONY : clean
 

@@ -132,7 +132,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/robond/ROS_Udacity/build/gtest/cmake_install.cmake")
   include("/home/robond/ROS_Udacity/build/my_robot/cmake_install.cmake")
+  include("/home/robond/ROS_Udacity/build/teleop_twist_keyboard/cmake_install.cmake")
   include("/home/robond/ROS_Udacity/build/ball_chaser/cmake_install.cmake")
+  include("/home/robond/ROS_Udacity/build/helper_codes/cmake_install.cmake")
 
 endif()
 

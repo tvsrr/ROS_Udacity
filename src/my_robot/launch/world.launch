@@ -38,5 +38,8 @@
 <!--launch rviz-->
 <node name="rviz" pkg="rviz" type="rviz" respawn="false"/>
 
+<!-- launch helper codes -->
+<node pkg="helper_codes" type="unpause_physics" name="unpause_physics" output="screen" />
+
 
 </launch>

@@ -1,0 +1,8 @@
+prefix=/home/robond/ROS_Udacity/install
+
+Name: helper_codes
+Description: Description of helper_codes
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_srvs
