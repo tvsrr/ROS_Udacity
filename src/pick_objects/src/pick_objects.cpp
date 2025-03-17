@@ -55,7 +55,8 @@ int main(int argc, char** argv){
   string goal_name = "pickup_location";
   // Define a position and orientation for the robot to reach
   goal.target_pose.pose.position.x = 1.0;
-  goal.target_pose.pose.position.y = 2.4;
+  goal.target_pose.pose.position.y = 0.0;
+  goal.target_pose.pose.orientation.z = 0.0;
   goal.target_pose.pose.orientation.w = 1.0;
 
   // Send the goal position and orientation for the robot to reach
@@ -64,7 +65,8 @@ int main(int argc, char** argv){
   goal_name = "drop_location";
   // Define a position and orientation for the robot to reach
   goal.target_pose.pose.position.x = 6.0;
-  goal.target_pose.pose.position.y = 2.4;
+  goal.target_pose.pose.position.y = 2.0;
+  goal.target_pose.pose.orientation.z = 0.0;
   goal.target_pose.pose.orientation.w = 1.0;
 
   ROS_INFO("Sending Drop Location");

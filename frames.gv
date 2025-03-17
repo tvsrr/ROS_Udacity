@@ -1,13 +1,14 @@
 digraph G {
-"odom" -> "robot_footprint"[label="Broadcaster: /gazebo\nAverage rate: 10.208 Hz\nMost recent transform: 264.497 ( 0.053 sec old)\nBuffer length: 4.800 sec\n"];
-"chassis" -> "left_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.206 Hz\nMost recent transform: 264.501 ( 0.049 sec old)\nBuffer length: 4.801 sec\n"];
-"chassis" -> "right_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.206 Hz\nMost recent transform: 264.501 ( 0.049 sec old)\nBuffer length: 4.801 sec\n"];
+"chassis" -> "camera"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1255.034 sec old)\nBuffer length: 0.000 sec\n"];
+"robot_footprint" -> "chassis"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1255.034 sec old)\nBuffer length: 0.000 sec\n"];
+"camera" -> "camera_link_optical"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1255.034 sec old)\nBuffer length: 0.000 sec\n"];
+"chassis" -> "hokuyo"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1255.034 sec old)\nBuffer length: 0.000 sec\n"];
+"odom" -> "robot_footprint"[label="Broadcaster: /gazebo\nAverage rate: 10.217 Hz\nMost recent transform: 1254.954 ( 0.080 sec old)\nBuffer length: 4.600 sec\n"];
+"map" -> "odom"[label="Broadcaster: /amcl\nAverage rate: 40.094 Hz\nMost recent transform: 1255.040 ( -0.006 sec old)\nBuffer length: 4.664 sec\n"];
+"chassis" -> "left_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.217 Hz\nMost recent transform: 1254.960 ( 0.074 sec old)\nBuffer length: 4.600 sec\n"];
+"chassis" -> "right_wheel"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.217 Hz\nMost recent transform: 1254.960 ( 0.074 sec old)\nBuffer length: 4.600 sec\n"];
 edge [style=invis];
  subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 264.550"[ shape=plaintext ] ;
- }->"odom";
-edge [style=invis];
- subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 264.550"[ shape=plaintext ] ;
- }->"chassis";
+"Recorded at time: 1255.034"[ shape=plaintext ] ;
+ }->"map";
 }

@@ -7,6 +7,7 @@
 subdirs("gtest")
 subdirs("my_robot")
 subdirs("teleop_twist_keyboard")
+subdirs("add_markers")
 subdirs("ball_chaser")
 subdirs("helper_codes")
 subdirs("pick_objects")

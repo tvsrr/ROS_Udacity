@@ -1,2 +1,2 @@
-ball_chaser:helper_codes:my_robot:pick_objects:teleop_twist_keyboard
+add_markers:ball_chaser:helper_codes:my_robot:pick_objects:teleop_twist_keyboard
 -DCATKIN_DEVEL_PREFIX=/home/robond/ROS_Udacity/devel -DCMAKE_INSTALL_PREFIX=/home/robond/ROS_Udacity/install -G Unix Makefiles

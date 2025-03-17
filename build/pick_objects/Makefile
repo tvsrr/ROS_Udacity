@@ -243,6 +243,36 @@ move_base_msgs_generate_messages_py/fast:
 .PHONY : move_base_msgs_generate_messages_py/fast
 
 # Convenience name for target.
+pick_objects/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
+	cd /home/robond/ROS_Udacity/build && $(MAKE) -f CMakeFiles/Makefile2 pick_objects/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+.PHONY : pick_objects/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_eus: pick_objects/CMakeFiles/actionlib_generate_messages_eus.dir/rule
+
+.PHONY : actionlib_generate_messages_eus
+
+# fast build rule for target.
+actionlib_generate_messages_eus/fast:
+	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/actionlib_generate_messages_eus.dir/build.make pick_objects/CMakeFiles/actionlib_generate_messages_eus.dir/build
+.PHONY : actionlib_generate_messages_eus/fast
+
+# Convenience name for target.
+pick_objects/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule:
+	cd /home/robond/ROS_Udacity/build && $(MAKE) -f CMakeFiles/Makefile2 pick_objects/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
+.PHONY : pick_objects/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+move_base_msgs_generate_messages_lisp: pick_objects/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : move_base_msgs_generate_messages_lisp
+
+# fast build rule for target.
+move_base_msgs_generate_messages_lisp/fast:
+	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make pick_objects/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
+.PHONY : move_base_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
 pick_objects/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
 	cd /home/robond/ROS_Udacity/build && $(MAKE) -f CMakeFiles/Makefile2 pick_objects/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
 .PHONY : pick_objects/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
@@ -348,51 +378,6 @@ move_base_msgs_generate_messages_nodejs/fast:
 .PHONY : move_base_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
-pick_objects/CMakeFiles/actionlib_generate_messages_eus.dir/rule:
-	cd /home/robond/ROS_Udacity/build && $(MAKE) -f CMakeFiles/Makefile2 pick_objects/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-.PHONY : pick_objects/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_eus: pick_objects/CMakeFiles/actionlib_generate_messages_eus.dir/rule
-
-.PHONY : actionlib_generate_messages_eus
-
-# fast build rule for target.
-actionlib_generate_messages_eus/fast:
-	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/actionlib_generate_messages_eus.dir/build.make pick_objects/CMakeFiles/actionlib_generate_messages_eus.dir/build
-.PHONY : actionlib_generate_messages_eus/fast
-
-# Convenience name for target.
-pick_objects/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule:
-	cd /home/robond/ROS_Udacity/build && $(MAKE) -f CMakeFiles/Makefile2 pick_objects/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
-.PHONY : pick_objects/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-move_base_msgs_generate_messages_lisp: pick_objects/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : move_base_msgs_generate_messages_lisp
-
-# fast build rule for target.
-move_base_msgs_generate_messages_lisp/fast:
-	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build.make pick_objects/CMakeFiles/move_base_msgs_generate_messages_lisp.dir/build
-.PHONY : move_base_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-pick_objects/CMakeFiles/pick_objects_node.dir/rule:
-	cd /home/robond/ROS_Udacity/build && $(MAKE) -f CMakeFiles/Makefile2 pick_objects/CMakeFiles/pick_objects_node.dir/rule
-.PHONY : pick_objects/CMakeFiles/pick_objects_node.dir/rule
-
-# Convenience name for target.
-pick_objects_node: pick_objects/CMakeFiles/pick_objects_node.dir/rule
-
-.PHONY : pick_objects_node
-
-# fast build rule for target.
-pick_objects_node/fast:
-	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/pick_objects_node.dir/build.make pick_objects/CMakeFiles/pick_objects_node.dir/build
-.PHONY : pick_objects_node/fast
-
-# Convenience name for target.
 pick_objects/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
 	cd /home/robond/ROS_Udacity/build && $(MAKE) -f CMakeFiles/Makefile2 pick_objects/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
 .PHONY : pick_objects/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
@@ -407,13 +392,28 @@ actionlib_generate_messages_nodejs/fast:
 	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make pick_objects/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
 .PHONY : actionlib_generate_messages_nodejs/fast
 
+# Convenience name for target.
+pick_objects/CMakeFiles/pick_objects.dir/rule:
+	cd /home/robond/ROS_Udacity/build && $(MAKE) -f CMakeFiles/Makefile2 pick_objects/CMakeFiles/pick_objects.dir/rule
+.PHONY : pick_objects/CMakeFiles/pick_objects.dir/rule
+
+# Convenience name for target.
+pick_objects: pick_objects/CMakeFiles/pick_objects.dir/rule
+
+.PHONY : pick_objects
+
+# fast build rule for target.
+pick_objects/fast:
+	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/pick_objects.dir/build.make pick_objects/CMakeFiles/pick_objects.dir/build
+.PHONY : pick_objects/fast
+
 src/pick_objects.o: src/pick_objects.cpp.o
 
 .PHONY : src/pick_objects.o
 
 # target to build an object file
 src/pick_objects.cpp.o:
-	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/pick_objects_node.dir/build.make pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects.cpp.o
+	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/pick_objects.dir/build.make pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o
 .PHONY : src/pick_objects.cpp.o
 
 src/pick_objects.i: src/pick_objects.cpp.i
@@ -422,7 +422,7 @@ src/pick_objects.i: src/pick_objects.cpp.i
 
 # target to preprocess a source file
 src/pick_objects.cpp.i:
-	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/pick_objects_node.dir/build.make pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects.cpp.i
+	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/pick_objects.dir/build.make pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.i
 .PHONY : src/pick_objects.cpp.i
 
 src/pick_objects.s: src/pick_objects.cpp.s
@@ -431,7 +431,7 @@ src/pick_objects.s: src/pick_objects.cpp.s
 
 # target to generate assembly for a file
 src/pick_objects.cpp.s:
-	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/pick_objects_node.dir/build.make pick_objects/CMakeFiles/pick_objects_node.dir/src/pick_objects.cpp.s
+	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pick_objects/CMakeFiles/pick_objects.dir/build.make pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.s
 .PHONY : src/pick_objects.cpp.s
 
 # Help Target
@@ -447,6 +447,8 @@ help:
 	@echo "... actionlib_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... move_base_msgs_generate_messages_py"
+	@echo "... actionlib_generate_messages_eus"
+	@echo "... move_base_msgs_generate_messages_lisp"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... move_base_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
@@ -455,11 +457,9 @@ help:
 	@echo "... test"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... move_base_msgs_generate_messages_nodejs"
-	@echo "... actionlib_generate_messages_eus"
-	@echo "... move_base_msgs_generate_messages_lisp"
-	@echo "... pick_objects_node"
 	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... rebuild_cache"
+	@echo "... pick_objects"
 	@echo "... list_install_components"
 	@echo "... install"
 	@echo "... install/local"
