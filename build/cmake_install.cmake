@@ -135,6 +135,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/robond/ROS_Udacity/build/teleop_twist_keyboard/cmake_install.cmake")
   include("/home/robond/ROS_Udacity/build/ball_chaser/cmake_install.cmake")
   include("/home/robond/ROS_Udacity/build/helper_codes/cmake_install.cmake")
+  include("/home/robond/ROS_Udacity/build/pick_objects/cmake_install.cmake")
 
 endif()
 
