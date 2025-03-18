@@ -54,8 +54,10 @@ int main(int argc, char** argv){
   
   string goal_name = "pickup_location";
   // Define a position and orientation for the robot to reach
-  goal.target_pose.pose.position.x = 1.0;
-  goal.target_pose.pose.position.y = 0.0;
+  goal.target_pose.pose.position.x = 0.0262432694435;
+  goal.target_pose.pose.position.y = -1.03702068329;
+  goal.target_pose.pose.orientation.x = 0.0;
+  goal.target_pose.pose.orientation.y = 0.0;
   goal.target_pose.pose.orientation.z = 0.0;
   goal.target_pose.pose.orientation.w = 1.0;
 
@@ -63,9 +65,12 @@ int main(int argc, char** argv){
   ROS_INFO("Sending Pickup Location");
   reach_goal(goal, goal_name, ac);
   goal_name = "drop_location";
+  goal.target_pose.header.stamp = ros::Time::now();
   // Define a position and orientation for the robot to reach
-  goal.target_pose.pose.position.x = 6.0;
-  goal.target_pose.pose.position.y = 2.0;
+  goal.target_pose.pose.position.x = 0.0291333198547;
+  goal.target_pose.pose.position.y = 5.45930576324;
+  goal.target_pose.pose.orientation.x = 0.0;  
+  goal.target_pose.pose.orientation.y = 0.0; 
   goal.target_pose.pose.orientation.z = 0.0;
   goal.target_pose.pose.orientation.w = 1.0;
 

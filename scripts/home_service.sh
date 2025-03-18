@@ -5,4 +5,4 @@ xterm -hold -e "bash -c 'source ~/ROS_Udacity/devel/setup.bash; roslaunch my_rob
 sleep 5 
 xterm -hold -e "bash -c 'source ~/ROS_Udacity/devel/setup.bash; rosrun add_markers add_markers'" &
 sleep 5 
-xterm -hold -e "bash -c 'source ~/ROS_Udacity/devel/setup.bash; rosrun add_markers pick_objects'"
+xterm -hold -e "bash -c 'source ~/ROS_Udacity/devel/setup.bash; rosrun pick_objects pick_objects'"
