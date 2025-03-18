@@ -23,9 +23,17 @@ pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kineti
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/actionlib_msgs/GoalStatus.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/actionlib_msgs/GoalStatusArray.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Point.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PointStamped.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Pose.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PoseStamped.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PoseWithCovariance.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/geometry_msgs/PoseWithCovarianceStamped.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Quaternion.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/geometry_msgs/QuaternionStamped.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Transform.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/geometry_msgs/TransformStamped.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Vector3.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/geometry_msgs/Vector3Stamped.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/move_base_msgs/MoveBaseAction.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/move_base_msgs/MoveBaseActionFeedback.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/move_base_msgs/MoveBaseActionGoal.h
@@ -93,6 +101,14 @@ pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kineti
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/ros/wall_timer_options.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/rosconsole/macros_generated.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/std_msgs/Header.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/Matrix3x3.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/MinMax.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/QuadWord.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/Quaternion.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/Scalar.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/Transform.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/tf/LinearMath/Vector3.h
+pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/tf/transform_datatypes.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 pick_objects/CMakeFiles/pick_objects.dir/src/pick_objects.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
 
