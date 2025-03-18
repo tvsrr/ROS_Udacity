@@ -6,95 +6,96 @@
 
 using namespace std;
 
-// Global variables to store the current robot position in map frame
-double robotx = 0.0, roboty = 0.0;
 
-// Callback for AMCL pose updates
+double robotx = 0.0, roboty = 0.0;
+bool amcl_pose_received = false;  
+
 void process_amcl_pose_callback(const geometry_msgs::PoseWithCovarianceStamped &msg)
 {
   robotx = msg.pose.pose.position.x;
   roboty = msg.pose.pose.position.y;
+  amcl_pose_received = true;
 }
  
-// Define a client for to send goal requests to the move_base server through a SimpleActionClient
 typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;
 
-void reach_goal(move_base_msgs::MoveBaseGoal goal, string goal_name, MoveBaseClient &ac){
-
-ROS_INFO("Initiating Goal reaching for location: %s", goal_name.c_str());
-
-ac.sendGoal(goal);
+void reach_goal(move_base_msgs::MoveBaseGoal goal, string goal_name, MoveBaseClient &ac)
+{
+  ROS_INFO("Initiating goal reaching for location: %s", goal_name.c_str());
+  ac.sendGoal(goal);
   
-// Wait an infinite time for the results
-ac.waitForResult();
 
-// Check if the robot reached its goal
-  if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED){
+  ac.waitForResult();
+
+  // Check if the robot reached its goal
+  if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
+  {
     if (goal_name == "pickup_location")
-    ROS_INFO("Successfully reached Pickup Location");
+      ROS_INFO("Successfully reached Pickup Location");
     else 
-    ROS_INFO("Successfully reached Drop Location");}
-  else{
+      ROS_INFO("Successfully reached Drop Location");
+  }
+  else
+  {
     if (goal_name == "pickup_location")
-    ROS_INFO("Failed to reach Pickup Location");
+      ROS_INFO("Failed to reach Pickup Location");
     else 
-    ROS_INFO("Failed to reach Drop Location");
+      ROS_INFO("Failed to reach Drop Location");
+  }
+  ros::Duration(5.0).sleep();
 }
-    ros::Duration(5.0).sleep();
 
-}
-
-int main(int argc, char** argv){
-  // Initialize the simple_navigation_goals node
+int main(int argc, char** argv)
+{
   ros::init(argc, argv, "pick_objects");
+  ros::NodeHandle n;
+  ros::Rate r(1);
 
-  //tell the action client that we want to spin a thread by default
+
   MoveBaseClient ac("move_base", true);
 
-  // Wait 5 sec for move_base action server to come up
-  while(!ac.waitForServer(ros::Duration(5.0))){
+
+  while(!ac.waitForServer(ros::Duration(5.0)))
+  {
     ROS_INFO("Waiting for the move_base action server to come up");
   }
 
-  ros::NodeHandle n;
+ 
   ros::Subscriber amcl_pose_sub = n.subscribe("amcl_pose", 10, process_amcl_pose_callback);
 
-  ros::Duration(2.0).sleep();
+
+  while (ros::ok() && !amcl_pose_received)
+  {
+    ros::spinOnce();
+    r.sleep();
+  }
 
   move_base_msgs::MoveBaseGoal goal;
-
-  // set up the frame parameters
   goal.target_pose.header.frame_id = "map";
-  goal.target_pose.header.stamp = ros::Time::now();
-  
+
+
   string goal_name = "pickup_location";
-  // Define a position and orientation for the robot to reach
+  goal.target_pose.header.stamp = ros::Time::now();
   goal.target_pose.pose.position.x = 0.0262432694435;
   goal.target_pose.pose.position.y = -1.03702068329;
 
-  // yaw might be making robot turn circles
-  double deltax =  goal.target_pose.pose.position.x - robotx;
+
+  double deltax = goal.target_pose.pose.position.x - robotx;
   double deltay = goal.target_pose.pose.position.y - roboty;
   double desired_yaw = atan2(deltay, deltax);
-  goal.target_pose.pose.orientation.x = 0.0;
-  goal.target_pose.pose.orientation.y = 0.0;
-  goal.target_pose.pose.orientation.z = 0.0;
   goal.target_pose.pose.orientation = tf::createQuaternionMsgFromYaw(desired_yaw);
 
-  // Send the goal position and orientation for the robot to reach
   ROS_INFO("Sending Pickup Location");
   reach_goal(goal, goal_name, ac);
+
+
   goal_name = "drop_location";
   goal.target_pose.header.stamp = ros::Time::now();
-  // Define a position and orientation for the robot to reach
   goal.target_pose.pose.position.x = 0.0291333198547;
   goal.target_pose.pose.position.y = 5.45930576324;
-  deltax =  goal.target_pose.pose.position.x - robotx;
+  deltax = goal.target_pose.pose.position.x - robotx;
   deltay = goal.target_pose.pose.position.y - roboty;
   desired_yaw = atan2(deltay, deltax);
-  goal.target_pose.pose.orientation.x = 0.0;  
-  goal.target_pose.pose.orientation.y = 0.0; 
-  goal.target_pose.pose.orientation.z = 0.0;
   goal.target_pose.pose.orientation = tf::createQuaternionMsgFromYaw(desired_yaw);
 
   ROS_INFO("Sending Drop Location");
@@ -102,3 +103,4 @@ int main(int argc, char** argv){
 
   return 0;
 }
+
