@@ -65,9 +65,17 @@ pgm_map_creator/msgs/collision_map_request.pb.h: /usr/bin/protoc
 pgm_map_creator/msgs/collision_map_request.pb.cc: pgm_map_creator/msgs/collision_map_request.pb.h
 	@$(CMAKE_COMMAND) -E touch_nocreate pgm_map_creator/msgs/collision_map_request.pb.cc
 
+pgm_map_creator/msgs/vector2d.pb.h: /home/robond/ROS_Udacity/src/pgm_map_creator/msgs/vector2d.proto
+pgm_map_creator/msgs/vector2d.pb.h: /usr/bin/protoc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/robond/ROS_Udacity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running cpp protocol buffer compiler on vector2d.proto"
+	cd /home/robond/ROS_Udacity/build/pgm_map_creator/msgs && /usr/bin/protoc --cpp_out /home/robond/ROS_Udacity/build/pgm_map_creator/msgs -I /home/robond/ROS_Udacity/src/pgm_map_creator/msgs -I /usr/include/gazebo-7/gazebo/msgs/proto /home/robond/ROS_Udacity/src/pgm_map_creator/msgs/vector2d.proto
+
+pgm_map_creator/msgs/vector2d.pb.cc: pgm_map_creator/msgs/vector2d.pb.h
+	@$(CMAKE_COMMAND) -E touch_nocreate pgm_map_creator/msgs/vector2d.pb.cc
+
 pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.o: pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/flags.make
 pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.o: pgm_map_creator/msgs/collision_map_request.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robond/ROS_Udacity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robond/ROS_Udacity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.o"
 	cd /home/robond/ROS_Udacity/build/pgm_map_creator/msgs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.o -c /home/robond/ROS_Udacity/build/pgm_map_creator/msgs/collision_map_request.pb.cc
 
 pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.i: cmake_force
@@ -78,18 +86,33 @@ pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/collision_map_req
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.s"
 	cd /home/robond/ROS_Udacity/build/pgm_map_creator/msgs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robond/ROS_Udacity/build/pgm_map_creator/msgs/collision_map_request.pb.cc -o CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.s
 
+pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.o: pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/flags.make
+pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.o: pgm_map_creator/msgs/vector2d.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/robond/ROS_Udacity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.o"
+	cd /home/robond/ROS_Udacity/build/pgm_map_creator/msgs && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.o -c /home/robond/ROS_Udacity/build/pgm_map_creator/msgs/vector2d.pb.cc
+
+pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.i"
+	cd /home/robond/ROS_Udacity/build/pgm_map_creator/msgs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/robond/ROS_Udacity/build/pgm_map_creator/msgs/vector2d.pb.cc > CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.i
+
+pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.s"
+	cd /home/robond/ROS_Udacity/build/pgm_map_creator/msgs && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/robond/ROS_Udacity/build/pgm_map_creator/msgs/vector2d.pb.cc -o CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.s
+
 # Object files for target collision_map_creator_msgs
 collision_map_creator_msgs_OBJECTS = \
-"CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.o"
+"CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.o" \
+"CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.o"
 
 # External object files for target collision_map_creator_msgs
 collision_map_creator_msgs_EXTERNAL_OBJECTS =
 
 /home/robond/ROS_Udacity/devel/lib/libcollision_map_creator_msgs.so: pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.o
+/home/robond/ROS_Udacity/devel/lib/libcollision_map_creator_msgs.so: pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.o
 /home/robond/ROS_Udacity/devel/lib/libcollision_map_creator_msgs.so: pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/build.make
 /home/robond/ROS_Udacity/devel/lib/libcollision_map_creator_msgs.so: /usr/lib/x86_64-linux-gnu/libprotobuf.so
 /home/robond/ROS_Udacity/devel/lib/libcollision_map_creator_msgs.so: pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robond/ROS_Udacity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library /home/robond/ROS_Udacity/devel/lib/libcollision_map_creator_msgs.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/robond/ROS_Udacity/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library /home/robond/ROS_Udacity/devel/lib/libcollision_map_creator_msgs.so"
 	cd /home/robond/ROS_Udacity/build/pgm_map_creator/msgs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/collision_map_creator_msgs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -103,6 +126,8 @@ pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/clean:
 
 pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/depend: pgm_map_creator/msgs/collision_map_request.pb.h
 pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/depend: pgm_map_creator/msgs/collision_map_request.pb.cc
+pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/depend: pgm_map_creator/msgs/vector2d.pb.h
+pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/depend: pgm_map_creator/msgs/vector2d.pb.cc
 	cd /home/robond/ROS_Udacity/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robond/ROS_Udacity/src /home/robond/ROS_Udacity/src/pgm_map_creator/msgs /home/robond/ROS_Udacity/build /home/robond/ROS_Udacity/build/pgm_map_creator/msgs /home/robond/ROS_Udacity/build/pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/depend
 

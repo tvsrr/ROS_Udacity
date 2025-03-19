@@ -136,6 +136,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/robond/ROS_Udacity/build/add_markers/cmake_install.cmake")
   include("/home/robond/ROS_Udacity/build/ball_chaser/cmake_install.cmake")
   include("/home/robond/ROS_Udacity/build/helper_codes/cmake_install.cmake")
+  include("/home/robond/ROS_Udacity/build/pgm_map_creator/cmake_install.cmake")
   include("/home/robond/ROS_Udacity/build/pick_objects/cmake_install.cmake")
 
 endif()

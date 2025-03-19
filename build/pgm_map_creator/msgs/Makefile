@@ -209,6 +209,33 @@ collision_map_request.pb.cc.s:
 	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/build.make pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.s
 .PHONY : collision_map_request.pb.cc.s
 
+vector2d.pb.o: vector2d.pb.cc.o
+
+.PHONY : vector2d.pb.o
+
+# target to build an object file
+vector2d.pb.cc.o:
+	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/build.make pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.o
+.PHONY : vector2d.pb.cc.o
+
+vector2d.pb.i: vector2d.pb.cc.i
+
+.PHONY : vector2d.pb.i
+
+# target to preprocess a source file
+vector2d.pb.cc.i:
+	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/build.make pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.i
+.PHONY : vector2d.pb.cc.i
+
+vector2d.pb.s: vector2d.pb.cc.s
+
+.PHONY : vector2d.pb.s
+
+# target to generate assembly for a file
+vector2d.pb.cc.s:
+	cd /home/robond/ROS_Udacity/build && $(MAKE) -f pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/build.make pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.s
+.PHONY : vector2d.pb.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -226,6 +253,9 @@ help:
 	@echo "... collision_map_request.pb.o"
 	@echo "... collision_map_request.pb.i"
 	@echo "... collision_map_request.pb.s"
+	@echo "... vector2d.pb.o"
+	@echo "... vector2d.pb.i"
+	@echo "... vector2d.pb.s"
 .PHONY : help
 
 

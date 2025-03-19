@@ -23,7 +23,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/gazebo-7"
   "/usr/include/sdformat-4.4"
   "/usr/include/ignition/math2"
+  "/usr/include/OGRE"
+  "/usr/include/OGRE/Terrain"
+  "/usr/include/OGRE/Paging"
   "pgm_map_creator/msgs"
+  "/usr/include/gazebo-7/gazebo/msgs/proto"
   )
 
 # Targets to which this target links.

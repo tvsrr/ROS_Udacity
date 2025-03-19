@@ -4,3 +4,6 @@
 pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/collision_map_request.pb.cc.o
  /home/robond/ROS_Udacity/build/pgm_map_creator/msgs/collision_map_request.pb.cc
  /home/robond/ROS_Udacity/build/pgm_map_creator/msgs/collision_map_request.pb.h
+pgm_map_creator/msgs/CMakeFiles/collision_map_creator_msgs.dir/vector2d.pb.cc.o
+ /home/robond/ROS_Udacity/build/pgm_map_creator/msgs/vector2d.pb.cc
+ /home/robond/ROS_Udacity/build/pgm_map_creator/msgs/vector2d.pb.h
