@@ -9,8 +9,13 @@ add_compile_options(-std=c++11)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   roscpp
+  nav_msgs
   visualization_msgs
+  tf2
+  tf2_ros
+
 )
+
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -150,8 +155,9 @@ target_link_libraries(${PROJECT_NAME}
    ${catkin_LIBRARIES}
  )
 target_link_libraries(add_markers_time_test
-   ${catkin_LIBRARIES}
- )
+  ${catkin_LIBRARIES}
+)
+link_directories(/opt/ros/kinetic/lib)
 
 #############
 ## Install ##

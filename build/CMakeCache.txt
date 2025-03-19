@@ -712,6 +712,9 @@ ignition-math2_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/ignition-math2
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
 
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/kinetic/share/message_filters/cmake
+
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/kinetic/share/message_generation/cmake
 
@@ -727,6 +730,9 @@ my_robot_BINARY_DIR:STATIC=/home/robond/ROS_Udacity/build/my_robot
 //Value Computed by CMake
 my_robot_SOURCE_DIR:STATIC=/home/robond/ROS_Udacity/src/my_robot
 
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/opt/ros/kinetic/share/nav_msgs/cmake
+
 //Path to a library.
 onelib:FILEPATH=/usr/lib/x86_64-linux-gnu/libignition-math2.so
 
@@ -735,12 +741,6 @@ pgm_map_creator_BINARY_DIR:STATIC=/home/robond/ROS_Udacity/build/pgm_map_creator
 
 //Value Computed by CMake
 pgm_map_creator_SOURCE_DIR:STATIC=/home/robond/ROS_Udacity/src/pgm_map_creator
-
-//Value Computed by CMake
-pgm_map_creator_msgs_BINARY_DIR:STATIC=/home/robond/ROS_Udacity/build/pgm_map_creator/msgs
-
-//Value Computed by CMake
-pgm_map_creator_msgs_SOURCE_DIR:STATIC=/home/robond/ROS_Udacity/src/pgm_map_creator/msgs
 
 //Value Computed by CMake
 pick_objects_BINARY_DIR:STATIC=/home/robond/ROS_Udacity/build/pick_objects
@@ -847,6 +847,9 @@ roscpp_serialization_DIR:PATH=/opt/ros/kinetic/share/roscpp_serialization/cmake
 //The directory containing a CMake configuration file for roscpp_traits.
 roscpp_traits_DIR:PATH=/opt/ros/kinetic/share/roscpp_traits/cmake
 
+//The directory containing a CMake configuration file for rosgraph.
+rosgraph_DIR:PATH=/opt/ros/kinetic/share/rosgraph/cmake
+
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/kinetic/share/rosgraph_msgs/cmake
 
@@ -867,6 +870,18 @@ teleop_twist_keyboard_BINARY_DIR:STATIC=/home/robond/ROS_Udacity/build/teleop_tw
 
 //Value Computed by CMake
 teleop_twist_keyboard_SOURCE_DIR:STATIC=/home/robond/ROS_Udacity/src/teleop_twist_keyboard
+
+//The directory containing a CMake configuration file for tf2.
+tf2_DIR:PATH=/opt/ros/kinetic/share/tf2/cmake
+
+//The directory containing a CMake configuration file for tf2_msgs.
+tf2_msgs_DIR:PATH=/opt/ros/kinetic/share/tf2_msgs/cmake
+
+//The directory containing a CMake configuration file for tf2_py.
+tf2_py_DIR:PATH=/opt/ros/kinetic/share/tf2_py/cmake
+
+//The directory containing a CMake configuration file for tf2_ros.
+tf2_ros_DIR:PATH=/opt/ros/kinetic/share/tf2_ros/cmake
 
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/kinetic/share/visualization_msgs/cmake
