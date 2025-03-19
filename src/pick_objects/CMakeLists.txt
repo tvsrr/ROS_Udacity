@@ -12,6 +12,9 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   move_base_msgs
   roscpp
+  tf2
+  tf2_ros
+  nav_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -150,6 +153,7 @@ include_directories(
  target_link_libraries(${PROJECT_NAME}
    ${catkin_LIBRARIES}
  )
+ link_directories(/opt/ros/kinetic/lib)
 
 #############
 ## Install ##

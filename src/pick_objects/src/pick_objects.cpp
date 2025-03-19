@@ -2,19 +2,20 @@
 #include <move_base_msgs/MoveBaseAction.h>
 #include <actionlib/client/simple_action_client.h>
 #include <tf/transform_datatypes.h>
-#include <geometry_msgs/PoseWithCovarianceStamped.h>
+#include "nav_msgs/Odometry.h"
+#include <unistd.h>  
+#include <tf2_ros/transform_listener.h>
+#include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 
 using namespace std;
 
 
-double robotx = 0.0, roboty = 0.0;
-bool amcl_pose_received = false;  
+double odom_robotx = 0.0, odom_roboty = 0.0;
 
-void process_amcl_pose_callback(const geometry_msgs::PoseWithCovarianceStamped &msg)
+void process_odom_pose_callback(const nav_msgs::Odometry::ConstPtr& msg)
 {
-  robotx = msg.pose.pose.position.x;
-  roboty = msg.pose.pose.position.y;
-  amcl_pose_received = true;
+  odom_robotx = msg->pose.pose.position.x;
+  odom_roboty = msg->pose.pose.position.y;
 }
  
 typedef actionlib::SimpleActionClient<move_base_msgs::MoveBaseAction> MoveBaseClient;
@@ -61,10 +62,13 @@ int main(int argc, char** argv)
   }
 
  
-  ros::Subscriber amcl_pose_sub = n.subscribe("amcl_pose", 10, process_amcl_pose_callback);
+  ros::Subscriber odom_pose_sub = n.subscribe("odom", 10, process_odom_pose_callback);
+
+  tf2_ros::Buffer tfBuffer;
+  tf2_ros::TransformListener tfListener(tfBuffer);
 
 
-  while (ros::ok() && !amcl_pose_received)
+  while (ros::ok() && odom_robotx == 0.0 && odom_roboty == 0.0)
   {
     ros::spinOnce();
     r.sleep();
@@ -77,11 +81,19 @@ int main(int argc, char** argv)
   string goal_name = "pickup_location";
   goal.target_pose.header.stamp = ros::Time::now();
   goal.target_pose.pose.position.x = 0.0262432694435;
-  goal.target_pose.pose.position.y = -1.03702068329;
+  goal.target_pose.pose.position.y = -2.03702068329;
 
+  geometry_msgs::PointStamped odom_point, map_point;
+  odom_point.header.frame_id = "odom";
+  odom_point.header.stamp = ros::Time(0);
+  odom_point.point.x = odom_robotx;
+  odom_point.point.y = odom_roboty;
+  odom_point.point.z = 0.0;
 
-  double deltax = goal.target_pose.pose.position.x - robotx;
-  double deltay = goal.target_pose.pose.position.y - roboty;
+  tfBuffer.transform(odom_point, map_point, "map", ros::Duration(0.2));
+
+  double deltax = goal.target_pose.pose.position.x - map_point.point.x;
+  double deltay = goal.target_pose.pose.position.y - map_point.point.y;
   double desired_yaw = atan2(deltay, deltax);
   goal.target_pose.pose.orientation = tf::createQuaternionMsgFromYaw(desired_yaw);
 
@@ -91,10 +103,16 @@ int main(int argc, char** argv)
 
   goal_name = "drop_location";
   goal.target_pose.header.stamp = ros::Time::now();
-  goal.target_pose.pose.position.x = 0.0291333198547;
-  goal.target_pose.pose.position.y = 5.45930576324;
-  deltax = goal.target_pose.pose.position.x - robotx;
-  deltay = goal.target_pose.pose.position.y - roboty;
+  goal.target_pose.pose.position.x = -2.6096;
+  goal.target_pose.pose.position.y = -4.2139;
+
+  //updated robot pose 
+  odom_point.header.stamp = ros::Time(0);
+  odom_point.point.x = odom_robotx;
+  odom_point.point.y = odom_roboty;
+  tfBuffer.transform(odom_point, map_point, "map", ros::Duration(0.2));
+  deltax = goal.target_pose.pose.position.x - map_point.point.x;
+  deltay = goal.target_pose.pose.position.y - map_point.point.y;
   desired_yaw = atan2(deltay, deltax);
   goal.target_pose.pose.orientation = tf::createQuaternionMsgFromYaw(desired_yaw);
 

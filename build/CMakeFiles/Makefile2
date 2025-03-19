@@ -3157,9 +3157,14 @@ clean: pick_objects/CMakeFiles/move_base_msgs_generate_messages_eus.dir/clean
 
 # All Build rule for target.
 pick_objects/CMakeFiles/pick_objects.dir/all: my_robot/CMakeFiles/_catkin_empty_exported_target.dir/all
+pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/actionlib_generate_messages_py.dir/all
+pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/nav_msgs_generate_messages_lisp.dir/all
+pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/nav_msgs_generate_messages_eus.dir/all
+pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/nav_msgs_generate_messages_py.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/std_msgs_generate_messages_py.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/std_msgs_generate_messages_eus.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/roscpp_generate_messages_lisp.dir/all
@@ -3170,6 +3175,7 @@ pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/rosgraph_ms
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/roscpp_generate_messages_eus.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/roscpp_generate_messages_cpp.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
@@ -3180,8 +3186,12 @@ pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/geometry_ms
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/tf2_msgs_generate_messages_py.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/actionlib_generate_messages_cpp.dir/all
+pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/nav_msgs_generate_messages_cpp.dir/all
+pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/actionlib_generate_messages_lisp.dir/all
 pick_objects/CMakeFiles/pick_objects.dir/all: add_markers/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
