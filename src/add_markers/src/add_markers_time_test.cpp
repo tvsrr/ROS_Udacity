@@ -106,6 +106,8 @@ int main(int argc, char** argv)
       {
         if (status_flag)
         {
+          ROS_INFO("pick_up in progress ...");
+          ros::Duration(5.0).sleep();
           marker.action = visualization_msgs::Marker::DELETE;
           marker_pub.publish(marker);
 
@@ -125,9 +127,11 @@ int main(int argc, char** argv)
       else
       {
          if (status_flag || simulate_drop){
+          ROS_INFO("dropping off package ...");
+          ros::Duration(5.0).sleep();
           marker.action = visualization_msgs::Marker::ADD;
           marker_pub.publish(marker);
-          ROS_INFO("Drop-off zone reached: marker published (dropped off).");
+          ROS_INFO("Drop-off zone reached: package dropped off.");
           ros::Duration(5.0).sleep();
         break;
       }
