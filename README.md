@@ -37,3 +37,10 @@ cd repository  # Navigate into the cloned directory
 git lfs fetch --all  # Download all LFS objects
 git lfs pull         # Replace pointers with actual files
 ```
+
+### ------------------------------------------------------------------------------------------------
+## PGM Map creator issues 
+### ------------------------------------------------------------------------------------------------
+Incase the system can't find vector2d.proto. Copy the file into msgs folder of PGM Map creator. 
+Modify the msgs cmakelists to include the new vector2d.proto. This will enable creation of maps
+to the new world.
