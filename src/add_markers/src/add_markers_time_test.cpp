@@ -75,11 +75,10 @@ int main(int argc, char** argv)
     {
       // Update marker timestamp each iteration
       marker.header.stamp = ros::Time::now();
+      ros::spinOnce();
       status_flag = location_reached(robotx, roboty, marker.pose.position.x, marker.pose.position.y);
       if(status_flag){
-        ROS_INFO("Location Reached Successfully!");}
-       else {
-        ROS_INFO("Location NOt Reached!");
+        ROS_INFO("Location Reached Successfully!");
 }
 
 
