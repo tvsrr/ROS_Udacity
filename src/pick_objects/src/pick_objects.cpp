@@ -31,10 +31,12 @@ void reach_goal(move_base_msgs::MoveBaseGoal goal, string goal_name, MoveBaseCli
   // Check if the robot reached its goal
   if(ac.getState() == actionlib::SimpleClientGoalState::SUCCEEDED)
   {
-    if (goal_name == "pickup_location")
+    if (goal_name == "pickup_location"){
       ROS_INFO("Successfully reached Pickup Location");
-    else 
+      ROS_INFO("Pickup in progress ...");}
+    else {
       ROS_INFO("Successfully reached Drop Location");
+      ROS_INFO("Dropping the package ...");}
   }
   else
   {
