@@ -14,14 +14,15 @@ void process_odom_pose_callback(const nav_msgs::Odometry::ConstPtr& msg)
   roboty = msg->pose.pose.position.y;
 }
 
+
 bool location_reached(double &a1, double &b1, double &a2, double &b2)
 {
-  return std::sqrt(std::pow((a1 - a2), 2) + std::pow((b1 - b2), 2)) < 0.1;
+  return std::sqrt(std::pow((a1 - a2), 2) + std::pow((b1 - b2), 2)) < 0.2;
 }
 
 int main(int argc, char** argv)
 {
-  ros::init(argc, argv, "add_markers");
+  ros::init(argc, argv, "add_markers_time_test");
   ros::NodeHandle n;
   ros::Rate r(1);
   ros::Publisher marker_pub = n.advertise<visualization_msgs::Marker>("visualization_marker", 1);
@@ -65,15 +66,22 @@ int main(int argc, char** argv)
     }
 
     bool item_picked = false;
+    bool status_flag = false;
+    bool simulate_drop = false; 
+    marker.header.stamp = ros::Time::now();
+    marker.action = visualization_msgs::Marker::ADD;
+    marker_pub.publish(marker);
     while (ros::ok())
     {
       // Update marker timestamp each iteration
       marker.header.stamp = ros::Time::now();
+      status_flag = location_reached(robotx, roboty, marker.pose.position.x, marker.pose.position.y);
+      if(status_flag){
+        ROS_INFO("Location Reached Successfully!");}
+       else {
+        ROS_INFO("Location NOt Reached!");
+}
 
-      // Check if the robot is at the marker's position
-      bool status_flag = location_reached(robotx, roboty,
-                                          marker.pose.position.x,
-                                          marker.pose.position.y);
 
       // Pickup phase
       if (!item_picked)
@@ -84,26 +92,27 @@ int main(int argc, char** argv)
           marker_pub.publish(marker);
 
           ROS_INFO("pick_up successful!");
-          item_picked = true;
+         
           ros::Duration(5.0).sleep();
-
+          item_picked = true;
           // Set marker position for drop off
           marker.pose.position.x = 4.6096;
-          marker.pose.position.y = -3.1391;
+          marker.pose.position.y = -3.139;
+          ROS_INFO("Assuming Vehicle reached drop location in 5 seconds");
+          ros::Duration(5.0).sleep(); 
+          simulate_drop = true;
         }
       }
       // Drop-off phase
       else
       {
-        if (status_flag)
-        {
+         if (status_flag || simulate_drop){
           marker.action = visualization_msgs::Marker::ADD;
           marker_pub.publish(marker);
-
-          ROS_INFO("drop successful!");
+          ROS_INFO("Drop-off zone reached: marker published (dropped off).");
           ros::Duration(5.0).sleep();
-          break;  // End the program after dropping off
-        }
+        break;
+      }
       }
       ros::spinOnce();
       r.sleep();

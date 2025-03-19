@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/robond/ROS_Udacity/src/add_markers/src/add_markers.cpp
+/home/robond/ROS_Udacity/src/add_markers/src/add_markers_time_test.cpp
 ros/ros.h
 -
 cmath
