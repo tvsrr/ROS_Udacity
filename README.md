@@ -3,7 +3,10 @@
 ![image](https://github.com/user-attachments/assets/ea2e9897-aa4b-4efb-8503-957e04d1d9e5)
 
 To run the home service bot please run the following : 
-'./scripts/home_service.sh 
+```bash
+./scripts/home_service.sh 
+```
+
 
 # Prerequisites
 
