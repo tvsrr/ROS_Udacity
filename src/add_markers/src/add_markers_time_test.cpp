@@ -118,9 +118,9 @@ int main(int argc, char** argv)
           // Set marker position for drop off
           marker.pose.position.x = -2.6096;
           marker.pose.position.y = -4.2139;
-          ROS_INFO("Move the Vehicle to Drop Zone!");
-          //ros::Duration(5.0).sleep(); 
-          //simulate_drop = true;
+          ROS_INFO("Simulating Vehicle Movement to the Drop zone! Wait 5 seconds");
+          ros::Duration(5.0).sleep(); 
+          simulate_drop = true;
         }
       }
       // Drop-off phase
