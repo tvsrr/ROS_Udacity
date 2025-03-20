@@ -73,13 +73,15 @@ int main(int argc, char** argv)
 
     bool item_picked = false;
     bool status_flag = false;
-    bool simulate_drop = false; 
+    bool simulate_drop = false;
+    bool simulate_pickup = false;
 	
     marker.header.stamp = ros::Time::now();
     marker.action = visualization_msgs::Marker::ADD;
     marker_pub.publish(marker);
-	ROS_INFO("Marker placed at (%.2f, %.2f) in map frame", marker.pose.position.x, marker.pose.position.y);
-	
+    ROS_INFO("Marker placed at (%.2f, %.2f) in map frame", marker.pose.position.x, marker.pose.position.y);
+  
+   
 	
     while (ros::ok())
     {
@@ -97,23 +99,23 @@ int main(int argc, char** argv)
 	  
       status_flag = location_reached(map_point.point.x, map_point.point.y, marker.pose.position.x, marker.pose.position.y);
       if(status_flag){
-        ROS_INFO("Location Reached Successfully!");
-}
+        ROS_INFO("Location Reached Successfully!");}
 
-
+      
       // Pickup phase
-      if (!item_picked)
-      {
-        if (status_flag)
+      if (!item_picked )
+      { 
+        ROS_INFO("Wait 5 Seconds. pick_up in progress ...");
+        ros::Duration(5.0).sleep();
+        simulate_pickup = true;
+        if (status_flag || simulate_pickup)
         {
-          ROS_INFO("Wait 5 Seconds. pick_up in progress ...");
-          ros::Duration(5.0).sleep();
           marker.action = visualization_msgs::Marker::DELETE;
           marker_pub.publish(marker);
 
           ROS_INFO("pick_up successful!");
          
-          ros::Duration(5.0).sleep();
+          //ros::Duration(5.0).sleep();
           item_picked = true;
           // Set marker position for drop off
           marker.pose.position.x = -2.6096;
@@ -126,7 +128,7 @@ int main(int argc, char** argv)
       // Drop-off phase
       else
       {
-         if (status_flag){
+         if (status_flag || simulate_drop){
           ROS_INFO("dropping off package ...");
           ros::Duration(5.0).sleep();
           marker.action = visualization_msgs::Marker::ADD;
