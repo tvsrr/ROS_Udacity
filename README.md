@@ -1,3 +1,9 @@
+## USE SMALL_WORLD to verify the home service bot 
+
+![image](https://github.com/user-attachments/assets/ea2e9897-aa4b-4efb-8503-957e04d1d9e5)
+
+
+
 # Prerequisites
 
 Before you begin, ensure the following are installed:
