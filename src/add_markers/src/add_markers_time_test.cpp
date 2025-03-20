@@ -106,7 +106,7 @@ int main(int argc, char** argv)
       {
         if (status_flag)
         {
-          ROS_INFO("pick_up in progress ...");
+          ROS_INFO("Wait 5 Seconds. pick_up in progress ...");
           ros::Duration(5.0).sleep();
           marker.action = visualization_msgs::Marker::DELETE;
           marker_pub.publish(marker);
@@ -118,15 +118,15 @@ int main(int argc, char** argv)
           // Set marker position for drop off
           marker.pose.position.x = -2.6096;
           marker.pose.position.y = -4.2139;
-          ROS_INFO("Assuming Vehicle reached drop location in 5 seconds");
-          ros::Duration(5.0).sleep(); 
-          simulate_drop = true;
+          ROS_INFO("Move the Vehicle to Drop Zone!");
+          //ros::Duration(5.0).sleep(); 
+          //simulate_drop = true;
         }
       }
       // Drop-off phase
       else
       {
-         if (status_flag || simulate_drop){
+         if (status_flag){
           ROS_INFO("dropping off package ...");
           ros::Duration(5.0).sleep();
           marker.action = visualization_msgs::Marker::ADD;
