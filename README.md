@@ -7,7 +7,8 @@ To run the home service bot please run the following :
 ./scripts/home_service.sh 
 ```
 ## Add Markers Test Video 
-![Watch the video]([https://github.com/user-attachments/assets/4af6b40a-38d7-44fd-b204-7d61f1fdca23](https://youtu.be/TZNrWvbKrew))
+![ezgif-86c13c6c4f4d90](https://github.com/user-attachments/assets/f8e82050-db2f-42a4-a0b3-06f0c5eeae4e)
+
 
 
 
